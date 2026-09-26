@@ -42,6 +42,21 @@ tools/vm/                  run.sh、init.sh、Code::Blocks 核实文档
 - **两份 docx 转写**可能是同一段录音的不同转写版本，先比对再用。
 - **归档里没有榜单**时，要提醒用户下次勾选“排行榜”。
 
+## 用户的初始机子（2026-09-26 起）
+
+虚拟机桌面固定结构，每场赛后用户把桌面上的东西收进 `DayN/`，再从 `bag/` 复制一份干净的出来：
+
+```
+Desktop/
+  Day1/ Day2/ ...     历次比赛的全部文件
+  bag/                干净的备份：debug/、duipai_T1~T4/、problems/
+  debug/              Code::Blocks 调试工程（main.cpp 是一个故意留 bug 的前缀和程序，用来赛前试调试器）
+  duipai_T1~T4/       对拍：gen.cpp / ac.cpp / wa.cpp / duipai.sh（必须用 bash 运行，sh 会报错）
+  problems/           T1~T4.cpp 模板 + map.txt / paper.txt / thoughts.txt
+```
+
+复盘时虚拟机桌面导出按这个结构找文件；Code::Blocks 的设置不在桌面里，在 `~/.config/codeblocks/default.conf`。
+
 ## 环境事实（已按源码核实）
 
 - 比赛环境：NOI Linux 2.0（Ubuntu 20.04，GCC 9.3.0），Code::Blocks 20.03。
