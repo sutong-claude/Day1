@@ -8,7 +8,8 @@
 | 复盘报告 | `2026-09-25_CSP-S模拟赛day1/复盘报告.md`（PDF 版同目录） |
 | 四题正解（已用大样例和暴力对拍验证） | `2026-09-25_CSP-S模拟赛day1/正解代码/` |
 | 赛时代码各版本（从虚拟机回收站和桌面恢复） | `2026-09-25_CSP-S模拟赛day1/赛时代码/` |
-| 给本地智能体的提示词（整段复制） | `tools/vm/本地智能体提示词.md` |
-| 虚拟机调试手册（给 Computer Use Agent） | `tools/vm/给ComputerUseAgent的虚拟机调试手册.md` |
+| Code::Blocks 四个问题（源码核实版） | `tools/vm/CodeBlocks四个问题_源码核实版.md` |
+| 给本地智能体的提示词（已作废） | `tools/vm/本地智能体提示词.md` |
+| 虚拟机调试手册（已作废） | `tools/vm/给ComputerUseAgent的虚拟机调试手册.md` |
 | 一键编译并测全部样例 | `tools/vm/run.sh` |
 | 赛前一键建 T1 到 T4 文件夹 | `tools/vm/init.sh` |

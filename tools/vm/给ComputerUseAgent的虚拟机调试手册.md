@@ -1,3 +1,5 @@
+> ⚠ **已作废**：这份文档里 Code::Blocks 的设置项名称没有按 20.03 版本核对，有几项在你的版本里根本不存在。Code::Blocks 的四个问题以同目录的《CodeBlocks四个问题_源码核实版.md》为准。
+
 # 虚拟机调试手册（给 Computer Use Agent）
 
 > 读者：替小苏同学操作电脑的 Computer Use Agent。
