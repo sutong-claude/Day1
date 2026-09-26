@@ -57,6 +57,9 @@ Desktop/
 
 复盘时虚拟机桌面导出按这个结构找文件；Code::Blocks 的设置不在桌面里，在 `~/.config/codeblocks/default.conf`。
 
+- 2026-09-26 的原样快照在 `tools/vm/初始机子/`，以后用户改了机子就和它比对。
+- 已给用户指出的问题（看他改没改）：① `problems/` 是平铺的，T1、T2 的样例都叫 `1-1.in`，会互相覆盖，建议每题一个子文件夹；② 原版 `duipai.sh` 编译失败还会接着跑，拿的是旧程序，建议换成 `tools/vm/duipai.sh`；③ 比赛文件夹叫 Day1、Day2，换一套模拟赛就会重名，建议和仓库一样用“日期_比赛名”。
+
 ## 环境事实（已按源码核实）
 
 - 比赛环境：NOI Linux 2.0（Ubuntu 20.04，GCC 9.3.0），Code::Blocks 20.03。
