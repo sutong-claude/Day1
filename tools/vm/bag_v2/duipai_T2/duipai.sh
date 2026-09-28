@@ -1,46 +1,25 @@
-#!/bin/bash
-# 用法（在 duipai_T2 里）：bash duipai.sh           对拍 ../problems/T2/T2.cpp（就是要交的那份）和 ac.cpp（暴力）
-#                         bash duipai.sh 别的.cpp   换成对拍别的文件
-# 要测的程序 freopen 开着也没关系，会自动用文件读写
-k=$(basename "$PWD"); k=${k#duipai_}
-src=${1:-../problems/$k/$k.cpp}
-[ -e "$src" ] || { echo "找不到 $src"; exit 1; }
-echo "对拍：$src  vs  ac.cpp（暴力）"
-g++ gen.cpp -o gen -O2 -Wno-unused-result || { echo "gen.cpp 编译失败"; exit 1; }
-g++ ac.cpp -o ac -O2 -Wno-unused-result || { echo "ac.cpp 编译失败"; exit 1; }
-g++ "$src" -o wa -O2 -Wno-unused-result || { echo "$src 编译失败"; exit 1; }
-fname () {  # fname 源码 in/out：取出没被注释的 freopen 里的文件名
-    grep -E '^[[:space:]]*freopen' "$1" | grep -o "\"[^\"]*\\.$2\"" | head -1 | tr -d '"'
-}
-run () {  # run 程序 源码 输入 输出
-    local fin fout
-    fin=$(fname "$2" in)
-    fout=$(fname "$2" out)
-    if [ -n "${fin%.in}" ] && [ -n "${fout%.out}" ]; then
-        mkdir -p work
-        cp "$3" "work/$fin"
-        rm -f "work/$fout"
-        (cd work && timeout 2 "../$1")
-        local r=$?
-        cp "work/$fout" "$4" 2> /dev/null || : > "$4"
-        return $r
-    fi
-    timeout 2 "./$1" < "$3" > "$4"
-}
-show () {
-    echo "---- 输入（./gen $i 可以重现）----"
-    head -c 600 1.txt
-    echo "---- 暴力的输出 ----"
-    head -c 300 2.txt
-    echo "---- 你的输出 ----"
-    head -c 300 3.txt
-}
-for ((i = 1; ; i++)); do
-    ./gen $i > 1.txt
-    [ -s 1.txt ] || { echo "gen 没有输出任何东西，先把 gen.cpp 写好"; break; }
-    run ac ac.cpp 1.txt 2.txt || { echo "暴力在第 $i 组 RE 或超过 2 秒"; break; }
-    [ -s 2.txt ] || { echo "暴力没有输出，先把 ac.cpp 写好"; break; }
-    run wa "$src" 1.txt 3.txt || { echo "第 $i 组：RE 或超过 2 秒"; show; break; }
-    diff -wq 2.txt 3.txt > /dev/null || { echo "第 $i 组答案不同"; show; break; }
+# 你原来的对拍脚本，加了 4 处（每处上面有一行注释）。用 bash duipai.sh 运行
+k=T2
+# 加 1：wa.cpp 自动换成 problems/T2.cpp（freopen 自动注释掉），测的就是你要交的那份
+#       你手改过 wa.cpp 就不覆盖，直接拿 wa.cpp 拍
+if [ -e .wa.md5 ] && [ "$(md5sum < wa.cpp)" != "$(cat .wa.md5)" ]; then
+    echo "wa.cpp 被你改过，这次不覆盖（交之前记得把它挪回 problems/$k.cpp）"
+else
+    sed 's#^\([[:space:]]*\)freopen#\1//freopen#' ../problems/$k.cpp > wa.cpp
+    md5sum < wa.cpp > .wa.md5
+    echo "wa.cpp = problems/$k.cpp"
+fi
+# 加 2：编译失败就停，不拿旧程序拍
+g++ gen.cpp -o gen -O2 || exit 1
+g++ ac.cpp -o ac -O2 || exit 1
+g++ wa.cpp -o wa -O2 || exit 1
+for ((i = 1;;i++)); do
+    ./gen > 1.txt
+    # 加 3：gen 没输出就停（Day2 gen 还是空模板时“1000 组全对”是假的）
+    [ -s 1.txt ] || { echo "gen 没有输出，先把 gen.cpp 写好"; break; }
+    ./ac < 1.txt > 2.txt
+    # 加 4：wa 崩溃或超过 2 秒就停；出错时把这组输入打出来
+    timeout 2 ./wa < 1.txt > 3.txt || { echo "RE or TLE on test $i"; cat 1.txt; break; }
+    diff -w 2.txt 3.txt || { echo "wrong on test $i"; echo "输入："; cat 1.txt; break; }
     echo "right on test $i"
 done

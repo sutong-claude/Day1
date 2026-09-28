@@ -24,6 +24,6 @@ read -p "确认？(y/n) " a
 mkdir -p "$dst/Desktop" "$dst/Downloads"
 [ ${#items[@]} -gt 0 ] && mv -- "${items[@]}" "$dst/Desktop/"
 [ "$dl" -gt 0 ] && mv ~/Downloads/* ~/Downloads/.[!.]* "$dst/Downloads/" 2> /dev/null
-cp -r bag/debug bag/problems bag/duipai_T1 bag/duipai_T2 bag/duipai_T3 bag/duipai_T4 bag/使用说明.txt "$D/"
+cp -r bag/debug bag/problems bag/duipai_T1 bag/duipai_T2 bag/duipai_T3 bag/duipai_T4 "$D/"
 echo "收好了：$dst"
 echo "桌面上已经放好一份干净的 debug、problems、duipai_T1～T4"
