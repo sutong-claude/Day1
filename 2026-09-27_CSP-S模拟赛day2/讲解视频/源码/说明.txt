@@ -1,0 +1,7 @@
+Manim 0.21 源码。渲染：
+  manim -qm --disable_caching a_mul.py AMul
+  manim -qm --disable_caching b_yarn.py BYarn
+  manim -qm --disable_caching c_chess.py CChess
+  manim -qm --disable_caching d_wolf.py DWolf
+字体用 WenQuanYi Zen Hei（vcommon.py 里改）。不需要 LaTeX。
+表格和数值都是脚本里跑真实算法算出来的（A 的 DP 表、B 的插入过程、C 的 f/g、D 的数组）。
