@@ -1,47 +1,48 @@
 bag v2 使用说明
-（和原来比：结构基本没动，改了 4 处，加了 3 个脚本。每一处都对应 Day2 的一次事故）
+和你原来的 bag 比：文件名、模板、目录一个都没动，
+只多了 3 个脚本（run.sh、check.sh、收纳.sh）、problems 下面 4 个放样例的空文件夹，
+duipai.sh 在你原来那份上加了 4 处。
+下面的顺序就是你 Day2 录音里自己的顺序，新加的步骤标了 ★。
 
-━━━━━━━━ 赛前（3 分钟）━━━━━━━━
-1. 桌面上应该有：bag/  debug/  problems/  duipai_T1～T4/
-   （赛后用 收纳.sh 会自动放好；第一次用就手动把 bag 里这几个复制到桌面）
-2. 打开 Code::Blocks，确认没有打开任何工程（左边 Projects 是空的）
-3. 读一遍《赛前执行卡》
+━━━━━━━━ 赛前 ━━━━━━━━
+1. 开录音，开虚拟机，拿草稿纸
+2. 调分辨率（60Hz）
+3. 打开比赛页面，看这场要不要 freopen
+4. 打开 Code::Blocks，确认没有打开任何工程（左边 Projects 是空的）
+5. 放大代码字号，打开 Sublime Text 做记录
+6. ★ 在 problems 文件夹里右键打开一个终端，一直开着
 
 ━━━━━━━━ 每道题 ━━━━━━━━
-1. 开题第一件事：打开 problems/T1/T1.cpp，把 freopen 的文件名填上，去掉 //
-   顺手把第 5 行“预计拿几分、最多花几分钟”填上
-2. 下载的样例 zip 直接拖进 problems/T1/，在这个文件夹里右键打开终端：
-       bash run.sh        自动解压 → 编译 → 跑全部样例 → 报 OK / WA / TLE / RE 和耗时
-       bash run.sh d      调试编译（抓越界、溢出），出 RE 时用
-3. 写暴力：duipai_T1/ac.cpp；造数据：duipai_T1/gen.cpp（数据要小）
-   在 duipai_T1 里：
-       bash duipai.sh     对拍的就是 problems/T1/T1.cpp 本身，不用再复制一份
-   出错时会直接打印那组输入和两边的输出；./gen 组号 可以重现那组数据
-
-   freopen 开着也没关系：run.sh 和 duipai.sh 会自动用文件读写来测。
-   所以不用来回加 //，测的就是要交的那份。
-   （想在 Code::Blocks 里手敲输入时可以临时加 //，交之前用 check.sh 确认开回来了）
+7. 读题，下载附件
+   ★ 附件只下一遍。下两遍会变成 xxx(1).zip，文件夹名带括号，
+     Code::Blocks 按 F9 运行就会报 “Syntax error: word unexpected”
+   ★ 把 zip 拖进 problems/T1/（T2、T3、T4 同理），不用自己解压
+8. 在 problems/T1.cpp 写代码
+   ★ 开题就把 freopen 的文件名填上、去掉 //（开着也能测，见第 9 步）
+9. ★ 在终端里：bash run.sh T1
+   会自动解压 → 编译 → 跑 T1/ 里全部样例 → 报 OK / WA / TLE / RE 和耗时
+   出 RE 时用：bash run.sh T1 d（能报出哪一行越界）
+10. 对拍：在 duipai_T1 里写 gen.cpp（造小数据）和 ac.cpp（暴力），然后 bash duipai.sh
+   ★ wa.cpp 不用管：duipai.sh 会自动把 problems/T1.cpp 复制过去（freopen 自动注释掉）
+     你要是在 wa.cpp 里手改过，它就不覆盖，直接拿 wa.cpp 拍
+   ★ gen 先造最小的数据（n 从 1 开始），对拍出来的第一个反例就是最小反例
 
 ━━━━━━━━ 交之前（每一次）━━━━━━━━
-在 problems 里：
-       bash check.sh
-四题一行一个结果：能不能编译、freopen 对不对、改过以后有没有重新跑样例。
-全是 ✓ 再交。有 ✗ 就不交。
+11. ★ 在 problems 里：bash check.sh
+    四题一行一个结果：能不能编译、freopen 对不对、改过以后有没有重跑样例
+    全是 ✓ 再交，有 ✗ 就不交
 
 ━━━━━━━━ 赛后 ━━━━━━━━
-       bash ~/Desktop/bag/收纳.sh 2026-09-27_day2
-把桌面上的东西和 Downloads 一起收进 ~/Desktop/存档/2026-09-27_day2/，
-再从 bag 放一份干净的出来。挪之前会列出来让你确认。
-（桌面上已有的 Day1、Day2 文件夹不会动，建议手动挪进 存档/ 并改成“日期_名字”）
+12. ★ bash ~/Desktop/bag/收纳.sh 2026-09-28_day3
+    把桌面上的东西和 Downloads 一起收进 ~/Desktop/存档/2026-09-28_day3/，
+    再从 bag 放一份干净的出来。挪之前会列出来让你确认。
+    桌面上已有的 Day1、Day2 文件夹不会动。
 
-━━━━━━━━ 和原版比改了什么 ━━━━━━━━
-1. problems/ 从平铺改成 T1～T4 四个子文件夹
-   → 样例不会互相覆盖；每题只有一份源码
-   （Day2：C 写进了 T2.cpp、B 写进了 T3.cpp，A 在 5 个地方有 5 份）
-2. duipai.sh 直接对拍 problems/Tk/Tk.cpp，不再用 wa.cpp
-   → 测的就是交的（Day2 12:45 交了一份没测过的旧文件，RE）
-3. duipai.sh 编译失败就停、gen 没输出就停、出错时打印数据、组号当种子可重现
-   → Day2 gen 还是空模板时，“1000 组全对”是假的
-4. 模板加了两行提醒：freopen 开题就填；预计分数和时间上限
-新增：problems/Tk/run.sh（跑样例）、problems/check.sh（交前检查）、收纳.sh（赛后收纳）
-debug/ 没动（故意留 bug 的前缀和，用来赛前试调试器）
+━━━━━━━━ 加的东西各防哪次事故 ━━━━━━━━
+run.sh                   Day2 A 在 5 个地方有 5 份代码，12:45 交了没测过的旧文件（RE）
+check.sh                 Day2 D 最后 14 秒交了没编译的代码（CE）
+duipai.sh 加 1           同上：对拍的就是要交的那份
+duipai.sh 加 2           编译失败还接着跑，拿的是旧程序
+duipai.sh 加 3           gen 还是空模板时“1000 组全对”是假的
+duipai.sh 加 4           Day2 A 的 12:22 版越界死循环，对拍会卡住
+problems/T1～T4/ 文件夹   样例各放各的，不会互相覆盖，也不会出现带括号的文件夹

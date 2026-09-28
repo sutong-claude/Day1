@@ -1,17 +1,21 @@
 #include <bits/stdc++.h>
+#include <chrono>
 using namespace std;
 #define int long long
-mt19937_64 rng;
+const int Base1 = 131, P1 = 1e9 + 7;
+const int Base2 = 911, P2 = 1e9 + 9;
+mt19937_64 rng (chrono::steady_clock::now().time_since_epoch().count());
 inline int Rand (int l, int r) {
     return rng () % (r - l + 1) + l;
 }
-signed main (signed argc, char *argv[]) {
-    // duipai.sh 会把组号传进来当种子，哪组错了就能用 ./gen 组号 重现
-    rng.seed (argc >= 2 ? atoll (argv[1]) : time (0));
-    // 下面是例子，按题目改；数据要小，暴力才跑得动
-    int n = Rand (1, 10);
-    cout << n << '\n';
-    for (int i = 1; i <= n; i++)
-        cout << Rand (1, 10) << " \n"[i == n];
+
+signed main () {
+    ios::sync_with_stdio (false);
+    cin.tie (0);
+    cout.tie (0);
+    //freopen (".in", "r", stdin);
+    //freopen (".out", "w", stdout);
+    // code
+
     return 0;
 }
