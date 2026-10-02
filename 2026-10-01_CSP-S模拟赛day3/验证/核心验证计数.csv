@@ -1,0 +1,8 @@
+problem,mode,cases
+A,exhaustive,488280
+B,exhaustive,219642
+B,random-construction,1000000
+C,exhaustive,15405
+C,random-brute,235000
+D,exhaustive,87328
+D,random-brute,200000

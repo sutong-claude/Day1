@@ -1,0 +1,27 @@
+problem	sample	status	detail
+A	ex_A1	OK	match
+A	ex_A2	OK	match
+B	sample1	OK	verdict match
+B	sample2	OK	verdict match
+B	sample3	OK	verdict match
+B	sample4	OK	verdict match
+B	sample5	OK	verdict match
+B	sample6	OK	verdict match
+B	sample7	WA	verdict mismatch; checker still rc=0 because 3 NO are skipped
+B	sample8	OK	verdict match
+C	sample1	OK	match
+C	sample2	OK	match
+C	sample3	OK	match
+C	sample4	WA	176401077 vs 54787449
+C	sample5	WA	204199066 vs 624510346
+C	sample6	WA	204199066 vs 973296379
+C	sample7	WA	204199066 vs 977898721
+C	sample8	WA	204199066 vs 943957283
+D	sample1	OK	match
+D	sample2	OK	match
+D	sample3	OK	match
+D	sample4	TLE	>3s local timeout
+D	sample5	WA	3321131763506368 vs 179326273568
+D	sample6	WA	0 vs 178806485028
+D	sample7	WA	1687511249699998 vs 11326379751
+D	sample8	WA	74073962962296296 vs 222775481536
