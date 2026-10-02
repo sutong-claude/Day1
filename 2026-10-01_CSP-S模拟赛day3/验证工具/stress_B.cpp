@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+pair<bool,pair<int,int>> fast(const string&s){int n=s.size();vector<pair<char,int>>st;st.reserve(n);for(int i=0;i<n;++i){if(!st.empty()&&st.back().first==s[i])st.pop_back();else st.push_back({s[i],i});}if(st.empty())return {true,{0,0}};int L=0,R=st.size()-1;while(L<R&&st[L].first==st[R].first){++L;--R;}int len=R-L+1;if(len&1)return {false,{-1,-1}};int h=len/2;for(int i=0;i<h;++i)if(st[L+i].first!=st[L+h+i].first)return {false,{-1,-1}};return {true,{st[L+h].second,st[R].second}};}
+bool eraseall(string s){string st;for(char c:s){if(!st.empty()&&st.back()==c)st.pop_back();else st.push_back(c);}return st.empty();}
+bool brute(const string&s){int n=s.size();for(int l=0;l<n;++l)for(int r=l;r<n;++r){string t=s;reverse(t.begin()+l,t.begin()+r+1);if(eraseall(t))return true;}return false;}
+bool validConstruct(const string&s,int l,int r){string t=s;reverse(t.begin()+l,t.begin()+r+1);return eraseall(t);}
+int main(){uint64_t cnt=0,yes=0;for(int n=1;n<=16;++n){uint64_t tot=1ULL<<n;for(uint64_t mask=0;mask<tot;++mask){string s(n,'a');for(int i=0;i<n;++i)if(mask>>i&1)s[i]='b';auto f=fast(s);bool b=brute(s);++cnt;yes+=f.first;if(f.first!=b||(f.first&&!validConstruct(s,f.second.first,f.second.second))){cerr<<"FAIL binary s="<<s<<" fast="<<f.first<<" brute="<<b<<" int="<<f.second.first<<','<<f.second.second<<"\n";return 1;}}}
+for(int n=1;n<=9;++n){long long tot=1;for(int i=0;i<n;++i)tot*=3;for(long long code=0;code<tot;++code){long long x=code;string s(n,'a');for(int i=0;i<n;++i){s[i]='a'+x%3;x/=3;}auto f=fast(s);bool b=brute(s);++cnt;yes+=f.first;if(f.first!=b||(f.first&&!validConstruct(s,f.second.first,f.second.second))){cerr<<"FAIL ternary s="<<s<<" fast="<<f.first<<" brute="<<b<<" int="<<f.second.first<<','<<f.second.second<<"\n";return 1;}}}
+mt19937 rng(20261001);for(int tc=0;tc<1000000;++tc){int n=1+rng()%16,k=2+rng()%3;string s(n,'a');for(char &c:s)c='a'+rng()%k;auto f=fast(s);bool b=brute(s);++cnt;yes+=f.first;if(f.first!=b||(f.first&&!validConstruct(s,f.second.first,f.second.second))){cerr<<"FAIL random tc="<<tc<<" s="<<s<<" fast="<<f.first<<" brute="<<b<<" int="<<f.second.first<<','<<f.second.second<<"\n";return 1;}}
+cout<<"PASS "<<cnt<<" cases; YES="<<yes<<"\n";
+}
