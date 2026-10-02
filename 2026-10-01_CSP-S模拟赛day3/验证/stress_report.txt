@@ -1,0 +1,8 @@
+A exhaustive OK cases=488280
+B exhaustive OK cases=219642
+B random construction OK cases=1000000
+C exhaustive OK cases=15405
+C random brute OK cases=235000
+D exhaustive OK cases=87328
+D random brute OK cases=200000
+ALL_STRESS_OK seconds=6.95155

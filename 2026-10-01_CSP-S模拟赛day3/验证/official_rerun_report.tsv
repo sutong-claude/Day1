@@ -1,0 +1,27 @@
+problem	sample	status	wall_s	maxrss_kb	detail
+A	ex_A1	OK	0.00	1536	exact output match
+A	ex_A2	OK	0.00	1536	exact output match
+C	sample1	OK	0.00	1536	exact output match
+C	sample2	OK	0.00	1536	exact output match
+C	sample3	OK	0.00	1536	exact output match
+C	sample4	OK	0.00	1792	exact output match
+C	sample5	OK	0.08	18048	exact output match
+C	sample6	OK	0.07	18176	exact output match
+C	sample7	OK	0.07	18048	exact output match
+C	sample8	OK	0.08	18176	exact output match
+D	sample1	OK	0.00	1536	exact output match
+D	sample2	OK	0.00	1536	exact output match
+D	sample3	OK	0.00	1536	exact output match
+D	sample4	OK	0.00	1792	exact output match
+D	sample5	OK	0.20	74284	exact output match
+D	sample6	OK	0.22	74280	exact output match
+D	sample7	OK	0.08	36788	exact output match
+D	sample8	OK	0.27	122696	exact output match
+B	sample1	OK	0.00	1536	verdict tokens match; 2 YES checker-valid
+B	sample2	OK	0.00	1536	verdict tokens match; 1 YES checker-valid
+B	sample3	OK	0.00	1536	verdict tokens match; 1 YES checker-valid
+B	sample4	OK	0.00	1536	verdict tokens match; 10 YES checker-valid
+B	sample5	OK	0.00	2048	verdict tokens match; 8 YES checker-valid
+B	sample6	OK	0.00	4448	verdict tokens match; 2 YES checker-valid
+B	sample7	OK	0.00	2284	verdict tokens match; 2 YES checker-valid
+B	sample8	OK	0.00	8944	verdict tokens match; 1 YES checker-valid
