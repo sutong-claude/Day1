@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Day3 赛场回放</title>
+<style>
+:root{--bg:#0f1115;--card:#171a21;--text:#edf0f4;--muted:#9ba4b0;--line:#303743;--a:#5aa9ff;--b:#ffb454;--c:#7bd88f;--d:#d39cff;--warn:#ff6b6b}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif}
+main{max-width:1180px;margin:auto;padding:28px}.hero{padding:26px;background:linear-gradient(135deg,#171a21,#202838);border:1px solid var(--line);border-radius:18px}
+h1{margin:.1em 0 .3em;font-size:34px} h2{margin-top:34px} p{line-height:1.75;color:#dbe0e7}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.big{font-size:30px;font-weight:750}.muted{color:var(--muted)}
+.timeline{position:relative;height:64px;background:#11141a;border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex}
+.seg{height:100%;display:flex;align-items:center;justify-content:center;font-weight:700;color:#0b0d10;min-width:2px}
+.a{background:var(--a)}.b{background:var(--b)}.c{background:var(--c)}.d{background:var(--d)}.z{background:#8993a1}
+.events{border-left:2px solid var(--line);margin-left:8px}.event{position:relative;margin:0 0 12px 18px;padding:13px 15px;background:var(--card);border:1px solid var(--line);border-radius:12px}.event:before{content:"";position:absolute;left:-25px;top:18px;width:12px;height:12px;border-radius:50%;background:#dfe6ee;border:2px solid var(--bg)}
+.time{font-family:ui-monospace,monospace;color:#9ecbff}.tag{display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;margin-left:6px;background:#2a303b}
+table{width:100%;border-collapse:collapse;background:var(--card);border-radius:12px;overflow:hidden}th,td{padding:10px;border-bottom:1px solid var(--line);text-align:left}th{color:#bfc7d2}
+svg{width:100%;height:auto;background:#11141a;border:1px solid var(--line);border-radius:12px}
+.callout{border-left:4px solid var(--warn);padding:12px 16px;background:#24191c;border-radius:8px}
+code{background:#101319;padding:2px 5px;border-radius:5px}
+small{color:var(--muted)}
+</style>
+</head>
+<body><main>
+<section class="hero">
+<h1>Day3 赛场回放</h1>
+<p>把 4:08 录音、8,822 行键流、赛时代码与 notes 对齐后的交互式摘要。重点不是“正确答案”，而是研究状态怎样随时间变化。</p>
+<div class="grid">
+<div class="card"><div class="big">204 / 400</div><div class="muted">最终分数</div></div>
+<div class="card"><div class="big">155 min</div><div class="muted">B 单题占用</div></div>
+<div class="card"><div class="big">32,890</div><div class="muted">原始键盘事件</div></div>
+<div class="card"><div class="big">8,822</div><div class="muted">可读键流行</div></div>
+</div></section>
+
+<h2>时间占用</h2>
+<div class="timeline" title="按近似做题时间比例">
+<div class="seg a" style="width:14.1%">A 33.6m</div>
+<div class="seg b" style="width:65.0%">B 155m</div>
+<div class="seg c" style="width:11.0%">C 26.1m</div>
+<div class="seg d" style="width:9.9%">D 23.6m</div>
+</div>
+
+<h2>10 分钟键盘活动</h2>
+<p class="muted">柱高：可打印字符；折线：Backspace。140～160 分钟出现“低新代码、高删除”的研究震荡。</p>
+<svg id="chart" viewBox="0 0 1100 330" aria-label="10分钟键盘活动图"></svg>
+
+<h2>关键事件</h2>
+<div class="events" id="events"></div>
+
+<h2>四题研究模式</h2>
+<table>
+<tr><th>题</th><th>研究模式</th><th>真正的卡点</th></tr>
+<tr><td>A</td><td>直觉贪心 → 实现</td><td>API / 边界摩擦，不是算法</td></tr>
+<tr><td>B</td><td>不断提出结构猜想 → 手工样例验证</td><td>没有自动最小反例；checker 只验 YES</td></tr>
+<tr><td>C</td><td>暴力先落袋 → 最终状态反推</td><td>时间不够；其实已说出“唯一没人拿到任务”</td></tr>
+<tr><td>D</td><td>直接维护左右集合</td><td>没有把集合相同改写成 first/last 的逻辑条件</td></tr>
+</table>
+
+<h2>B 的真正失控点</h2>
+<div class="callout">
+<strong>你在 00:44 就已经读到“NO 不验证”。</strong>
+但 03:11 仍把“所有 YES 构造 checker 通过”升级成“第二题已 AC”。这不是没读 checker，而是没有把 checker 能力边界写成外部协议。
+</div>
+
+<h2>下一场研究协议</h2>
+<p><code>[P]</code> 已证明　<code>[E]</code> 小空间穷举　<code>[C]</code> checker 保证　<code>[H]</code> 猜想　<code>[X]</code> 已反例。</p>
+<p>任何结构猜想两次被推翻后，禁止继续纯手玩，必须写 brute / generator；单题 75 分钟硬切。</p>
+<small>详细版请看《比赛全过程复现_完整版.md》《研究过程深挖.md》《赛时代码逐段解剖.md》。</small>
+</main>
+<script>
+const printable=[130,718,473,189,130,194,115,240,727,338,20,178,511,131,24,47,692,574,667,24,826,296,595,560,49];
+const back=[14,161,155,21,5,92,81,116,132,85,9,31,89,56,110,122,170,110,169,4,152,37,141,153,2];
+const svg=document.getElementById('chart'), W=1100,H=330,pad=45,max=900,step=(W-2*pad)/printable.length;
+let s=`<line x1="${pad}" y1="${H-pad}" x2="${W-pad}" y2="${H-pad}" stroke="#55606d"/>`;
+printable.forEach((v,i)=>{let h=v/max*(H-2*pad),x=pad+i*step+3,y=H-pad-h;s+=`<rect x="${x}" y="${y}" width="${Math.max(5,step-7)}" height="${h}" rx="2" fill="#5aa9ff" opacity=".75"/>`; if(i%2===0)s+=`<text x="${x}" y="${H-20}" fill="#8f99a6" font-size="11">${i*10}</text>`});
+let pts=back.map((v,i)=>`${pad+i*step+step/2},${H-pad-v/200*(H-2*pad)}`).join(' ');
+s+=`<polyline points="${pts}" fill="none" stroke="#ffb454" stroke-width="3"/>`;
+s+=`<text x="${pad}" y="20" fill="#5aa9ff" font-size="13">可打印字符</text><text x="${pad+100}" y="20" fill="#ffb454" font-size="13">Backspace</text>`;
+svg.innerHTML=s;
+
+const events=[
+["00:10","A","确认“删最大的数”，贪心核心形成。"],
+["00:11","A","sort + 枚举剩余规模 + upper_bound，算法阶段基本结束。"],
+["00:37","A","附件输出正确，提交后 100。"],
+["00:44","B","读到 checker 不验证 NO。"],
+["00:47","B","理解相邻相同删除的栈约简。"],
+["00:48","B","已经说出枚举 [l,r] + check 的 O(n³) 暴力——真正 oracle 已经在手边。"],
+["01:14","B","提出先把 S 全局约简成 R，再研究 R。"],
+["01:35","B","一代结构猜想被样例推翻。"],
+["02:18","B","明确说“不能猜结论了”，但实际仍继续手工模式挖掘。"],
+["02:41","B","发现首尾/重复块秘诀，但还没有证明。"],
+["02:55","B","发现结构在正中间，比较两半。"],
+["03:03","B","定位死循环：栈循环忘记 pop。"],
+["03:11","B","大量样例 + checker 后说“第二题已 AC”；验证覆盖错误。"],
+["03:18","C","看到 n<=8，决定边排列暴力。"],
+["03:22","C","“先把暴力写完，剩下来我就安心了”——正确止损动作。"],
+["03:35","C","说出“肯定会有个人安排不到”——满分根模型入口。"],
+["03:36","C","继续问“这个人会不会是最大的”——接近局部极大根。"],
+["03:40","D","迅速转为 N³ / 部分分思路。"],
+["03:54","D","开始押特殊性质，未完成 first/last 抽象。"],
+["04:04","收尾","发现 B 不是 100，总分 204。"]
+];
+const box=document.getElementById('events');
+box.innerHTML=events.map(([t,q,d])=>`<div class="event"><span class="time">${t}</span><span class="tag">${q}</span><div>${d}</div></div>`).join('');
+</script>
+</body></html>
