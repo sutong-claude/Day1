@@ -1,0 +1,440 @@
+abbacc
+a
+ab
+abb  a
+aa   /
+c
+cc   /
+yes
+
+
+baoli ? l, r
+n
+n * n * n
+n3
+
+100 
+
+2000ms 512mb
+
+
+
+100 / 20 = 5
+4 * 5 = 20
+
+ababababababab...
+babababababab...
+
+0 -> no
+ab  abab  abab
+ab  baba  abab
+ab
+
+a  babababab
+
+
+n even
+
+6
+abcabc
+
+
+abc  abc  
+a  bca  bc
+ab  cab  c
+
+
+l, r
+
+
+xx xx xx
+ ! !! ! 
+
+
+
+a[l - 1] = a[r]
+
+vector <int> s[27];
+for (l)
+n*n
+l -->
+
+1 2 3 4
+8
+5 6
+
+
+abab
+abba
+
+ab  ababab  ab
+ba
+4k = n
+
+abab
+abbaba
+
+6
+abacbc
+
+
+8
+bcab
+
+8
+
+
+
+gess : s --> R
+R baoli   true
+1 2 3 4
+5 6
+11 12 13 14
+
+C  true
+
+50
+
+C
+
+abcbca
+
+a[l - 1] = a[r]
+
+a[i] != a[i + 1]
+
+
+8
+
+
+
+8
+
+8
+bcab
+
+if n % 2 == 1
+ pass
+s --> R
+
+R same letter
+
+3
+6
+abcabc
+6
+acac
+4
+abba
+
+
+
+6
+acac
+
+
+
+On --> C
+true
+
+
+abcabc y
+
+abacbc n
+
+?
+
+3
+6
+abcabc
+6
+abacbc
+4
+abba
+
+
+
+
+3
+6
+abcabc
+6
+abacbc
+4
+abba
+
+
+aacbbc
+
+
+
+
+3
+6
+abcabc
+6
+abacbc
+4
+abba
+
+
+
+1
+6
+abacbc
+
+
+
+3
+6
+abcabc
+6
+abacbc
+4
+abba
+
+
+2
+8
+aabcabcc
+8
+abcaabca
+
+
+1
+6
+abbacc
+
+
+
+
+g++ checker.cpp -o checker -std=c++14 -O2 -static
+
+
+2
+8
+aabcabcc
+8
+abcaabca
+
+8
+
+
+
+20
+100
+dvghmfggmparfrtgagjwgnoxtbkcrekvwrvxiwkeihmocfimzffzmifcomhiekwixvrwvkerckbtxongwjgagtrgmparfgfmhgvd
+100
+hypetpjvxxyqjmoucmkwtburevnhptxddcpoydxmudxzojpypxrnjrtjjpoqryyqvvyptrzsjjntyrujyjxppkjsbjsnbybqsxmw
+100
+yqtnhpgxrxkkvjpzejyiehlcrltxafudicqkpkmwzqinmkxwwccwwxkmniqzwmqkpkcidufaxtlrclheiyjezpjvkkxrxgphntqy
+100
+pgpryhagngkhpfgbaqzupnurpyhpippjhiiyufppkjmhscrihbgjfyruizfpbnbrkarckjanrtguspupqtkqiappmbkereibaipq
+100
+ggjygrcesfmvxldaogobrdieknhfrzwvkseqgbfslrbcrkxizmmzixkrcbrlsfbgqeskesfmvxldaogobrdieknhfrzwvcrgyjgg
+100
+ooquhqemstwykkfqnqxnqszsxasusmoknjazxvmkalxvmgpustszgmfskkjsqexxsoyowloqxjiknyspqasznikpjuuxnmpuymhm
+100
+lxwupaqervcxizbnebmmfbskospazvbliyrnuxijkkccyavsajjasvaycckkjixunryilpazvbsoksbfmmbenbzixcvreqapuwxl
+100
+onfsvqiqzylsqbiyifqzqsxypxxvefrtntdoktczsdyhyzvytbhwfczwpdimtvmzvetcnenjvstnkktexndnntcxqxrisklijwtw
+100
+vcfmwolslyskuocnkbwqgkwsqptcpcdikacerbexealhiykqqkkjkjyihlaexebrecakidcpctpqswkgqwbkncouksylslowmfcv
+100
+qwydltzuxepsogylxntbkwybyogloigxnsomsnnxllfobuwqihdwzownvgxcywvycfpwbqwgwgprqaqknlymheywzrqprlrlszxa
+100
+gpososzfocetlylodukkxpdyhoplmyrgifljpjyfisiyljdluhhuldjlyilmyrgifljpjyfispohydpxkkudolyltecofzsosopg
+100
+vtouttuthanzoacqrbztlaczcdrtotrtuzsrgtozffrmhzyzhydfmlognuzfbvuicbojhnuhugnbrtunckrisrsgxcbxsnqbjakh
+100
+eyyqlyfaoyzdpcvirimtawvfylxyvzgmlhmifiwqjjenhqxxsrrsxxqhnejjqwifimhlmgzvyxlyfvwatmirivcpdyyqlyfaoyze
+100
+pedeifiupbpxphcacfezbnmhvclsxpopfhydonvpauefcbcsdkpydumoxlumesalyzuboxdmluaudkxupvlpekkswuwoyhlcxuov
+100
+nfwunfbtlthvmpkwriqndreshzfwpjtwtcjktyllllgylflnzttznlflygllllytkjctwtjpwfzhpkwriqndresmvhtltbfnuwfn
+100
+vigvsuytfzpyaxuueaektvlwufvktsedfieduuozkaszvetkatkszbukakptaodfidtutpckxubivipigbegkideudpwbklgiepc
+100
+wytvwclghlirvuwohjwuglhoijhiwmrospswpyjwmojvmhmrospswpyjwmojvmhyloaaolywihjiohlguwjhowuvrilhglcwvtyw
+100
+kwpwsysahzspqgdgwugdeaogdzrnfefksggnouxypgborgfehipdfgkgmkdrfbxmgfosrznnprqncbbrccshdopkzmcmienwkgoh
+100
+zhjrafruirnbuwttbbodximbligldsyzabutwanmvpcmhcluammaulchmcpvmnbligldsyzabutwamixdobbttwubnriurfarjhz
+100
+sxertiitegsjozzswoigcslnotyyqjjjsscycqloaqxlgnssccimmowwozioppgsrbneboootenlmwismoqeyemjazoicjyyivmv
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s --> R   no use to ans
+
+C
+
+// s[l - 1] = s[r]
+
+
+
+s[i] != s[i + 1]
+
+
+ababababab
+
+
+4k = n
+
+
+ab xxxx ab
+
+
+6
+abcabc
+6
+abacbc
+
+
+
+abcabc
+
+20
+100
+mfggmparfrtgagjwgnoxtbkcrekvwrvxiwkeihmocfimzffzmifcomhiekwixvrwvkerckbtxongwjgagtrgmparfgfmh
+100
+hypetpjvxxyqjmoucmkwtburevnhptxddcpoydxmudxzojpypxrnjrtjjpoqryyqvvyptrzsjjntyrujyjxppkjsbjsnbybqsxmw
+100
+yqtnhpgxrxvjpzejyiehlcrltxafudicqkpkmwzqinmmniqzwmqkpkcidufaxtlrclheiyjezpjvxrxgphntqy
+100
+pgpryhagngkhpfgbaqzupnurpyhpijhyufppkjmhscrihbgjfyruizfpbnbrkarckjanrtguspupqtkqiambkereibaipq
+100
+ggjygrcesfmvxldaogobrdieknhfrzwvkseqgbfslrbcrkxizmmzixkrcbrlsfbgqeskesfmvxldaogobrdieknhfrzwvcrgyjgg
+100
+ooquhqemstwykkfqnqxnqszsxasusmoknjazxvmkalxvmgpustszgmfskkjsqexxsoyowloqxjiknyspqasznikpjuuxnmpuymhm
+100
+lxwupaqervcxizbnebmmfbskospazvbliyrnuxijkkccyavsajjasvaycckkjixunryilpazvbsoksbfmmbenbzixcvreqapuwxl
+100
+onfsvqiqzylsqbiyifqzqsxypxxvefrtntdoktczsdyhyzvytbhwfczwpdimtvmzvetcnenjvstnkktexndnntcxqxrisklijwtw
+100
+vcfmwolslyskuocnkbwqgkwsqptcpcdikacerbexealhiykqqkkjkjyihlaexebrecakidcpctpqswkgqwbkncouksylslowmfcv
+100
+qwydltzuxepsogylxntbkwybyogloigxnsomsnnxllfobuwqihdwzownvgxcywvycfpwbqwgwgprqaqknlymheywzrqprlrlszxa
+100
+gpososzfocetlylodukkxpdyhoplmyrgifljpjyfisiyljdluhhuldjlyilmyrgifljpjyfispohydpxkkudolyltecofzsosopg
+100
+vtouttuthanzoacqrbztlaczcdrtotrtuzsrgtozffrmhzyzhydfmlognuzfbvuicbojhnuhugnbrtunckrisrsgxcbxsnqbjakh
+100
+eyyqlyfaoyzdpcvirimtawvfylxyvzgmlhmifiwqjjenhqxxsrrsxxqhnejjqwifimhlmgzvyxlyfvwatmirivcpdyyqlyfaoyze
+100
+pedeifiupbpxphcacfezbnmhvclsxpopfhydonvpauefcbcsdkpydumoxlumesalyzuboxdmluaudkxupvlpekkswuwoyhlcxuov
+100
+nfwunfbtlthvmpkwriqndreshzfwpjtwtcjktyllllgylflnzttznlflygllllytkjctwtjpwfzhpkwriqndresmvhtltbfnuwfn
+100
+vigvsuytfzpyaxuueaektvlwufvktsedfieduuozkaszvetkatkszbukakptaodfidtutpckxubivipigbegkideudpwbklgiepc
+100
+mrospswpyjwmojvmhmrospswpyjwmojvmh
+100
+kwpwsysahzspqgdgwugdeaogdzrnfefksggnouxypgborgfehipdfgkgmkdrfbxmgfosrznnprqncbbrccshdopkzmcmienwkgoh
+100
+bligldsyzabutwabligldsyzabutwa
+bligldsyzzy
+100
+sxertiitegsjozzswoigcslnotyyqjjjsscycqloaqxlgnssccimmowwozioppgsrbneboootenlmwismoqeyemjazoicjyyivmv
+YES 9 88
+NO
+YES 35 38
+NO
+YES 8 32
+NO
+YES 27 31
+NO
+YES 51 52
+NO
+YES 28 42
+NO
+YES 4 11
+NO
+YES 14 24
+NO
+YES 30 46
+NO
+YES 24 38
+NO
+
+
+
+
+6
+abcabc
+6
+
+abab
+ab
+
+bcbc
+1234
+
+
+mrospswpyjwmo
+
+
+
+
+abc abc
+
+aba cbc
+
+abba
+
+bcab
+bcbc
+
+
+12345
+1
+12
+123
+1234
+12345
+
+
+
+
+
+3
+6
+abcabc
+6
+abacbc
+4
+abba
+
+2
+8
+aabcabcc
+8
+a
+
+1
+6
+abbacc
+
+
+
+
+g++ checker.cpp -o checker -std=c++14 -O2 -static
+
+
+

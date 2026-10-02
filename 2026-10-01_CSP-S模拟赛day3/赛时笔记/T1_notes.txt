@@ -1,0 +1,24 @@
+5
+1 2 3 4 5
+15
+3
+2
+
+
+a1 a2 a3 ... an
+sum
+sum / n
+
+tanxin
+
+sort (a + 1, a + n + 1);
+
+n --> 1
+rid i
+binary_search
+upper_bound
+
+
+
+5
+1 2 3 4 5

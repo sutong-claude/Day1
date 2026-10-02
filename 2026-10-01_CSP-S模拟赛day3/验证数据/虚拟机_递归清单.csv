@@ -1,0 +1,549 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: 虚拟机_递归清单.csv>index,path,depth,size,sha256,text,encoding,lines,chars,zip_member
+0,虚拟机/Desktop/bag/debug/bin/Debug/debug,0,99320,6dade221571c3c75cdfdb672b26b692723256671a9a6ed6a98a6b8b407b6c3b4,False,,0,0,虚拟机/Desktop/bag/debug/bin/Debug/debug
+1,虚拟机/Desktop/bag/debug/debug.cbp,0,997,d290c0c61106e9e30f435a8d3c3e54a7cbcb27cb566720c414c52b4ff9b5edb0,True,utf-8,39,997,虚拟机/Desktop/bag/debug/debug.cbp
+2,虚拟机/Desktop/bag/debug/debug.depend,0,103,48d0adfaa56a96f4e55d48951cdd76a0d8297c9aa7a55664463ac28e1ee11d83,True,utf-8,5,103,虚拟机/Desktop/bag/debug/debug.depend
+3,虚拟机/Desktop/bag/debug/debug.layout,0,358,63c4dcae4e1b4636fc1a7a31eef6875f7499cb403dba463dbbeafd6f2bd71972,True,utf-8,11,358,虚拟机/Desktop/bag/debug/debug.layout
+4,虚拟机/Desktop/bag/debug/main.cpp,0,736,c914e043facba7926fb29ceb22e4c2b161ae6a8faea48a6c44464ae9cce25db1,True,utf-8,35,736,虚拟机/Desktop/bag/debug/main.cpp
+5,虚拟机/Desktop/bag/debug/obj/Debug/main.o,0,138024,46dea01973cd536c0e6600866b8bba9fb8fd9e9aa7633577a1ef9ca9a5b5da82,False,,0,0,虚拟机/Desktop/bag/debug/obj/Debug/main.o
+6,虚拟机/Desktop/bag/T1/AC.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/bag/T1/AC.cpp
+7,虚拟机/Desktop/bag/T1/debug.cpp,0,736,c914e043facba7926fb29ceb22e4c2b161ae6a8faea48a6c44464ae9cce25db1,True,utf-8,35,736,虚拟机/Desktop/bag/T1/debug.cpp
+8,虚拟机/Desktop/bag/T1/duipai.sh,0,252,f8f82381d6b102ee6181044776ae3359262be6268b3d9c8f84411a40af5b20e4,True,utf-8,11,252,虚拟机/Desktop/bag/T1/duipai.sh
+9,虚拟机/Desktop/bag/T1/gen.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/bag/T1/gen.cpp
+10,虚拟机/Desktop/bag/T1/map.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/bag/T1/map.txt
+11,虚拟机/Desktop/bag/T1/notes.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/bag/T1/notes.txt
+12,虚拟机/Desktop/bag/T1/WA.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/bag/T1/WA.cpp
+13,虚拟机/Desktop/bag/T2/AC.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/bag/T2/AC.cpp
+14,虚拟机/Desktop/bag/T2/debug.cpp,0,736,c914e043facba7926fb29ceb22e4c2b161ae6a8faea48a6c44464ae9cce25db1,True,utf-8,35,736,虚拟机/Desktop/bag/T2/debug.cpp
+15,虚拟机/Desktop/bag/T2/duipai.sh,0,252,f8f82381d6b102ee6181044776ae3359262be6268b3d9c8f84411a40af5b20e4,True,utf-8,11,252,虚拟机/Desktop/bag/T2/duipai.sh
+16,虚拟机/Desktop/bag/T2/gen.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/bag/T2/gen.cpp
+17,虚拟机/Desktop/bag/T2/map.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/bag/T2/map.txt
+18,虚拟机/Desktop/bag/T2/notes.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/bag/T2/notes.txt
+19,虚拟机/Desktop/bag/T2/WA.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/bag/T2/WA.cpp
+20,虚拟机/Desktop/bag/T3/AC.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/bag/T3/AC.cpp
+21,虚拟机/Desktop/bag/T3/debug.cpp,0,736,c914e043facba7926fb29ceb22e4c2b161ae6a8faea48a6c44464ae9cce25db1,True,utf-8,35,736,虚拟机/Desktop/bag/T3/debug.cpp
+22,虚拟机/Desktop/bag/T3/duipai.sh,0,252,f8f82381d6b102ee6181044776ae3359262be6268b3d9c8f84411a40af5b20e4,True,utf-8,11,252,虚拟机/Desktop/bag/T3/duipai.sh
+23,虚拟机/Desktop/bag/T3/gen.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/bag/T3/gen.cpp
+24,虚拟机/Desktop/bag/T3/map.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/bag/T3/map.txt
+25,虚拟机/Desktop/bag/T3/notes.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/bag/T3/notes.txt
+26,虚拟机/Desktop/bag/T3/WA.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/bag/T3/WA.cpp
+27,虚拟机/Desktop/bag/T4/AC.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/bag/T4/AC.cpp
+28,虚拟机/Desktop/bag/T4/debug.cpp,0,736,c914e043facba7926fb29ceb22e4c2b161ae6a8faea48a6c44464ae9cce25db1,True,utf-8,35,736,虚拟机/Desktop/bag/T4/debug.cpp
+29,虚拟机/Desktop/bag/T4/duipai.sh,0,252,f8f82381d6b102ee6181044776ae3359262be6268b3d9c8f84411a40af5b20e4,True,utf-8,11,252,虚拟机/Desktop/bag/T4/duipai.sh
+30,虚拟机/Desktop/bag/T4/gen.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/bag/T4/gen.cpp
+31,虚拟机/Desktop/bag/T4/map.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/bag/T4/map.txt
+32,虚拟机/Desktop/bag/T4/notes.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/bag/T4/notes.txt
+33,虚拟机/Desktop/bag/T4/WA.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/bag/T4/WA.cpp
+34,虚拟机/Desktop/checker.cpp,0,3461,14281b5f2127adce25edc1a980b52d5ff09c8f7520af914b8a0449c871311278,True,utf-8,107,3461,虚拟机/Desktop/checker.cpp
+35,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/1-1.in,0,298,5c7f68913630e9168a947748bab8ffd1188a5dbd4d3fcc90ed8b4eff38ea6973,True,utf-8,4,298,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/1-1.in
+36,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/1-1.out,0,5,eb1d7e994b0bd8e0b82ecacbedde8562560d882b2cdd54cd7414bba458379e9a,True,utf-8,2,5,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/1-1.out
+37,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/2-1.in,0,30539,8b2fc4a64b335d7e47175f570fd451f5c3414333fb0e4df998df2369f741869f,True,utf-8,36,30539,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/2-1.in
+38,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/2-1.out,0,106,328513de8921c9eaf869118b90b370dcf879c7761474aa42ed2d82cea50647f7,True,utf-8,18,106,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/2-1.out
+39,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/3-1.in,0,8900,54a4777264365ed3321737d569837af229bd28bed1b89b774e8850515df43af2,True,utf-8,4,8900,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/3-1.in
+40,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/3-1.out,0,8,ce7761120c45a7f926f5469985e5d0caf8886110910ca0c3729eeeedc1ce610d,True,utf-8,2,8,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/3-1.out
+41,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/4-1.in,0,23900,884db83a8cecb395a28ec03b8be6c64e725922b626b7ff87507dae6957f0bd84,True,utf-8,4,23900,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/4-1.in
+42,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/4-1.out,0,8,7a1767c1e321ed2cbe786588ec289686ab86e94173c3ba3f2fd996bcd96d8179,True,utf-8,2,8,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/4-1.out
+43,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/5-1.in,0,38900,2a6b61d4da9b474b43a408eee2c3eaa89d3ba7026be0286b1ee4046f43e014f4,True,utf-8,4,38900,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/5-1.in
+44,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/5-1.out,0,9,4dba73094eb0a20b53e78732aed063cb38c51f7b78391b5ed0c1b2ccf68b0afd,True,utf-8,2,9,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/5-1.out
+45,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/ans.out,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/ans.out
+46,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/T2,0,120984,4c77b9fecc65442f7e52a2fce314e47176f943093a7fbe81568298b5e916340b,False,,0,0,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/T2
+47,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/T2.cpp,0,1470,e9e6dd1dafc94613493a857adadf573eac2deef50e7a5e37dcbef121c5669335,True,utf-8,59,1470,虚拟机/Desktop/Day1/5622 蜗蜗的记录带/T2.cpp
+48,虚拟机/Desktop/Day1/5622 蜗蜗的记录带.zip,0,103745,2563486963ff64c5c8960e32fe5dec653eb2b665bd38648bfc8db3eb3fd9fd01,False,,0,0,虚拟机/Desktop/Day1/5622 蜗蜗的记录带.zip
+49,虚拟机/Desktop/Day1/5622 蜗蜗的记录带.zip!/1-1.in,1,298,5c7f68913630e9168a947748bab8ffd1188a5dbd4d3fcc90ed8b4eff38ea6973,True,utf-8,4,298,1-1.in
+50,虚拟机/Desktop/Day1/5622 蜗蜗的记录带.zip!/1-1.out,1,5,eb1d7e994b0bd8e0b82ecacbedde8562560d882b2cdd54cd7414bba458379e9a,True,utf-8,2,5,1-1.out
+51,虚拟机/Desktop/Day1/5622 蜗蜗的记录带.zip!/2-1.in,1,30539,8b2fc4a64b335d7e47175f570fd451f5c3414333fb0e4df998df2369f741869f,True,utf-8,36,30539,2-1.in
+52,虚拟机/Desktop/Day1/5622 蜗蜗的记录带.zip!/2-1.out,1,106,328513de8921c9eaf869118b90b370dcf879c7761474aa42ed2d82cea50647f7,True,utf-8,18,106,2-1.out
+53,虚拟机/Desktop/Day1/5622 蜗蜗的记录带.zip!/3-1.in,1,8900,54a4777264365ed3321737d569837af229bd28bed1b89b774e8850515df43af2,True,utf-8,4,8900,3-1.in
+54,虚拟机/Desktop/Day1/5622 蜗蜗的记录带.zip!/3-1.out,1,8,ce7761120c45a7f926f5469985e5d0caf8886110910ca0c3729eeeedc1ce610d,True,utf-8,2,8,3-1.out
+55,虚拟机/Desktop/Day1/5622 蜗蜗的记录带.zip!/4-1.in,1,23900,884db83a8cecb395a28ec03b8be6c64e725922b626b7ff87507dae6957f0bd84,True,utf-8,4,23900,4-1.in
+56,虚拟机/Desktop/Day1/5622 蜗蜗的记录带.zip!/4-1.out,1,8,7a1767c1e321ed2cbe786588ec289686ab86e94173c3ba3f2fd996bcd96d8179,True,utf-8,2,8,4-1.out
+57,虚拟机/Desktop/Day1/5622 蜗蜗的记录带.zip!/5-1.in,1,38900,2a6b61d4da9b474b43a408eee2c3eaa89d3ba7026be0286b1ee4046f43e014f4,True,utf-8,4,38900,5-1.in
+58,虚拟机/Desktop/Day1/5622 蜗蜗的记录带.zip!/5-1.out,1,9,4dba73094eb0a20b53e78732aed063cb38c51f7b78391b5ed0c1b2ccf68b0afd,True,utf-8,2,9,5-1.out
+59,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/1-1.in,0,20,7b52b359882fd3a94746cc712d71268e327077262e61ee2e32a7ceeb714453fc,True,utf-8,6,20,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/1-1.in
+60,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/1-1.out,0,20,a8d2f24064d3d3f806522f7c5b4147cc271625ec0de3b1b967fb4d958f77506a,True,utf-8,7,20,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/1-1.out
+61,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/2-1.in,0,3240,e79a3187e1da2f544677187228573ee347d6dcf3cac87f0f740bcd2331c05b5e,True,utf-8,30,3240,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/2-1.in
+62,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/2-1.out,0,98,4d97fdc95676dff7e7bdc6d41b8ce36abb679131cbfa8683b0756fbca1b64b12,True,utf-8,43,98,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/2-1.out
+63,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/3-1.in,0,2045,7228b64c669238a52610a9ab2c7fd0a5abe3f9ab7ba4cc0c1303be549feaf127,True,utf-8,30,2045,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/3-1.in
+64,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/3-1.out,0,283878,a9891acda9831863d6712cdac792e173fb135a0efed563af52103d7ea87b743e,True,utf-8,43,283878,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/3-1.out
+65,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/4-1.in,0,251,3af440d9ae1ad73ed691d02044ea060653dff24fc8ef2684ffe65b8a09a47e9a,True,utf-8,22,251,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/4-1.in
+66,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/4-1.out,0,416,5f88738119c3adbd0a1f80226f289e10bf1fad63721dcc7c2206206675af22cd,True,utf-8,17,416,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/4-1.out
+67,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/5-1.in,0,2893,9061c4b2da7fd333b301b44c2845ed03a17b6682cd6475b65ba4e89accad789b,True,utf-8,18,2893,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/5-1.in
+68,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/5-1.out,0,91883,b9b5efbfd31e4de7ccac68ce41041e30d8e075cf35814f42d8cfafd9537585e2,True,utf-8,19,91883,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/5-1.out
+69,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/ans.out,0,283889,f8da2fa126bbd47de41d36f5f489a56bb0da5abbc3d9e10b91db7170de885c07,True,utf-8,43,283889,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/ans.out
+70,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/checker.cpp,0,3793,d9ccb85829170b4e812e61ec56436ab3d6eecb9a32d11703bb67ad882e7bd76a,True,utf-8,104,3793,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/checker.cpp
+71,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/T2,0,17568,f21340bcbb45b43161eae6185d2b0f9f1f4052135a7422d4fa1d57e3c6267669,False,,0,0,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/T2
+72,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/T2.cpp,0,1709,f62e21ab489536421f325a0bfe550f9dbf4029f6cc40e2094e05bdb93851b198,True,utf-8,73,1709,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板/T2.cpp
+73,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板.zip,0,10724,86ac75e67645a39ad3387e223a3d64bb26174dc6bf7e5fac2181241252b1aa12,False,,0,0,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板.zip
+74,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板.zip!/3-1.out,1,283878,a9891acda9831863d6712cdac792e173fb135a0efed563af52103d7ea87b743e,True,utf-8,43,283878,3-1.out
+75,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板.zip!/4-1.in,1,251,3af440d9ae1ad73ed691d02044ea060653dff24fc8ef2684ffe65b8a09a47e9a,True,utf-8,22,251,4-1.in
+76,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板.zip!/4-1.out,1,416,5f88738119c3adbd0a1f80226f289e10bf1fad63721dcc7c2206206675af22cd,True,utf-8,17,416,4-1.out
+77,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板.zip!/5-1.in,1,2893,9061c4b2da7fd333b301b44c2845ed03a17b6682cd6475b65ba4e89accad789b,True,utf-8,18,2893,5-1.in
+78,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板.zip!/5-1.out,1,91883,b9b5efbfd31e4de7ccac68ce41041e30d8e075cf35814f42d8cfafd9537585e2,True,utf-8,19,91883,5-1.out
+79,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板.zip!/1-1.in,1,20,7b52b359882fd3a94746cc712d71268e327077262e61ee2e32a7ceeb714453fc,True,utf-8,6,20,1-1.in
+80,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板.zip!/1-1.out,1,20,a8d2f24064d3d3f806522f7c5b4147cc271625ec0de3b1b967fb4d958f77506a,True,utf-8,7,20,1-1.out
+81,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板.zip!/2-1.in,1,3240,e79a3187e1da2f544677187228573ee347d6dcf3cac87f0f740bcd2331c05b5e,True,utf-8,30,3240,2-1.in
+82,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板.zip!/2-1.out,1,98,4d97fdc95676dff7e7bdc6d41b8ce36abb679131cbfa8683b0756fbca1b64b12,True,utf-8,43,98,2-1.out
+83,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板.zip!/3-1.in,1,2045,7228b64c669238a52610a9ab2c7fd0a5abe3f9ab7ba4cc0c1303be549feaf127,True,utf-8,30,2045,3-1.in
+84,虚拟机/Desktop/Day1/5623 蜗蜗的联动面板.zip!/checker.cpp,1,3793,d9ccb85829170b4e812e61ec56436ab3d6eecb9a32d11703bb67ad882e7bd76a,True,utf-8,104,3793,checker.cpp
+85,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵/s1.in,0,74,94b6145b23b78b3a7a9a1af6193c352ce2500efea909aef40a16e1062e9305e9,True,utf-8,12,74,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵/s1.in
+86,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵/s1.out,0,12,e7c384af41694342526ca5dbbe03cf7b03f23c14af564a0acdc77b6e328c0c42,True,utf-8,4,12,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵/s1.out
+87,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵/s2.in,0,116000,4a4ea9bddcfad978b8ecc4cdc3f238068187f53004b988404df9ce2fd3fef061,True,utf-8,9074,116000,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵/s2.in
+88,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵/s2.out,0,45350,0026ae241931784e90b6a920703ec08ad5c5aec5bec5ef08f82e8959687f6a0a,True,utf-8,4536,45350,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵/s2.out
+89,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵/s3.in,0,127735,48f723b948123ed8bdf44f8b958abd89a93a82938ebe312a6e60abdca67e6fce,True,utf-8,7230,127735,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵/s3.in
+90,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵/s3.out,0,54195,db99ea45021499c506a424a4abbab74ee41a4a6d7e0843a0ece8065f89efa944,True,utf-8,3614,54195,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵/s3.out
+91,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵/s4.in,0,1350783,a07d0dfccd24f5398610f0c7ca1317c9f2c8df1ed5318972150e3cc2e6cdc692,True,utf-8,70500,1350783,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵/s4.in
+92,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵/s4.out,0,563968,e0f7dbc4e8a29fdf20ad415728411ec9555e3c21c14707cf1de286394a7da2a9,True,utf-8,35249,563968,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵/s4.out
+93,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵.zip,0,2258963,c3e7fc77e51035a434a1468d3f8d50fece7d744a149d7eb861c5138b94a80f32,False,,0,0,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵.zip
+94,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵.zip!/s1.in,1,74,94b6145b23b78b3a7a9a1af6193c352ce2500efea909aef40a16e1062e9305e9,True,utf-8,12,74,s1.in
+95,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵.zip!/s1.out,1,12,e7c384af41694342526ca5dbbe03cf7b03f23c14af564a0acdc77b6e328c0c42,True,utf-8,4,12,s1.out
+96,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵.zip!/s2.in,1,116000,4a4ea9bddcfad978b8ecc4cdc3f238068187f53004b988404df9ce2fd3fef061,True,utf-8,9074,116000,s2.in
+97,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵.zip!/s2.out,1,45350,0026ae241931784e90b6a920703ec08ad5c5aec5bec5ef08f82e8959687f6a0a,True,utf-8,4536,45350,s2.out
+98,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵.zip!/s3.in,1,127735,48f723b948123ed8bdf44f8b958abd89a93a82938ebe312a6e60abdca67e6fce,True,utf-8,7230,127735,s3.in
+99,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵.zip!/s3.out,1,54195,db99ea45021499c506a424a4abbab74ee41a4a6d7e0843a0ece8065f89efa944,True,utf-8,3614,54195,s3.out
+100,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵.zip!/s4.in,1,1350783,a07d0dfccd24f5398610f0c7ca1317c9f2c8df1ed5318972150e3cc2e6cdc692,True,utf-8,70500,1350783,s4.in
+101,虚拟机/Desktop/Day1/5624 蜗蜗的晶体树阵.zip!/s4.out,1,563968,e0f7dbc4e8a29fdf20ad415728411ec9555e3c21c14707cf1de286394a7da2a9,True,utf-8,35249,563968,s4.out
+102,虚拟机/Desktop/Day1/A_100pts/A_100pts.cbp,0,1006,ee22cfe33c531bf958c8e2d10562ffd89bf1693294db93c62621abb2391182d5,True,utf-8,39,1006,虚拟机/Desktop/Day1/A_100pts/A_100pts.cbp
+103,虚拟机/Desktop/Day1/A_100pts/A_100pts.depend,0,111,9c2be8bd2eda56c8fc9f88f1b20e409d61f12ea285a9dadceab98ac4e88ff8ee,True,utf-8,5,111,虚拟机/Desktop/Day1/A_100pts/A_100pts.depend
+104,虚拟机/Desktop/Day1/A_100pts/A_100pts.layout,0,359,6f9d853fa625415402f9b8ea05fc3ad001e1befefafa30fcf5049a225baa73b0,True,utf-8,11,359,虚拟机/Desktop/Day1/A_100pts/A_100pts.layout
+105,虚拟机/Desktop/Day1/A_100pts/bin/Debug/A_100pts,0,59424,a8632227ed533869a2b186839684129def77b5eb2d1506b42715a1a78f9f9852,False,,0,0,虚拟机/Desktop/Day1/A_100pts/bin/Debug/A_100pts
+106,虚拟机/Desktop/Day1/A_100pts/main.cpp,0,935,0d0c857c981a3adb0724606a193ba7b1e537ef4e2d54551b580f7a001fdd9250,True,utf-8,42,935,虚拟机/Desktop/Day1/A_100pts/main.cpp
+107,虚拟机/Desktop/Day1/A_100pts/obj/Debug/main.o,0,73728,29c955f95c5b8b06ee8f614376af26829a41711186d9adfdbfb010d9a2127e2f,False,,0,0,虚拟机/Desktop/Day1/A_100pts/obj/Debug/main.o
+108,虚拟机/Desktop/Day1/bag/debug/bin/Debug/debug,0,99320,6dade221571c3c75cdfdb672b26b692723256671a9a6ed6a98a6b8b407b6c3b4,False,,0,0,虚拟机/Desktop/Day1/bag/debug/bin/Debug/debug
+109,虚拟机/Desktop/Day1/bag/debug/debug.cbp,0,997,d290c0c61106e9e30f435a8d3c3e54a7cbcb27cb566720c414c52b4ff9b5edb0,True,utf-8,39,997,虚拟机/Desktop/Day1/bag/debug/debug.cbp
+110,虚拟机/Desktop/Day1/bag/debug/debug.depend,0,103,48d0adfaa56a96f4e55d48951cdd76a0d8297c9aa7a55664463ac28e1ee11d83,True,utf-8,5,103,虚拟机/Desktop/Day1/bag/debug/debug.depend
+111,虚拟机/Desktop/Day1/bag/debug/debug.layout,0,358,63c4dcae4e1b4636fc1a7a31eef6875f7499cb403dba463dbbeafd6f2bd71972,True,utf-8,11,358,虚拟机/Desktop/Day1/bag/debug/debug.layout
+112,虚拟机/Desktop/Day1/bag/debug/main.cpp,0,736,c914e043facba7926fb29ceb22e4c2b161ae6a8faea48a6c44464ae9cce25db1,True,utf-8,35,736,虚拟机/Desktop/Day1/bag/debug/main.cpp
+113,虚拟机/Desktop/Day1/bag/debug/obj/Debug/main.o,0,138024,46dea01973cd536c0e6600866b8bba9fb8fd9e9aa7633577a1ef9ca9a5b5da82,False,,0,0,虚拟机/Desktop/Day1/bag/debug/obj/Debug/main.o
+114,虚拟机/Desktop/Day1/bag/duipai_T1/ac.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/bag/duipai_T1/ac.cpp
+115,虚拟机/Desktop/Day1/bag/duipai_T1/duipai.sh,0,252,a5d1416e1596aca301b90cda528ce61412e0a517c7b957eb90eed5eadba714b2,True,utf-8,11,252,虚拟机/Desktop/Day1/bag/duipai_T1/duipai.sh
+116,虚拟机/Desktop/Day1/bag/duipai_T1/gen.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/bag/duipai_T1/gen.cpp
+117,虚拟机/Desktop/Day1/bag/duipai_T1/wa.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/bag/duipai_T1/wa.cpp
+118,虚拟机/Desktop/Day1/bag/duipai_T2/ac.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/bag/duipai_T2/ac.cpp
+119,虚拟机/Desktop/Day1/bag/duipai_T2/duipai.sh,0,252,a5d1416e1596aca301b90cda528ce61412e0a517c7b957eb90eed5eadba714b2,True,utf-8,11,252,虚拟机/Desktop/Day1/bag/duipai_T2/duipai.sh
+120,虚拟机/Desktop/Day1/bag/duipai_T2/gen.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/bag/duipai_T2/gen.cpp
+121,虚拟机/Desktop/Day1/bag/duipai_T2/wa.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/bag/duipai_T2/wa.cpp
+122,虚拟机/Desktop/Day1/bag/duipai_T3/ac.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/bag/duipai_T3/ac.cpp
+123,虚拟机/Desktop/Day1/bag/duipai_T3/duipai.sh,0,252,a5d1416e1596aca301b90cda528ce61412e0a517c7b957eb90eed5eadba714b2,True,utf-8,11,252,虚拟机/Desktop/Day1/bag/duipai_T3/duipai.sh
+124,虚拟机/Desktop/Day1/bag/duipai_T3/gen.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/bag/duipai_T3/gen.cpp
+125,虚拟机/Desktop/Day1/bag/duipai_T3/wa.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/bag/duipai_T3/wa.cpp
+126,虚拟机/Desktop/Day1/bag/duipai_T4/ac.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/bag/duipai_T4/ac.cpp
+127,虚拟机/Desktop/Day1/bag/duipai_T4/duipai.sh,0,252,a5d1416e1596aca301b90cda528ce61412e0a517c7b957eb90eed5eadba714b2,True,utf-8,11,252,虚拟机/Desktop/Day1/bag/duipai_T4/duipai.sh
+128,虚拟机/Desktop/Day1/bag/duipai_T4/gen.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/bag/duipai_T4/gen.cpp
+129,虚拟机/Desktop/Day1/bag/duipai_T4/wa.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/bag/duipai_T4/wa.cpp
+130,虚拟机/Desktop/Day1/bag/problems/map.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/Day1/bag/problems/map.txt
+131,虚拟机/Desktop/Day1/bag/problems/paper.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/Day1/bag/problems/paper.txt
+132,虚拟机/Desktop/Day1/bag/problems/T1.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/bag/problems/T1.cpp
+133,虚拟机/Desktop/Day1/bag/problems/T2.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/bag/problems/T2.cpp
+134,虚拟机/Desktop/Day1/bag/problems/T3.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/bag/problems/T3.cpp
+135,虚拟机/Desktop/Day1/bag/problems/T4.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/bag/problems/T4.cpp
+136,虚拟机/Desktop/Day1/bag/problems/thoughts.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/Day1/bag/problems/thoughts.txt
+137,虚拟机/Desktop/Day1/debug/bin/Debug/debug,0,118632,630812976135111b608227848f066d53a86742d03c9df60697c0831f612d2b84,False,,0,0,虚拟机/Desktop/Day1/debug/bin/Debug/debug
+138,虚拟机/Desktop/Day1/debug/bin/Release/debug,0,14472,9860688c8201dba860ba511834a7ae1aee90dba8cf5eba7c26e00e8112b75fda,False,,0,0,虚拟机/Desktop/Day1/debug/bin/Release/debug
+139,虚拟机/Desktop/Day1/debug/debug.cbp,0,997,d290c0c61106e9e30f435a8d3c3e54a7cbcb27cb566720c414c52b4ff9b5edb0,True,utf-8,39,997,虚拟机/Desktop/Day1/debug/debug.cbp
+140,虚拟机/Desktop/Day1/debug/debug.depend,0,103,3a8700061e2dc27fcf02971589647dc79d91589451960e85901a17abcf90c8ec,True,utf-8,5,103,虚拟机/Desktop/Day1/debug/debug.depend
+141,虚拟机/Desktop/Day1/debug/debug.layout,0,357,ec6e775478145006b58d808c114658e0ee73f1bb270512a3a77aa667368c819a,True,utf-8,11,357,虚拟机/Desktop/Day1/debug/debug.layout
+142,虚拟机/Desktop/Day1/debug/main,0,36560,bf59fa06b1edfecdaf5b249f2d7f5e0c46084019aeab4297c1830baeb4a82c9a,False,,0,0,虚拟机/Desktop/Day1/debug/main
+143,虚拟机/Desktop/Day1/debug/main.cpp,0,1261,df4d097cd6f26d696747e25b6c22e014940065b379332358fa4c10babf75f1ab,True,utf-8,52,1261,虚拟机/Desktop/Day1/debug/main.cpp
+144,虚拟机/Desktop/Day1/debug/main.o,0,50272,53b05ec0d147a87abcbc3a39a866f7156a14687145e8a1a3144ca6c47234b57e,False,,0,0,虚拟机/Desktop/Day1/debug/main.o
+145,虚拟机/Desktop/Day1/debug/obj/Debug/main.o,0,187128,2876ef3820129bb9d78b0338208de6e31699050bf6071f79507e98ed150d02f8,False,,0,0,虚拟机/Desktop/Day1/debug/obj/Debug/main.o
+146,虚拟机/Desktop/Day1/debug/obj/Release/main.o,0,2792,4af3eeb4b521d9ca20f51d4b2ad824f3f0e639f05afc9c26d3f8dcbfd420177c,False,,0,0,虚拟机/Desktop/Day1/debug/obj/Release/main.o
+147,虚拟机/Desktop/Day1/duipaiT1/1.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/Day1/duipaiT1/1.txt
+148,虚拟机/Desktop/Day1/duipaiT1/2.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/Day1/duipaiT1/2.txt
+149,虚拟机/Desktop/Day1/duipaiT1/3.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/Day1/duipaiT1/3.txt
+150,虚拟机/Desktop/Day1/duipaiT1/ac,0,17176,031c75a4cc2349c1dfff2276ac71a5da897d73fce91688698cf97ac977b90cef,False,,0,0,虚拟机/Desktop/Day1/duipaiT1/ac
+151,虚拟机/Desktop/Day1/duipaiT1/ac.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/duipaiT1/ac.cpp
+152,虚拟机/Desktop/Day1/duipaiT1/ac.o,0,10920,dd2b4dc6f404f79df48bb5e5970d2a13a2e323a1329106857e6f124f887c33b1,False,,0,0,虚拟机/Desktop/Day1/duipaiT1/ac.o
+153,虚拟机/Desktop/Day1/duipaiT1/duipai.sh,0,252,a5d1416e1596aca301b90cda528ce61412e0a517c7b957eb90eed5eadba714b2,True,utf-8,11,252,虚拟机/Desktop/Day1/duipaiT1/duipai.sh
+154,虚拟机/Desktop/Day1/duipaiT1/gen,0,17176,8c500399720d788e85db6838dcc1a5c437128de8ad2afb557553ee77f7da9319,False,,0,0,虚拟机/Desktop/Day1/duipaiT1/gen
+155,虚拟机/Desktop/Day1/duipaiT1/gen.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/duipaiT1/gen.cpp
+156,虚拟机/Desktop/Day1/duipaiT1/wa,0,17176,a531c4880ace7294dfe3a7919bb82fe6db2ba64cfa6f27fc255923cbdcdc88e9,False,,0,0,虚拟机/Desktop/Day1/duipaiT1/wa
+157,虚拟机/Desktop/Day1/duipaiT1/wa.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/duipaiT1/wa.cpp
+158,虚拟机/Desktop/Day1/duipaiT2/1.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/Day1/duipaiT2/1.txt
+159,虚拟机/Desktop/Day1/duipaiT2/2.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/Day1/duipaiT2/2.txt
+160,虚拟机/Desktop/Day1/duipaiT2/3.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/Day1/duipaiT2/3.txt
+161,虚拟机/Desktop/Day1/duipaiT2/ac,0,17176,031c75a4cc2349c1dfff2276ac71a5da897d73fce91688698cf97ac977b90cef,False,,0,0,虚拟机/Desktop/Day1/duipaiT2/ac
+162,虚拟机/Desktop/Day1/duipaiT2/ac.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/duipaiT2/ac.cpp
+163,虚拟机/Desktop/Day1/duipaiT2/ac.o,0,10920,dd2b4dc6f404f79df48bb5e5970d2a13a2e323a1329106857e6f124f887c33b1,False,,0,0,虚拟机/Desktop/Day1/duipaiT2/ac.o
+164,虚拟机/Desktop/Day1/duipaiT2/duipai.sh,0,252,a5d1416e1596aca301b90cda528ce61412e0a517c7b957eb90eed5eadba714b2,True,utf-8,11,252,虚拟机/Desktop/Day1/duipaiT2/duipai.sh
+165,虚拟机/Desktop/Day1/duipaiT2/gen,0,17176,8c500399720d788e85db6838dcc1a5c437128de8ad2afb557553ee77f7da9319,False,,0,0,虚拟机/Desktop/Day1/duipaiT2/gen
+166,虚拟机/Desktop/Day1/duipaiT2/gen.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/duipaiT2/gen.cpp
+167,虚拟机/Desktop/Day1/duipaiT2/wa,0,17176,a531c4880ace7294dfe3a7919bb82fe6db2ba64cfa6f27fc255923cbdcdc88e9,False,,0,0,虚拟机/Desktop/Day1/duipaiT2/wa
+168,虚拟机/Desktop/Day1/duipaiT2/wa.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/duipaiT2/wa.cpp
+169,虚拟机/Desktop/Day1/duipaiT3/1.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/Day1/duipaiT3/1.txt
+170,虚拟机/Desktop/Day1/duipaiT3/2.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/Day1/duipaiT3/2.txt
+171,虚拟机/Desktop/Day1/duipaiT3/3.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/Day1/duipaiT3/3.txt
+172,虚拟机/Desktop/Day1/duipaiT3/ac,0,17176,031c75a4cc2349c1dfff2276ac71a5da897d73fce91688698cf97ac977b90cef,False,,0,0,虚拟机/Desktop/Day1/duipaiT3/ac
+173,虚拟机/Desktop/Day1/duipaiT3/ac.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/duipaiT3/ac.cpp
+174,虚拟机/Desktop/Day1/duipaiT3/ac.o,0,10920,dd2b4dc6f404f79df48bb5e5970d2a13a2e323a1329106857e6f124f887c33b1,False,,0,0,虚拟机/Desktop/Day1/duipaiT3/ac.o
+175,虚拟机/Desktop/Day1/duipaiT3/duipai.sh,0,252,a5d1416e1596aca301b90cda528ce61412e0a517c7b957eb90eed5eadba714b2,True,utf-8,11,252,虚拟机/Desktop/Day1/duipaiT3/duipai.sh
+176,虚拟机/Desktop/Day1/duipaiT3/gen,0,17176,8c500399720d788e85db6838dcc1a5c437128de8ad2afb557553ee77f7da9319,False,,0,0,虚拟机/Desktop/Day1/duipaiT3/gen
+177,虚拟机/Desktop/Day1/duipaiT3/gen.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/duipaiT3/gen.cpp
+178,虚拟机/Desktop/Day1/duipaiT3/wa,0,17176,a531c4880ace7294dfe3a7919bb82fe6db2ba64cfa6f27fc255923cbdcdc88e9,False,,0,0,虚拟机/Desktop/Day1/duipaiT3/wa
+179,虚拟机/Desktop/Day1/duipaiT3/wa.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/duipaiT3/wa.cpp
+180,虚拟机/Desktop/Day1/duipaiT4/1.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/Day1/duipaiT4/1.txt
+181,虚拟机/Desktop/Day1/duipaiT4/2.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/Day1/duipaiT4/2.txt
+182,虚拟机/Desktop/Day1/duipaiT4/3.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/Day1/duipaiT4/3.txt
+183,虚拟机/Desktop/Day1/duipaiT4/ac,0,17176,031c75a4cc2349c1dfff2276ac71a5da897d73fce91688698cf97ac977b90cef,False,,0,0,虚拟机/Desktop/Day1/duipaiT4/ac
+184,虚拟机/Desktop/Day1/duipaiT4/ac.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/duipaiT4/ac.cpp
+185,虚拟机/Desktop/Day1/duipaiT4/ac.o,0,10920,dd2b4dc6f404f79df48bb5e5970d2a13a2e323a1329106857e6f124f887c33b1,False,,0,0,虚拟机/Desktop/Day1/duipaiT4/ac.o
+186,虚拟机/Desktop/Day1/duipaiT4/duipai.sh,0,252,a5d1416e1596aca301b90cda528ce61412e0a517c7b957eb90eed5eadba714b2,True,utf-8,11,252,虚拟机/Desktop/Day1/duipaiT4/duipai.sh
+187,虚拟机/Desktop/Day1/duipaiT4/gen,0,17176,8c500399720d788e85db6838dcc1a5c437128de8ad2afb557553ee77f7da9319,False,,0,0,虚拟机/Desktop/Day1/duipaiT4/gen
+188,虚拟机/Desktop/Day1/duipaiT4/gen.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/duipaiT4/gen.cpp
+189,虚拟机/Desktop/Day1/duipaiT4/wa,0,17176,a531c4880ace7294dfe3a7919bb82fe6db2ba64cfa6f27fc255923cbdcdc88e9,False,,0,0,虚拟机/Desktop/Day1/duipaiT4/wa
+190,虚拟机/Desktop/Day1/duipaiT4/wa.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/duipaiT4/wa.cpp
+191,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/1-1.in,0,298,5c7f68913630e9168a947748bab8ffd1188a5dbd4d3fcc90ed8b4eff38ea6973,True,utf-8,4,298,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/1-1.in
+192,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/1-1.out,0,5,eb1d7e994b0bd8e0b82ecacbedde8562560d882b2cdd54cd7414bba458379e9a,True,utf-8,2,5,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/1-1.out
+193,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/2-1.in,0,30539,8b2fc4a64b335d7e47175f570fd451f5c3414333fb0e4df998df2369f741869f,True,utf-8,36,30539,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/2-1.in
+194,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/2-1.out,0,106,328513de8921c9eaf869118b90b370dcf879c7761474aa42ed2d82cea50647f7,True,utf-8,18,106,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/2-1.out
+195,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/3-1.in,0,8900,54a4777264365ed3321737d569837af229bd28bed1b89b774e8850515df43af2,True,utf-8,4,8900,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/3-1.in
+196,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/3-1.out,0,8,ce7761120c45a7f926f5469985e5d0caf8886110910ca0c3729eeeedc1ce610d,True,utf-8,2,8,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/3-1.out
+197,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/4-1.in,0,23900,884db83a8cecb395a28ec03b8be6c64e725922b626b7ff87507dae6957f0bd84,True,utf-8,4,23900,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/4-1.in
+198,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/4-1.out,0,8,7a1767c1e321ed2cbe786588ec289686ab86e94173c3ba3f2fd996bcd96d8179,True,utf-8,2,8,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/4-1.out
+199,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5-1.in,0,38900,2a6b61d4da9b474b43a408eee2c3eaa89d3ba7026be0286b1ee4046f43e014f4,True,utf-8,4,38900,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5-1.in
+200,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5-1.out,0,9,4dba73094eb0a20b53e78732aed063cb38c51f7b78391b5ed0c1b2ccf68b0afd,True,utf-8,2,9,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5-1.out
+201,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/1-1.in,0,298,5c7f68913630e9168a947748bab8ffd1188a5dbd4d3fcc90ed8b4eff38ea6973,True,utf-8,4,298,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/1-1.in
+202,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/1-1.out,0,5,eb1d7e994b0bd8e0b82ecacbedde8562560d882b2cdd54cd7414bba458379e9a,True,utf-8,2,5,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/1-1.out
+203,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/2-1.in,0,30539,8b2fc4a64b335d7e47175f570fd451f5c3414333fb0e4df998df2369f741869f,True,utf-8,36,30539,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/2-1.in
+204,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/2-1.out,0,106,328513de8921c9eaf869118b90b370dcf879c7761474aa42ed2d82cea50647f7,True,utf-8,18,106,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/2-1.out
+205,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/3-1.in,0,8900,54a4777264365ed3321737d569837af229bd28bed1b89b774e8850515df43af2,True,utf-8,4,8900,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/3-1.in
+206,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/3-1.out,0,8,ce7761120c45a7f926f5469985e5d0caf8886110910ca0c3729eeeedc1ce610d,True,utf-8,2,8,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/3-1.out
+207,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/4-1.in,0,23900,884db83a8cecb395a28ec03b8be6c64e725922b626b7ff87507dae6957f0bd84,True,utf-8,4,23900,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/4-1.in
+208,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/4-1.out,0,8,7a1767c1e321ed2cbe786588ec289686ab86e94173c3ba3f2fd996bcd96d8179,True,utf-8,2,8,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/4-1.out
+209,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/5-1.in,0,38900,2a6b61d4da9b474b43a408eee2c3eaa89d3ba7026be0286b1ee4046f43e014f4,True,utf-8,4,38900,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/5-1.in
+210,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/5-1.out,0,9,4dba73094eb0a20b53e78732aed063cb38c51f7b78391b5ed0c1b2ccf68b0afd,True,utf-8,2,9,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/5-1.out
+211,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/ans.out,0,5,f0b6ce1ccb7d6400753a21690eee63c09b8ed6821e350fb90b895afad3a37197,True,utf-8,2,5,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/ans.out
+212,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/T1,0,18152,6ec900526d8c70c2745ce878711cd970676a259b887d6875bb0e2c4773c38dea,False,,0,0,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/T1
+213,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/T1.cpp,0,1078,b57d970c5785397cf61b1c54c1f53b1968a181fdf4540204b406093e260e35cc,True,utf-8,46,1078,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/5622 蜗蜗的记录带/T1.cpp
+214,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/ans.out,0,9,0427fc828a6d2778e2187c182ff6186b59edd29e386c36cd4cfa305e58680f49,True,utf-8,2,9,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/ans.out
+215,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/T1,0,18152,6ec900526d8c70c2745ce878711cd970676a259b887d6875bb0e2c4773c38dea,False,,0,0,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/T1
+216,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/T1.cpp,0,1078,b57d970c5785397cf61b1c54c1f53b1968a181fdf4540204b406093e260e35cc,True,utf-8,46,1078,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/T1.cpp
+217,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/test.out,0,5,f0b6ce1ccb7d6400753a21690eee63c09b8ed6821e350fb90b895afad3a37197,True,utf-8,2,5,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/test.out
+218,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/test2.out,0,109,39062c82feeeb68493e186ff1ae08b00dea739334a54c5c7f208ec0dc5ba3b4b,True,utf-8,18,109,虚拟机/Desktop/Day1/problems/5622 蜗蜗的记录带/test2.out
+219,虚拟机/Desktop/Day1/problems/T1,0,36608,937f8ba5804a81dd5602e43f85618e588651661d68b366f54c12aec7a9a0d963,False,,0,0,虚拟机/Desktop/Day1/problems/T1
+220,虚拟机/Desktop/Day1/problems/T1.cpp,0,1078,b57d970c5785397cf61b1c54c1f53b1968a181fdf4540204b406093e260e35cc,True,utf-8,46,1078,虚拟机/Desktop/Day1/problems/T1.cpp
+221,虚拟机/Desktop/Day1/problems/T1.o,0,50920,07d8797ecae2909598571ee1349b7209c9b74c30a1671bc0733fa2161c169fd9,False,,0,0,虚拟机/Desktop/Day1/problems/T1.o
+222,虚拟机/Desktop/Day1/problems/T2,0,37944,4fd844b5a5abef342c52e87f8f63db31da78b22afcc0c6fd67a0b1576c2e8f17,False,,0,0,虚拟机/Desktop/Day1/problems/T2
+223,虚拟机/Desktop/Day1/problems/T2.cpp,0,1470,e9e6dd1dafc94613493a857adadf573eac2deef50e7a5e37dcbef121c5669335,True,utf-8,59,1470,虚拟机/Desktop/Day1/problems/T2.cpp
+224,虚拟机/Desktop/Day1/problems/T2.o,0,56360,9d3e11121d132387a49488409ed12c5cce0580263c67948d33510f225e7de9d1,False,,0,0,虚拟机/Desktop/Day1/problems/T2.o
+225,虚拟机/Desktop/Day1/problems/T3.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/problems/T3.cpp
+226,虚拟机/Desktop/Day1/problems/T4.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day1/problems/T4.cpp
+227,虚拟机/Desktop/Day1/sample4/3-5.in,0,229994,1615f749c274cddb613c11a3e364d058ace61ec1efd4d32ab5e5603065f5c2da,True,utf-8,10002,229994,虚拟机/Desktop/Day1/sample4/3-5.in
+228,虚拟机/Desktop/Day1/sample4/3-5.out,0,30007,ad915533a9476d03705a6addb2c9d180edd01d155fe39bd45a1525a2273a164d,True,utf-8,10001,30007,虚拟机/Desktop/Day1/sample4/3-5.out
+229,虚拟机/Desktop/Day1/sample4/4-8.in,0,118232,ac8540ba8cbcfbfea3d457dc73fe328ca8b3ef1c7a05ce5d28ed8ead2bca77eb,True,utf-8,10002,118232,虚拟机/Desktop/Day1/sample4/4-8.in
+230,虚拟机/Desktop/Day1/sample4/4-8.out,0,39999,8974c6bf9315adc70e7d8b993a17ef2471a93bf494e5c7e5aef0d2041982d46c,True,utf-8,10001,39999,虚拟机/Desktop/Day1/sample4/4-8.out
+231,虚拟机/Desktop/Day1/sample4/5-9.in,0,347229,c22dd2229950369ab434743849ac185f0b8a58996bf6fafbb29085d3333e2c5e,True,utf-8,10002,347229,虚拟机/Desktop/Day1/sample4/5-9.in
+232,虚拟机/Desktop/Day1/sample4/5-9.out,0,39216,36b1c955b558516c4b50db5256960bf4ab67f4742608ecad2acf9630cb988397,True,utf-8,10001,39216,虚拟机/Desktop/Day1/sample4/5-9.out
+233,虚拟机/Desktop/Day1/sample4.zip,0,805329,1f48e9db96636d18af1f7c2c6b5064e59d754c6288ee635348c927434437ff1d,False,,0,0,虚拟机/Desktop/Day1/sample4.zip
+234,虚拟机/Desktop/Day1/sample4.zip!/3-5.in,1,229994,1615f749c274cddb613c11a3e364d058ace61ec1efd4d32ab5e5603065f5c2da,True,utf-8,10002,229994,3-5.in
+235,虚拟机/Desktop/Day1/sample4.zip!/3-5.out,1,30007,ad915533a9476d03705a6addb2c9d180edd01d155fe39bd45a1525a2273a164d,True,utf-8,10001,30007,3-5.out
+236,虚拟机/Desktop/Day1/sample4.zip!/4-8.in,1,118232,ac8540ba8cbcfbfea3d457dc73fe328ca8b3ef1c7a05ce5d28ed8ead2bca77eb,True,utf-8,10002,118232,4-8.in
+237,虚拟机/Desktop/Day1/sample4.zip!/4-8.out,1,39999,8974c6bf9315adc70e7d8b993a17ef2471a93bf494e5c7e5aef0d2041982d46c,True,utf-8,10001,39999,4-8.out
+238,虚拟机/Desktop/Day1/sample4.zip!/5-9.in,1,347229,c22dd2229950369ab434743849ac185f0b8a58996bf6fafbb29085d3333e2c5e,True,utf-8,10002,347229,5-9.in
+239,虚拟机/Desktop/Day1/sample4.zip!/5-9.out,1,39216,36b1c955b558516c4b50db5256960bf4ab67f4742608ecad2acf9630cb988397,True,utf-8,10001,39216,5-9.out
+240,虚拟机/Desktop/Day1/T1.cpp,0,1253,e58bd015fadda08da05a10e38528592c8586e2f4978c1bb93fe2791c43677ce3,True,utf-8,52,1253,虚拟机/Desktop/Day1/T1.cpp
+241,虚拟机/Desktop/Day1/T2,0,21752,dfa2ce4d18b4c503e4b35fba9ed0b0fd36fc67e9fa96a8fef34f059c69301335,False,,0,0,虚拟机/Desktop/Day1/T2
+242,虚拟机/Desktop/Day1/T2.cpp,0,1493,7f1c29760dc398bff7b85d519b0d5f55a44d80d99461e5520cbe048952ebfe79,True,utf-8,64,1493,虚拟机/Desktop/Day1/T2.cpp
+243,虚拟机/Desktop/Day1/T2.o,0,13272,941e6ca50737f0d8354e97ff4d6f43f12a9a5c9043d0c746e020c9322251b25b,False,,0,0,虚拟机/Desktop/Day1/T2.o
+244,虚拟机/Desktop/Day1/T2_100pts/bin/Debug/T2_100pts,0,105688,f562db864f6454e6cce109ed0c6ac5622eb207328313c5e1dcf04a7eda9d5eef,False,,0,0,虚拟机/Desktop/Day1/T2_100pts/bin/Debug/T2_100pts
+245,虚拟机/Desktop/Day1/T2_100pts/main.cpp,0,996,6518cb0d13ca098ec9f76777c6d0247bfc2f140d6276879b8ef2e1ebc7ab45ae,True,utf-8,51,996,虚拟机/Desktop/Day1/T2_100pts/main.cpp
+246,虚拟机/Desktop/Day1/T2_100pts/obj/Debug/main.o,0,167416,3ad9684a47b04d5e0f81e82f8e3678e07ee96b6ca0abd3a11144dad5fb482cdf,False,,0,0,虚拟机/Desktop/Day1/T2_100pts/obj/Debug/main.o
+247,虚拟机/Desktop/Day1/T2_100pts/T2_100pts.cbp,0,1009,6ab1368cf17e42e7faba7f7f649e298895d98d8ef8c5cc0b73fa4fbfcd665601,True,utf-8,39,1009,虚拟机/Desktop/Day1/T2_100pts/T2_100pts.cbp
+248,虚拟机/Desktop/Day1/T2_100pts/T2_100pts.layout,0,359,11d383ebf5016ab7d1e79b66e873eae6d9bc4670fb8c7afa69c52347033cb47b,True,utf-8,11,359,虚拟机/Desktop/Day1/T2_100pts/T2_100pts.layout
+249,虚拟机/Desktop/Day1/T2_2.cpp,0,1462,26089eecfb7a7977260ba1b5fa5c7b34796ee10c8971f614b02084edec4171e9,True,utf-8,63,1462,虚拟机/Desktop/Day1/T2_2.cpp
+250,虚拟机/Desktop/Day1/T4.cpp,0,530,b1795d5bf762eb0b69b0b2095131253d7cd793ea40817e3e141af7e6c4ee69b0,True,utf-8,24,530,虚拟机/Desktop/Day1/T4.cpp
+251,虚拟机/Desktop/Day1/T4pian.cpp,0,974,8733350940c5765bb8c780884b74c607cdf97e3bf7956f4954796d8760cbb6f2,True,utf-8,42,974,虚拟机/Desktop/Day1/T4pian.cpp
+252,虚拟机/Desktop/Day1/Trash_copy/T1.cpp,0,1253,e58bd015fadda08da05a10e38528592c8586e2f4978c1bb93fe2791c43677ce3,True,utf-8,52,1253,虚拟机/Desktop/Day1/Trash_copy/T1.cpp
+253,虚拟机/Desktop/Day1/Trash_copy/T1_2.cpp,0,1261,df4d097cd6f26d696747e25b6c22e014940065b379332358fa4c10babf75f1ab,True,utf-8,52,1261,虚拟机/Desktop/Day1/Trash_copy/T1_2.cpp
+254,虚拟机/Desktop/Day1/Trash_copy/T2.cpp,0,1462,26089eecfb7a7977260ba1b5fa5c7b34796ee10c8971f614b02084edec4171e9,True,utf-8,63,1462,虚拟机/Desktop/Day1/Trash_copy/T2.cpp
+255,虚拟机/Desktop/Day2/chk.cpp,0,2439,cced1ecf82cd03b0c2dcf0141928dd59a847bf159d70d00bdf88690bafb10645,True,utf-8,74,2439,虚拟机/Desktop/Day2/chk.cpp
+256,虚拟机/Desktop/Day2/debug/bin/Debug/debug,0,100016,848701ff89ccfbedf22f4d42da513055adb75e81e02eb630e3bb3c3ef655fad1,False,,0,0,虚拟机/Desktop/Day2/debug/bin/Debug/debug
+257,虚拟机/Desktop/Day2/debug/debug.cbp,0,997,d290c0c61106e9e30f435a8d3c3e54a7cbcb27cb566720c414c52b4ff9b5edb0,True,utf-8,39,997,虚拟机/Desktop/Day2/debug/debug.cbp
+258,虚拟机/Desktop/Day2/debug/debug.depend,0,113,be7eaadffd04c6315b0953aeb5d44a8891941def3bc188b3dce66896ac636b55,True,utf-8,6,113,虚拟机/Desktop/Day2/debug/debug.depend
+259,虚拟机/Desktop/Day2/debug/debug.layout,0,359,e939dc1864cd1426fc67f5afec84d0b2024fcfdac07259af6ac05405e37b55ae,True,utf-8,11,359,虚拟机/Desktop/Day2/debug/debug.layout
+260,虚拟机/Desktop/Day2/debug/main,0,22920,b0bfcd70066d0305f17c1deecc3d5226930ed8e6fdf17a4944aa0f1076ea3956,False,,0,0,虚拟机/Desktop/Day2/debug/main
+261,虚拟机/Desktop/Day2/debug/main.cpp,0,1180,3d56784fbb3d925b4c79eabdb46de17f32d25f10eb8c525669eb1ab0fe95e74d,True,utf-8,46,1180,虚拟机/Desktop/Day2/debug/main.cpp
+262,虚拟机/Desktop/Day2/debug/main.o,0,15328,008f28d30d33020fd9b392b2ad35f13507a7169fbc7aaa17dd5b526617a83443,False,,0,0,虚拟机/Desktop/Day2/debug/main.o
+263,虚拟机/Desktop/Day2/debug/obj/Debug/main.o,0,138064,46a5452fe4d399a165c43125613945b9d59595e5ef1f4ee9a290b61b2bd39a3f,False,,0,0,虚拟机/Desktop/Day2/debug/obj/Debug/main.o
+264,虚拟机/Desktop/Day2/duipai_T1/1.txt,0,5,70a9fe6fedbafdbbc1714543d259da1ff147f45de03fccf15f9e43e9d53f2bd7,True,utf-8,2,5,虚拟机/Desktop/Day2/duipai_T1/1.txt
+265,虚拟机/Desktop/Day2/duipai_T1/2.txt,0,2,1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2,True,utf-8,2,2,虚拟机/Desktop/Day2/duipai_T1/2.txt
+266,虚拟机/Desktop/Day2/duipai_T1/3.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/Day2/duipai_T1/3.txt
+267,虚拟机/Desktop/Day2/duipai_T1/ac,0,17680,1f10f9df2f1b9f0203453ba0b007fe3e9c217968965d3d90daa9880d8ddc0b67,False,,0,0,虚拟机/Desktop/Day2/duipai_T1/ac
+268,虚拟机/Desktop/Day2/duipai_T1/ac.cpp,0,974,281d1f76fc5df09a720b0cd2a77931b0d077a9fb02772b9cb7d57a08a52ddad2,True,utf-8,42,974,虚拟机/Desktop/Day2/duipai_T1/ac.cpp
+269,虚拟机/Desktop/Day2/duipai_T1/ac.o,0,13080,cb0a021c4731130a5627757cd45390390a094b5121d7cc2b6bb6efbf94ef1acc,False,,0,0,虚拟机/Desktop/Day2/duipai_T1/ac.o
+270,虚拟机/Desktop/Day2/duipai_T1/duipai.sh,0,252,a5d1416e1596aca301b90cda528ce61412e0a517c7b957eb90eed5eadba714b2,True,utf-8,11,252,虚拟机/Desktop/Day2/duipai_T1/duipai.sh
+271,虚拟机/Desktop/Day2/duipai_T1/gen,0,17624,7aace1d93115b429390f7f44a2efc73de952a0414bc56d1c021c5cece34960b4,False,,0,0,虚拟机/Desktop/Day2/duipai_T1/gen
+272,虚拟机/Desktop/Day2/duipai_T1/gen.cpp,0,598,3f0210a260205776798c312f0ffdbc5da86fdf7fc65d5bcd0a4ffbbd63000f12,True,utf-8,25,598,虚拟机/Desktop/Day2/duipai_T1/gen.cpp
+273,虚拟机/Desktop/Day2/duipai_T1/gen.o,0,14072,9ee7d2eb7b5ccff27a2d74c8858a9b28625e656821fb577a6e6f40b5543c16dd,False,,0,0,虚拟机/Desktop/Day2/duipai_T1/gen.o
+274,虚拟机/Desktop/Day2/duipai_T1/wa,0,22960,7f183e4178d93b15e02a0c45b02bfa29a620c95dddc61b02ecfb36e5282d5761,False,,0,0,虚拟机/Desktop/Day2/duipai_T1/wa
+275,虚拟机/Desktop/Day2/duipai_T1/wa.cpp,0,1230,ddb10846d827a26d204d956de0e54058a9660b18335b27130dee5d7d34239469,True,utf-8,51,1230,虚拟机/Desktop/Day2/duipai_T1/wa.cpp
+276,虚拟机/Desktop/Day2/duipai_T1/wa.o,0,15928,b0f29f6b33431e8f02d7b53f19e599c9c0d42ffe63b6a8b3b862964fd083bf6e,False,,0,0,虚拟机/Desktop/Day2/duipai_T1/wa.o
+277,虚拟机/Desktop/Day2/duipai_T2/ac.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day2/duipai_T2/ac.cpp
+278,虚拟机/Desktop/Day2/duipai_T2/duipai.sh,0,252,a5d1416e1596aca301b90cda528ce61412e0a517c7b957eb90eed5eadba714b2,True,utf-8,11,252,虚拟机/Desktop/Day2/duipai_T2/duipai.sh
+279,虚拟机/Desktop/Day2/duipai_T2/gen.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day2/duipai_T2/gen.cpp
+280,虚拟机/Desktop/Day2/duipai_T2/wa.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day2/duipai_T2/wa.cpp
+281,虚拟机/Desktop/Day2/duipai_T3/ac.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day2/duipai_T3/ac.cpp
+282,虚拟机/Desktop/Day2/duipai_T3/duipai.sh,0,252,a5d1416e1596aca301b90cda528ce61412e0a517c7b957eb90eed5eadba714b2,True,utf-8,11,252,虚拟机/Desktop/Day2/duipai_T3/duipai.sh
+283,虚拟机/Desktop/Day2/duipai_T3/gen.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day2/duipai_T3/gen.cpp
+284,虚拟机/Desktop/Day2/duipai_T3/wa.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day2/duipai_T3/wa.cpp
+285,虚拟机/Desktop/Day2/duipai_T4/ac.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day2/duipai_T4/ac.cpp
+286,虚拟机/Desktop/Day2/duipai_T4/duipai.sh,0,252,a5d1416e1596aca301b90cda528ce61412e0a517c7b957eb90eed5eadba714b2,True,utf-8,11,252,虚拟机/Desktop/Day2/duipai_T4/duipai.sh
+287,虚拟机/Desktop/Day2/duipai_T4/gen.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day2/duipai_T4/gen.cpp
+288,虚拟机/Desktop/Day2/duipai_T4/wa.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/Day2/duipai_T4/wa.cpp
+289,虚拟机/Desktop/Day2/problems/map.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/Day2/problems/map.txt
+290,虚拟机/Desktop/Day2/problems/paper.txt,0,3565,b6be015d7487d701a0cacf4f084dbfe66dfeb62368fb897bb463f4a14572f933,True,utf-8,264,3565,虚拟机/Desktop/Day2/problems/paper.txt
+291,虚拟机/Desktop/Day2/problems/T1,0,22920,0b248714414ae38bd419b425768a15f15e4c392eaf24968e355afed6c9fbff35,False,,0,0,虚拟机/Desktop/Day2/problems/T1
+292,虚拟机/Desktop/Day2/problems/T1.cpp,0,1032,6604aef966c5b93fd9e7f20a4f10504d3c87af2dd54de78e96c7ceb9acacbeac,True,utf-8,42,1032,虚拟机/Desktop/Day2/problems/T1.cpp
+293,虚拟机/Desktop/Day2/problems/T1.o,0,15328,b39e8538da1ba1c5ee181c636812f4d3bebd0b75ff348df0c1b5d28aefe29492,False,,0,0,虚拟机/Desktop/Day2/problems/T1.o
+294,虚拟机/Desktop/Day2/problems/T2,0,23112,bc1079a0b26b4de8277fae20ec539446c42e0a3e3a3d5ee96b7c99a5d6943375,False,,0,0,虚拟机/Desktop/Day2/problems/T2
+295,虚拟机/Desktop/Day2/problems/T2.cpp,0,1174,afdeeb923663d485644b11fa3556266a77902c3714cd297b0ed5f2f36e1b0cb9,True,utf-8,46,1174,虚拟机/Desktop/Day2/problems/T2.cpp
+296,虚拟机/Desktop/Day2/problems/T2.o,0,16680,2dfea8f5286298390136cce75cce427259d158b1d65241575e45d06c0187985c,False,,0,0,虚拟机/Desktop/Day2/problems/T2.o
+297,虚拟机/Desktop/Day2/problems/T3,0,21336,792bbf00e322557f4c9a066c390a1ecfae473131607c1680c58a0d9c7dd4b77d,False,,0,0,虚拟机/Desktop/Day2/problems/T3
+298,虚拟机/Desktop/Day2/problems/T3.cpp,0,777,889595f568b3724ab1bf7b388af34354c8767f2f8f3d509f9541a2a2be1b0d30,True,utf-8,33,777,虚拟机/Desktop/Day2/problems/T3.cpp
+299,虚拟机/Desktop/Day2/problems/T3.o,0,11168,5e2fcdef7219f0ad2feb0695db8055a4f7e8315db41b392b45caf150abc37cb7,False,,0,0,虚拟机/Desktop/Day2/problems/T3.o
+300,虚拟机/Desktop/Day2/problems/T4,0,42808,1323c1a71f06286f28e4d11317aa78dd8a7bbee800af5a5d011dc10c417881c9,False,,0,0,虚拟机/Desktop/Day2/problems/T4
+301,虚拟机/Desktop/Day2/problems/T4.cpp,0,2231,421900dd00f482f1d6931da64a6b5f07397105760f1c95080bfe130971bbbdf0,True,utf-8,90,2231,虚拟机/Desktop/Day2/problems/T4.cpp
+302,虚拟机/Desktop/Day2/problems/T4.o,0,67824,57a307811942f599022381a626890743280f5599954d23a74a70a26086ed2375,False,,0,0,虚拟机/Desktop/Day2/problems/T4.o
+303,虚拟机/Desktop/Day2/problems/thoughts.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/Day2/problems/thoughts.txt
+304,虚拟机/Desktop/Day2/problem_185(1)/ans.out,0,4,9ebc1820d18d495b60418c87dda7116db8318afe37e2658d0170eb0e974d56b4,True,utf-8,2,4,虚拟机/Desktop/Day2/problem_185(1)/ans.out
+305,虚拟机/Desktop/Day2/problem_185(1)/ex_mul1.in,0,5,49ca5d81054fdd20572294b9350b605d05e0df91da09a46fb8bde7fd6c1c172d,True,utf-8,2,5,虚拟机/Desktop/Day2/problem_185(1)/ex_mul1.in
+306,虚拟机/Desktop/Day2/problem_185(1)/ex_mul1.out,0,2,1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2,True,utf-8,2,2,虚拟机/Desktop/Day2/problem_185(1)/ex_mul1.out
+307,虚拟机/Desktop/Day2/problem_185(1)/ex_mul2.in,0,1001,b6b256e0cc5a5252c60ec51dfce941265bd70b875ac40ace174a8546b1c39f0b,True,utf-8,2,1001,虚拟机/Desktop/Day2/problem_185(1)/ex_mul2.in
+308,虚拟机/Desktop/Day2/problem_185(1)/ex_mul2.out,0,4,fcdd0e8838b4b1f894b35e46a0c168d64b6221c88d07ca5c0d0faec04fedceaa,True,utf-8,2,4,虚拟机/Desktop/Day2/problem_185(1)/ex_mul2.out
+309,虚拟机/Desktop/Day2/problem_185(1)/T1,0,22920,f6961dda4a907affc7213325b6cc4b2914825c53d89147c6c6e593386f04711c,False,,0,0,虚拟机/Desktop/Day2/problem_185(1)/T1
+310,虚拟机/Desktop/Day2/problem_185(1)/T1.cpp,0,1090,537da9340e4a0887058be84adb7229bad744ff2f661f0ce42d07b361b2056493,True,utf-8,44,1090,虚拟机/Desktop/Day2/problem_185(1)/T1.cpp
+311,虚拟机/Desktop/Day2/problem_185(1)/T1.o,0,15384,9b87b67707c4ed4bb92721da0a3938a7ba5a596b53e2d1ff411bf3eb7beea827,False,,0,0,虚拟机/Desktop/Day2/problem_185(1)/T1.o
+312,虚拟机/Desktop/Day2/problem_185(1).zip,0,628,102c8800c902d934c2a7b869f34f93def95005dbf863b6abc7cdac132f456b6d,False,,0,0,虚拟机/Desktop/Day2/problem_185(1).zip
+313,虚拟机/Desktop/Day2/problem_185(1).zip!/ex_mul1.in,1,5,49ca5d81054fdd20572294b9350b605d05e0df91da09a46fb8bde7fd6c1c172d,True,utf-8,2,5,ex_mul1.in
+314,虚拟机/Desktop/Day2/problem_185(1).zip!/ex_mul1.out,1,2,1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2,True,utf-8,2,2,ex_mul1.out
+315,虚拟机/Desktop/Day2/problem_185(1).zip!/ex_mul2.in,1,1001,b6b256e0cc5a5252c60ec51dfce941265bd70b875ac40ace174a8546b1c39f0b,True,utf-8,2,1001,ex_mul2.in
+316,虚拟机/Desktop/Day2/problem_185(1).zip!/ex_mul2.out,1,4,fcdd0e8838b4b1f894b35e46a0c168d64b6221c88d07ca5c0d0faec04fedceaa,True,utf-8,2,4,ex_mul2.out
+317,虚拟机/Desktop/Day2/problem_185(2)/1.out,0,4,c52f2536a9e8462dc8d533cf99662098c86d035cd6e9fd58579e0c101c2e0aa5,True,utf-8,2,4,虚拟机/Desktop/Day2/problem_185(2)/1.out
+318,虚拟机/Desktop/Day2/problem_185(2)/ans.out,0,4,ff7b2006991d83042658bc009a53f41ce4ba19c95bb1fa1f08fbaf0bb35e5e03,True,utf-8,2,4,虚拟机/Desktop/Day2/problem_185(2)/ans.out
+319,虚拟机/Desktop/Day2/problem_185(2)/ex_mul1.in,0,5,49ca5d81054fdd20572294b9350b605d05e0df91da09a46fb8bde7fd6c1c172d,True,utf-8,2,5,虚拟机/Desktop/Day2/problem_185(2)/ex_mul1.in
+320,虚拟机/Desktop/Day2/problem_185(2)/ex_mul1.out,0,2,1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2,True,utf-8,2,2,虚拟机/Desktop/Day2/problem_185(2)/ex_mul1.out
+321,虚拟机/Desktop/Day2/problem_185(2)/ex_mul2.in,0,1001,b6b256e0cc5a5252c60ec51dfce941265bd70b875ac40ace174a8546b1c39f0b,True,utf-8,2,1001,虚拟机/Desktop/Day2/problem_185(2)/ex_mul2.in
+322,虚拟机/Desktop/Day2/problem_185(2)/ex_mul2.out,0,4,fcdd0e8838b4b1f894b35e46a0c168d64b6221c88d07ca5c0d0faec04fedceaa,True,utf-8,2,4,虚拟机/Desktop/Day2/problem_185(2)/ex_mul2.out
+323,虚拟机/Desktop/Day2/problem_185(2)/T1,0,22896,f3c33354913c335b3075319d0fce3a4ade3c2c4094b158482ddd2118a2b05b1d,False,,0,0,虚拟机/Desktop/Day2/problem_185(2)/T1
+324,虚拟机/Desktop/Day2/problem_185(2)/T1.cpp,0,675,59b36f7fad93d9d803a2f6bef2c50dedca9f0f2038eb4a711088088ecb317eaf,True,utf-8,28,675,虚拟机/Desktop/Day2/problem_185(2)/T1.cpp
+325,虚拟机/Desktop/Day2/problem_185(2)/T1.o,0,15008,46bf6419c975fb4db52022aeb41302d75a8504e81d0c42b7f29088de5c48d2d8,False,,0,0,虚拟机/Desktop/Day2/problem_185(2)/T1.o
+326,虚拟机/Desktop/Day2/problem_185(2)/tot,0,18216,a7310ab838fc71c6c0a6adc5bd05aa1857e21dea3824e0e80261bcce08115eaa,False,,0,0,虚拟机/Desktop/Day2/problem_185(2)/tot
+327,虚拟机/Desktop/Day2/problem_185(2)/tot.cpp,0,348,58ca7efb309508c5e8280d30987eb7502ce4665f8946327ecc5f60535bb5ce97,True,utf-8,17,348,虚拟机/Desktop/Day2/problem_185(2)/tot.cpp
+328,虚拟机/Desktop/Day2/problem_185(2)/tot.o,0,9232,928b03b07d0d244124ca9b3538fc79890e805af141c38aa56a306ab139eff059,False,,0,0,虚拟机/Desktop/Day2/problem_185(2)/tot.o
+329,虚拟机/Desktop/Day2/problem_185(2).zip,0,628,102c8800c902d934c2a7b869f34f93def95005dbf863b6abc7cdac132f456b6d,False,,0,0,虚拟机/Desktop/Day2/problem_185(2).zip
+330,虚拟机/Desktop/Day2/problem_185(2).zip!/ex_mul1.in,1,5,49ca5d81054fdd20572294b9350b605d05e0df91da09a46fb8bde7fd6c1c172d,True,utf-8,2,5,ex_mul1.in
+331,虚拟机/Desktop/Day2/problem_185(2).zip!/ex_mul1.out,1,2,1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2,True,utf-8,2,2,ex_mul1.out
+332,虚拟机/Desktop/Day2/problem_185(2).zip!/ex_mul2.in,1,1001,b6b256e0cc5a5252c60ec51dfce941265bd70b875ac40ace174a8546b1c39f0b,True,utf-8,2,1001,ex_mul2.in
+333,虚拟机/Desktop/Day2/problem_185(2).zip!/ex_mul2.out,1,4,fcdd0e8838b4b1f894b35e46a0c168d64b6221c88d07ca5c0d0faec04fedceaa,True,utf-8,2,4,ex_mul2.out
+334,虚拟机/Desktop/Day2/problem_185.zip,0,628,102c8800c902d934c2a7b869f34f93def95005dbf863b6abc7cdac132f456b6d,False,,0,0,虚拟机/Desktop/Day2/problem_185.zip
+335,虚拟机/Desktop/Day2/problem_185.zip!/ex_mul1.in,1,5,49ca5d81054fdd20572294b9350b605d05e0df91da09a46fb8bde7fd6c1c172d,True,utf-8,2,5,ex_mul1.in
+336,虚拟机/Desktop/Day2/problem_185.zip!/ex_mul1.out,1,2,1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2,True,utf-8,2,2,ex_mul1.out
+337,虚拟机/Desktop/Day2/problem_185.zip!/ex_mul2.in,1,1001,b6b256e0cc5a5252c60ec51dfce941265bd70b875ac40ace174a8546b1c39f0b,True,utf-8,2,1001,ex_mul2.in
+338,虚拟机/Desktop/Day2/problem_185.zip!/ex_mul2.out,1,4,fcdd0e8838b4b1f894b35e46a0c168d64b6221c88d07ca5c0d0faec04fedceaa,True,utf-8,2,4,ex_mul2.out
+339,虚拟机/Desktop/Day2/sample(1).zip,0,874789,8f9980b91187818b5f94676e43c8e30748e71690c752d1c92e001c89f5b720f6,False,,0,0,虚拟机/Desktop/Day2/sample(1).zip
+340,虚拟机/Desktop/Day2/sample(1).zip!/sample2.in,1,5006,a83730f0fbf16dab2c95a177baa132a6cf535009df0c0541f651f460764f108b,True,utf-8,3,5006,sample2.in
+341,虚拟机/Desktop/Day2/sample(1).zip!/sample2.out,1,5,d2916812623b0f31ac30514d24f7c5b6227fa196d984969647bc0c94973ea3c7,True,utf-8,2,5,sample2.out
+342,虚拟机/Desktop/Day2/sample(1).zip!/sample3.in,1,200008,7b530090261c4ed8981e39234736ad16b621bb33a3bd6e1a212aa34494a305cd,True,utf-8,3,200008,sample3.in
+343,虚拟机/Desktop/Day2/sample(1).zip!/sample3.out,1,7,85785bbe44095e63e0b15b5c63ff529656477b6e548cf35aaf790306a08271af,True,utf-8,2,7,sample3.out
+344,虚拟机/Desktop/Day2/sample(1).zip!/sample4.in,1,2000009,65453377a08c8b1ca9ed4775cc93ed207cda57b472ef4607f3ff59b4387c52c8,True,utf-8,3,2000009,sample4.in
+345,虚拟机/Desktop/Day2/sample(1).zip!/sample4.out,1,8,74979222bed2f5f424bcfe319cd0ebe58303e8de367be65a025ddcedb0053ebc,True,utf-8,2,8,sample4.out
+346,虚拟机/Desktop/Day2/sample(2).zip,0,2086219,b918e65d968f299c30354b6d988881fed27e9de9f9d2c5fd446f76345d8c0238,False,,0,0,虚拟机/Desktop/Day2/sample(2).zip
+347,虚拟机/Desktop/Day2/sample(2).zip!/sample2.in,1,17963,098034a37c540e559d3231eeb23905be529a01fd2b89568a4d79a31ac0cee78e,True,utf-8,3002,17963,sample2.in
+348,虚拟机/Desktop/Day2/sample(2).zip!/sample2.out,1,4482,f44eaa91079b50a5b1051673470efe4f93295539ad2df3827bfcfcb87bf4dd5d,True,utf-8,1001,4482,sample2.out
+349,虚拟机/Desktop/Day2/sample(2).zip!/sample3.in,1,2266686,01f3a0c30af14c5bc3726892dace7f25dba24bf816b2be98744443d28b79baeb,True,utf-8,3002,2266686,sample3.in
+350,虚拟机/Desktop/Day2/sample(2).zip!/sample3.out,1,252000,5fe5def5fb07784083b12e4b06708cc0a14eccaa45724343273c71e03e1ec3d0,True,utf-8,1001,252000,sample3.out
+351,虚拟机/Desktop/Day2/sample(2).zip!/sample4.in,1,3682918,448fb14f91840712f4797ad571ddfd7d7c3ff06909227fd7e6d9c345c1c8bfaa,True,utf-8,5,3682918,sample4.in
+352,虚拟机/Desktop/Day2/sample(2).zip!/sample4.out,1,500001,eecfb399db9a88d7b2f591b4acd2da969cef8b276c90d448bd66946a902f72d2,True,utf-8,2,500001,sample4.out
+353,虚拟机/Desktop/Day2/sample.zip,0,6734112,76880180440a0162431b0f0f1c255e399f62419de0ca34da2cd57def9a0104b8,False,,0,0,虚拟机/Desktop/Day2/sample.zip
+354,虚拟机/Desktop/Day2/sample.zip!/sample1.in,1,16,1532c6461a14efe772261160a9b99f183263d7ffb055a60d3c890ab3315fa4f0,True,utf-8,6,16,sample1.in
+355,虚拟机/Desktop/Day2/sample.zip!/sample1.out,1,9,d3820a3c35d829ffa45f5e07cab64fd550e6cf974a7262b8ced71ef152b96616,True,utf-8,5,9,sample1.out
+356,虚拟机/Desktop/Day2/sample.zip!/sample2.in,1,24,4c1e959ed5407e81c8772377e5d0a17a7eba711d7d9b939d38aef649fe96417a,True,utf-8,10,24,sample2.in
+357,虚拟机/Desktop/Day2/sample.zip!/sample2.out,1,21,bf4f12215c08b866fa69f0f33d28c9b29070b1390d260080203a6a6be46070c6,True,utf-8,9,21,sample2.out
+358,虚拟机/Desktop/Day2/sample.zip!/sample3.in,1,1005005,db0dc68ba64310e4f0a3bb8471586b6e95a9e5fe547af556af7f818ebd4a662c,True,utf-8,5002,1005005,sample3.in
+359,虚拟机/Desktop/Day2/sample.zip!/sample3.out,1,38506,d8237c7c840412a81a0532fcc61a3bc83e7cacca430fd1ab0c68ca7682a422ab,True,utf-8,5001,38506,sample3.out
+360,虚拟机/Desktop/Day2/sample.zip!/sample4.in,1,1500007,926b81b4023b18961cd167af94f39666698dab6036f2fcea40dafd6a26eb7a7b,True,utf-8,500002,1500007,sample4.in
+361,虚拟机/Desktop/Day2/sample.zip!/sample4.out,1,5845976,e6d1b790cfb494fef721907f31d511510daf983aa14379ebed5039a1a37a4131,True,utf-8,500001,5845976,sample4.out
+362,虚拟机/Desktop/Day2/sample.zip!/sample5.in,1,1500007,c298ad7094f60ecbbb7b4640eb486268e3afba25651265ae665a05e7b2967ffe,True,utf-8,500002,1500007,sample5.in
+363,虚拟机/Desktop/Day2/sample.zip!/sample5.out,1,5845981,4aacbc944c6508ae8ffa2115839bf7d38ee94ab7edbd54de94917e8b0dfb02e5,True,utf-8,500001,5845981,sample5.out
+364,虚拟机/Desktop/Day2/T2_100pts/bin/Debug/T2_100pts,0,88760,4865f3b87ea2082afea9882a4e9eeb0216a1b72aefe0f3693994a7035b603228,False,,0,0,虚拟机/Desktop/Day2/T2_100pts/bin/Debug/T2_100pts
+365,虚拟机/Desktop/Day2/T2_100pts/main.cpp,0,1052,d1a4b9823a48dbcac632b0e270ee3a646207634142870243bcac7bc8cdf23c85,True,utf-8,43,1052,虚拟机/Desktop/Day2/T2_100pts/main.cpp
+366,虚拟机/Desktop/Day2/T2_100pts/obj/Debug/main.o,0,116480,6273cdbd06c00c01f2a7e6b2a222da9df7e5abd459158b09f858f2b61189a80a,False,,0,0,虚拟机/Desktop/Day2/T2_100pts/obj/Debug/main.o
+367,虚拟机/Desktop/Day2/T2_100pts/T2_100pts.cbp,0,1009,6ab1368cf17e42e7faba7f7f649e298895d98d8ef8c5cc0b73fa4fbfcd665601,True,utf-8,39,1009,虚拟机/Desktop/Day2/T2_100pts/T2_100pts.cbp
+368,虚拟机/Desktop/Day2/T2_100pts/T2_100pts.depend,0,112,2c9d10b33ff6f8672b2ba821da34925e927b61e584b9be81d554577276b3f489,True,utf-8,5,112,虚拟机/Desktop/Day2/T2_100pts/T2_100pts.depend
+369,虚拟机/Desktop/Day2/T2_100pts/T2_100pts.layout,0,359,b14cd2a4510ee44a59c140125d675b6b1dd543d6a809de141b906661f6cc800f,True,utf-8,11,359,虚拟机/Desktop/Day2/T2_100pts/T2_100pts.layout
+370,虚拟机/Desktop/Day2/T3_70pts/bin/Debug/T3_70pts,0,100528,c0e2bbca3fe2981bdb73bcfb4b6177e93db29fb863b6fcbedf819711e5f869d1,False,,0,0,虚拟机/Desktop/Day2/T3_70pts/bin/Debug/T3_70pts
+371,虚拟机/Desktop/Day2/T3_70pts/main.cpp,0,885,c7cb94a0f30846f1f3582f16fdaaaca15c8b71e1be842ac9a6fc4bc1da254254,True,utf-8,47,885,虚拟机/Desktop/Day2/T3_70pts/main.cpp
+372,虚拟机/Desktop/Day2/T3_70pts/obj/Debug/main.o,0,163816,9cecb0c551422d62352b792e814ed561eb26923c7c454f6a84a0f90e2dea4c2e,False,,0,0,虚拟机/Desktop/Day2/T3_70pts/obj/Debug/main.o
+373,虚拟机/Desktop/Day2/T3_70pts/T3_70pts.cbp,0,1006,bea6aeddb5e0658f7b2f8d42a36cbc40c4600f7bb267746d4785400ab16a4bae,True,utf-8,39,1006,虚拟机/Desktop/Day2/T3_70pts/T3_70pts.cbp
+374,虚拟机/Desktop/Day2/T3_70pts/T3_70pts.depend,0,111,373825463f40c5eb6a04a619921d1e9bc9dcdc263d99e2b972c0f3433cc8b6e0,True,utf-8,5,111,虚拟机/Desktop/Day2/T3_70pts/T3_70pts.depend
+375,虚拟机/Desktop/Day2/time,0,22920,d6e4e525894e78a22c8b11513f4a117cb16dd4913cf186a38fec49425e56db26,False,,0,0,虚拟机/Desktop/Day2/time
+376,虚拟机/Desktop/Day2/time.cpp,0,1028,016c1e0c4ded277a148ebc5819710d470ae54b7ee0e8fa39db6bcd66cc11b4f8,True,utf-8,42,1028,虚拟机/Desktop/Day2/time.cpp
+377,虚拟机/Desktop/Day2/time.o,0,15328,d6f29e2b8c419500315e60836d4a138c4b9e9681260c822ba9ef7bfa3cb19954,False,,0,0,虚拟机/Desktop/Day2/time.o
+378,虚拟机/Desktop/debug/bin/Debug/debug,0,226192,5a6adb3c5abe19dbd6810614eb856dd0d05e3339b8305638c469a31d81b5b621,False,,0,0,虚拟机/Desktop/debug/bin/Debug/debug
+379,虚拟机/Desktop/debug/debug.cbp,0,997,d290c0c61106e9e30f435a8d3c3e54a7cbcb27cb566720c414c52b4ff9b5edb0,True,utf-8,39,997,虚拟机/Desktop/debug/debug.cbp
+380,虚拟机/Desktop/debug/debug.depend,0,113,f05af15c42d63d2fface6906bebf4429b925f80ac5e77814934c03483d68ae53,True,utf-8,6,113,虚拟机/Desktop/debug/debug.depend
+381,虚拟机/Desktop/debug/debug.layout,0,357,29b841db183734958045911500a13be179ddf60951a7d2a0decd5f6ded22b873,True,utf-8,11,357,虚拟机/Desktop/debug/debug.layout
+382,虚拟机/Desktop/debug/main.cpp,0,1748,b45b63b3eb25dfe9ab5e2b54296194a424498d67f9fca7db73105f33c1b78ac6,True,utf-8,78,1748,虚拟机/Desktop/debug/main.cpp
+383,虚拟机/Desktop/debug/obj/Debug/main.o,0,385544,4100d6f5af91abe1f8a727a3d61dbdf7a422dbfb911c9c009a05f49233e6d263,False,,0,0,虚拟机/Desktop/debug/obj/Debug/main.o
+384,虚拟机/Desktop/debug (copy)/bin/Debug/debug,0,286760,9e15d6ddf35379227952bbff2a983031256a5fbc9894767538bf9b38b50bff7e,False,,0,0,虚拟机/Desktop/debug (copy)/bin/Debug/debug
+385,虚拟机/Desktop/debug (copy)/debug.cbp,0,997,d290c0c61106e9e30f435a8d3c3e54a7cbcb27cb566720c414c52b4ff9b5edb0,True,utf-8,39,997,虚拟机/Desktop/debug (copy)/debug.cbp
+386,虚拟机/Desktop/debug (copy)/debug.depend,0,113,0146513c0e5933679a62df81a570aea90cbecf13abdd9e00abba0d0540ab4f85,True,utf-8,6,113,虚拟机/Desktop/debug (copy)/debug.depend
+387,虚拟机/Desktop/debug (copy)/debug.layout,0,360,bb57b9fbd053fc3b503c819d060b2b54c8cc39d47ab7c152ba64b50733e489f4,True,utf-8,11,360,虚拟机/Desktop/debug (copy)/debug.layout
+388,虚拟机/Desktop/debug (copy)/main.cpp,0,2013,1785773c89869d9f33c76f744fa0f1c9f45d858f640f85a487bc819d170ffad8,True,utf-8,91,2013,虚拟机/Desktop/debug (copy)/main.cpp
+389,虚拟机/Desktop/debug (copy)/obj/Debug/main.o,0,492048,64f812b55bff0925ef230ff47e8386ecbef3ed819932239cd91e6a07c279d0e8,False,,0,0,虚拟机/Desktop/debug (copy)/obj/Debug/main.o
+390,虚拟机/Desktop/keystream/events_20261001_184442.jsonl,0,1426268,7124de1a46ce42aa902267523e01b70fc97db8a072707aa21d95bef8a65f7665,True,utf-8,32891,1426268,虚拟机/Desktop/keystream/events_20261001_184442.jsonl
+391,虚拟机/Desktop/keystream/keys_20261001_184442.txt,0,185188,21cd82674c882c7831a01bb95816591916a5ffd34d96772b49aeed804a9866fa,True,utf-8,8823,185186,虚拟机/Desktop/keystream/keys_20261001_184442.txt
+392,虚拟机/Desktop/keystream_linux.py,0,10871,6ad09036fb4b6277529ef0344ef5409c5858d4ed772f3dc588c8869dc60953d9,True,utf-8,297,10863,虚拟机/Desktop/keystream_linux.py
+393,虚拟机/Desktop/problem_1874/ex_A1.in,0,12,f19d1b4e07b0194c5b455266bbc842aaacdaa70714a5c9f520f4223134662ecd,True,utf-8,3,12,虚拟机/Desktop/problem_1874/ex_A1.in
+394,虚拟机/Desktop/problem_1874/ex_A1.out,0,2,53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3,True,utf-8,2,2,虚拟机/Desktop/problem_1874/ex_A1.out
+395,虚拟机/Desktop/problem_1874/ex_A2.in,0,19203,95333cc5f15c0b531eb5fb860b09d8ea8e7428e9cbcdb47cc7d1aa0104f4c796,True,utf-8,3,19203,虚拟机/Desktop/problem_1874/ex_A2.in
+396,虚拟机/Desktop/problem_1874/ex_A2.out,0,4,994fecfc7c11f6a13916d0677c228e5829c12832fd126848163169611d1effd5,True,utf-8,2,4,虚拟机/Desktop/problem_1874/ex_A2.out
+397,虚拟机/Desktop/problem_1874.zip,0,10292,f8e6be2d721742406f30156ce3f98f6beded15ded4950734cbb69da28bd3ac5f,False,,0,0,虚拟机/Desktop/problem_1874.zip
+398,虚拟机/Desktop/problem_1874.zip!/ex_A1.in,1,12,f19d1b4e07b0194c5b455266bbc842aaacdaa70714a5c9f520f4223134662ecd,True,utf-8,3,12,ex_A1.in
+399,虚拟机/Desktop/problem_1874.zip!/ex_A1.out,1,2,53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3,True,utf-8,2,2,ex_A1.out
+400,虚拟机/Desktop/problem_1874.zip!/ex_A2.in,1,19203,95333cc5f15c0b531eb5fb860b09d8ea8e7428e9cbcdb47cc7d1aa0104f4c796,True,utf-8,3,19203,ex_A2.in
+401,虚拟机/Desktop/problem_1874.zip!/ex_A2.out,1,4,994fecfc7c11f6a13916d0677c228e5829c12832fd126848163169611d1effd5,True,utf-8,2,4,ex_A2.out
+402,虚拟机/Desktop/run script,0,151,527b3e240cc0aa857fc72e48df1bdbb3f81e75e6dbcf6f33c68f72e58f416511,True,utf-8,3,151,虚拟机/Desktop/run script
+403,虚拟机/Desktop/sample/sample1.in,0,27,fad7af39274125ac9408e2fd803b3904395b9dfcc0d3d52c669bdb593ed5ad72,True,utf-8,8,27,虚拟机/Desktop/sample/sample1.in
+404,虚拟机/Desktop/sample/sample1.out,0,19,ba762560ddc6fc3fd91b68088ffab5f680b7a993115ad5ddf96ea9628776bfdd,True,utf-8,4,19,虚拟机/Desktop/sample/sample1.out
+405,虚拟机/Desktop/sample/sample2.in,0,24,2e1dff44792c0297a4319d69063e4e2b08d20636a44ea1d65418deb2fb8eae24,True,utf-8,6,24,虚拟机/Desktop/sample/sample2.in
+406,虚拟机/Desktop/sample/sample2.out,0,11,f7956de32ea228b7421143eb8ce5993d12410ddd2861011ff7b42147f6979288,True,utf-8,3,11,虚拟机/Desktop/sample/sample2.out
+407,虚拟机/Desktop/sample/sample3.in,0,11,c4a66166cc8806e89aac99a82e317a39ba1701c945f072928e5bbfd13cc63e37,True,utf-8,4,11,虚拟机/Desktop/sample/sample3.in
+408,虚拟机/Desktop/sample/sample3.out,0,8,76bb39d3496ba29f18fc365746b1217e50c45c65579561fa396ffa39fe46ffb0,True,utf-8,2,8,虚拟机/Desktop/sample/sample3.out
+409,虚拟机/Desktop/sample/sample4.in,0,2103,257e50dc5a677e6988575da7d51325da57957ac0e6c9e5c03eb695125896aa74,True,utf-8,42,2103,虚拟机/Desktop/sample/sample4.in
+410,虚拟机/Desktop/sample/sample4.out,0,127,8fdb78cd8da96f9b2a15194e68808da9feb058a18fd512f62fb67919007f6f10,True,utf-8,21,127,虚拟机/Desktop/sample/sample4.out
+411,虚拟机/Desktop/sample/sample5.in,0,1000083,7dd8ab07bb4d15a06066a7a0513ea87b644d585c6a78cf4d318c63d186e9cce9,True,utf-8,22,1000083,虚拟机/Desktop/sample/sample5.in
+412,虚拟机/Desktop/sample/sample5.out,0,108,fabc2289df1b24a68a293fe48dd2caf0e9f35b0b746b008a6ed8d0ae7c120de2,True,utf-8,11,108,虚拟机/Desktop/sample/sample5.out
+413,虚拟机/Desktop/sample/sample6.in,0,1000034,6ae50176b56441fb0e2ccda7b1703d2302b9d468fc4b32cfae33f6014e5f5e80,True,utf-8,10,1000034,虚拟机/Desktop/sample/sample6.in
+414,虚拟机/Desktop/sample/sample6.out,0,32,edc2a688a1aaf8eee91c7739b367b8a95b9a0a916f6e59854ace72aac027ea89,True,utf-8,5,32,虚拟机/Desktop/sample/sample6.out
+415,虚拟机/Desktop/sample/sample7.in,0,1000022,7cbdd5ce25789defb14953f1070eafff39611f82882ceff2e0fbdc70f8f52d2e,True,utf-8,10,1000022,虚拟机/Desktop/sample/sample7.in
+416,虚拟机/Desktop/sample/sample7.out,0,35,9ad2c29f3642ace53d3ede70c7d449a2d4f88bbd7bae394e507345a49c09fb46,True,utf-8,5,35,虚拟机/Desktop/sample/sample7.out
+417,虚拟机/Desktop/sample/sample8.in,0,1000011,2b4a48b069759b3298b5eadd79a07bd82e34cb3662b3c8152d8be6e2322419bc,True,utf-8,4,1000011,虚拟机/Desktop/sample/sample8.in
+418,虚拟机/Desktop/sample/sample8.out,0,18,b17cbfd17b42fed09ff64e4ac8287fc59d55dc75cb498253ca2a3b4f2c036ca7,True,utf-8,2,18,虚拟机/Desktop/sample/sample8.out
+419,虚拟机/Desktop/sample(1).zip,0,1435821,742af54c85315f3c7c3f03fdab8ac3e63efbc91228bb0df9f0004236e6337014,False,,0,0,虚拟机/Desktop/sample(1).zip
+420,虚拟机/Desktop/sample(1).zip!/sample6.out,1,32,edc2a688a1aaf8eee91c7739b367b8a95b9a0a916f6e59854ace72aac027ea89,True,utf-8,5,32,sample6.out
+421,虚拟机/Desktop/sample(1).zip!/sample7.in,1,1000022,7cbdd5ce25789defb14953f1070eafff39611f82882ceff2e0fbdc70f8f52d2e,True,utf-8,10,1000022,sample7.in
+422,虚拟机/Desktop/sample(1).zip!/sample7.out,1,35,9ad2c29f3642ace53d3ede70c7d449a2d4f88bbd7bae394e507345a49c09fb46,True,utf-8,5,35,sample7.out
+423,虚拟机/Desktop/sample(1).zip!/sample8.in,1,1000011,2b4a48b069759b3298b5eadd79a07bd82e34cb3662b3c8152d8be6e2322419bc,True,utf-8,4,1000011,sample8.in
+424,虚拟机/Desktop/sample(1).zip!/sample8.out,1,18,b17cbfd17b42fed09ff64e4ac8287fc59d55dc75cb498253ca2a3b4f2c036ca7,True,utf-8,2,18,sample8.out
+425,虚拟机/Desktop/sample(1).zip!/sample1.in,1,27,fad7af39274125ac9408e2fd803b3904395b9dfcc0d3d52c669bdb593ed5ad72,True,utf-8,8,27,sample1.in
+426,虚拟机/Desktop/sample(1).zip!/sample1.out,1,19,ba762560ddc6fc3fd91b68088ffab5f680b7a993115ad5ddf96ea9628776bfdd,True,utf-8,4,19,sample1.out
+427,虚拟机/Desktop/sample(1).zip!/sample2.in,1,24,2e1dff44792c0297a4319d69063e4e2b08d20636a44ea1d65418deb2fb8eae24,True,utf-8,6,24,sample2.in
+428,虚拟机/Desktop/sample(1).zip!/sample2.out,1,11,f7956de32ea228b7421143eb8ce5993d12410ddd2861011ff7b42147f6979288,True,utf-8,3,11,sample2.out
+429,虚拟机/Desktop/sample(1).zip!/sample3.in,1,11,c4a66166cc8806e89aac99a82e317a39ba1701c945f072928e5bbfd13cc63e37,True,utf-8,4,11,sample3.in
+430,虚拟机/Desktop/sample(1).zip!/sample3.out,1,8,76bb39d3496ba29f18fc365746b1217e50c45c65579561fa396ffa39fe46ffb0,True,utf-8,2,8,sample3.out
+431,虚拟机/Desktop/sample(1).zip!/sample4.in,1,2103,257e50dc5a677e6988575da7d51325da57957ac0e6c9e5c03eb695125896aa74,True,utf-8,42,2103,sample4.in
+432,虚拟机/Desktop/sample(1).zip!/sample4.out,1,127,8fdb78cd8da96f9b2a15194e68808da9feb058a18fd512f62fb67919007f6f10,True,utf-8,21,127,sample4.out
+433,虚拟机/Desktop/sample(1).zip!/sample5.in,1,1000083,7dd8ab07bb4d15a06066a7a0513ea87b644d585c6a78cf4d318c63d186e9cce9,True,utf-8,22,1000083,sample5.in
+434,虚拟机/Desktop/sample(1).zip!/sample5.out,1,108,fabc2289df1b24a68a293fe48dd2caf0e9f35b0b746b008a6ed8d0ae7c120de2,True,utf-8,11,108,sample5.out
+435,虚拟机/Desktop/sample(1).zip!/sample6.in,1,1000034,6ae50176b56441fb0e2ccda7b1703d2302b9d468fc4b32cfae33f6014e5f5e80,True,utf-8,10,1000034,sample6.in
+436,虚拟机/Desktop/sample(2).zip,0,581154,e66f77d3a41d987455fff27fde6d83b1f4fc38d6c3b3ecdd1cf21b61efcddde9,False,,0,0,虚拟机/Desktop/sample(2).zip
+437,虚拟机/Desktop/sample(2).zip!/sample8.out,1,13,4d4083c7870ebf1ea79f9a41809187b97b6ff47c49f48c465f71f8d824c667c8,True,utf-8,2,13,sample8.out
+438,虚拟机/Desktop/sample(2).zip!/sample8.in,1,6963126,daeac8fd8fecc77196dc8f51be66b268bcf43a6bb07a035f2fdf96617e6fccf7,True,utf-8,3,6963126,sample8.in
+439,虚拟机/Desktop/sample(2).zip!/sample1.out,1,2,4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865,True,utf-8,2,2,sample1.out
+440,虚拟机/Desktop/sample(2).zip!/sample1.in,1,10,ed69713481ecf29c7e89f2a83237e5d59496a68f824da48ab2d2fc88733cd37c,True,utf-8,3,10,sample1.in
+441,虚拟机/Desktop/sample(2).zip!/sample2.out,1,2,53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3,True,utf-8,2,2,sample2.out
+442,虚拟机/Desktop/sample(2).zip!/sample2.in,1,10,471bdfe1062dafcb29835c93abe207bc62c0bb4dbf4effb4f48b1380f0042b89,True,utf-8,3,10,sample2.in
+443,虚拟机/Desktop/sample(2).zip!/sample3.out,1,2,1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2,True,utf-8,2,2,sample3.out
+444,虚拟机/Desktop/sample(2).zip!/sample3.in,1,8,dcb2828204cec0d4a76afd3c51c7f9bfa1ccb2aa5b9a1abc08a28ee818aae859,True,utf-8,3,8,sample3.in
+445,虚拟机/Desktop/sample(2).zip!/sample4.out,1,6,978ea5109d09f974d601a3acd1bdd23b42d6b6f61c31b64d924df8979537124e,True,utf-8,2,6,sample4.out
+446,虚拟机/Desktop/sample(2).zip!/sample4.in,1,8898,bd56f167315f00f3dfa86fa6a9e8c8c362d104647dd93544854aa1fda05b7521,True,utf-8,3,8898,sample4.in
+447,虚拟机/Desktop/sample(2).zip!/sample5.out,1,13,f0f023f3b7c45c8b45374f618b00b72256b7f2b908453ebe766e5a81b8de0478,True,utf-8,2,13,sample5.out
+448,虚拟机/Desktop/sample(2).zip!/sample5.in,1,4169487,9477b906712ec8c4522969aa4749ecfa1a5dfc7f3cbd77d92f68e7dc195a4ffe,True,utf-8,3,4169487,sample5.in
+449,虚拟机/Desktop/sample(2).zip!/sample6.out,1,13,66778fb0a63ad8bc73d33e27f85d982bed11aa2ac4fd84ea6c98dcbebd70a93d,True,utf-8,2,13,sample6.out
+450,虚拟机/Desktop/sample(2).zip!/sample6.in,1,4083256,d60de27e83148e0988e61d6e80b9f96ace8262dfea1a06542788bceb028575e8,True,utf-8,3,4083256,sample6.in
+451,虚拟机/Desktop/sample(2).zip!/sample7.out,1,12,b1b28436dd7ea0f1f87fd8dded51c304ff64ab985738ad0abfe33e89dd517420,True,utf-8,2,12,sample7.out
+452,虚拟机/Desktop/sample(2).zip!/sample7.in,1,1736768,c6c2a50f60aedd1f6a6f00407ae0af14b82526426455c9b109a30a9d76e8c969,True,utf-8,3,1736768,sample7.in
+453,虚拟机/Desktop/sample(3).zip,0,7305665,b5e7a2fbfa8c42c7a0f73fd643bcf98e171d1036685b8bc5e91da98dac2f1ed0,False,,0,0,虚拟机/Desktop/sample(3).zip
+454,虚拟机/Desktop/sample(3).zip!/sample6.in,1,3866159,e331ddad09c2eff9d470911b2d9a107427039fb0542c6d30730022b8d45f63e2,True,utf-8,200002,3866159,sample6.in
+455,虚拟机/Desktop/sample(3).zip!/sample7.out,1,10,b68b11d5c8fc5559094f3f3a1631c1396e0b1b3aa8370617d939b7e00786b68d,True,utf-8,2,10,sample7.out
+456,虚拟机/Desktop/sample(3).zip!/sample7.in,1,3866687,65a569bd0db8263d8bcadef7b451eb560a8c5597ade922b823da435ee62ee0ce,True,utf-8,200002,3866687,sample7.in
+457,虚拟机/Desktop/sample(3).zip!/sample8.out,1,10,4654853f4849ce65ce2749716dec94527119e190905049f61223dec1a0a49482,True,utf-8,2,10,sample8.out
+458,虚拟机/Desktop/sample(3).zip!/sample8.in,1,3866823,cda7d92df574df0dc75200b62a957ba73cb41cbb0adfacefdcb3d0928d4a35f3,True,utf-8,200002,3866823,sample8.in
+459,虚拟机/Desktop/sample(3).zip!/sample1.in,1,22,bfeb8d7e41f75d7347da843bc4973a577447f91515cb55aa9d05b0c354f6f7d1,True,utf-8,6,22,sample1.in
+460,虚拟机/Desktop/sample(3).zip!/sample1.out,1,2,7de1555df0c2700329e815b93b32c571c3ea54dc967b89e81ab73b9972b72d1d,True,utf-8,2,2,sample1.out
+461,虚拟机/Desktop/sample(3).zip!/sample2.in,1,4,ad0fadf63cc7cd779ce475e345bf4063565b63a3c2efef1eebc89790aaa6acba,True,utf-8,3,4,sample2.in
+462,虚拟机/Desktop/sample(3).zip!/sample2.out,1,2,4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865,True,utf-8,2,2,sample2.out
+463,虚拟机/Desktop/sample(3).zip!/sample3.in,1,28,8b3adb643c018c56d641ef090bc0ab4426a87619aa28b1e709e171cd11fd0566,True,utf-8,7,28,sample3.in
+464,虚拟机/Desktop/sample(3).zip!/sample3.out,1,3,68ca3fba3b7e864770cb61aeb306d4bd4354b68ab4dd38450860c5d823e42a53,True,utf-8,2,3,sample3.out
+465,虚拟机/Desktop/sample(3).zip!/sample4.in,1,26718,6659368636013e508c35a3ee4a83ad04fe886a778363c8d120be54ac9c83bf49,True,utf-8,2002,26718,sample4.in
+466,虚拟机/Desktop/sample(3).zip!/sample4.out,1,9,628e8000bbb50542ba002cde1e781ddfccc58c3a2747464698e8f3edb5fe8fff,True,utf-8,2,9,sample4.out
+467,虚拟机/Desktop/sample(3).zip!/sample5.out,1,10,a78ec6f9e5b2ea76c6ba724ec8c7aa8eaad0e3f2ce1d15cc2a0a5b056c0098c5,True,utf-8,2,10,sample5.out
+468,虚拟机/Desktop/sample(3).zip!/sample5.in,1,3866678,31c2192ea0f56603bcac8d479bdb656577a2eaed1a791d840f26d95d9dce59a1,True,utf-8,200002,3866678,sample5.in
+469,虚拟机/Desktop/sample(3).zip!/sample6.out,1,10,fffa6a435e12cfef0bf3f89b862a9f6aef3f14f586089d1707a0e3894ea8ca54,True,utf-8,2,10,sample6.out
+470,虚拟机/Desktop/sample.zip,0,1435821,742af54c85315f3c7c3f03fdab8ac3e63efbc91228bb0df9f0004236e6337014,False,,0,0,虚拟机/Desktop/sample.zip
+471,虚拟机/Desktop/sample.zip!/sample6.out,1,32,edc2a688a1aaf8eee91c7739b367b8a95b9a0a916f6e59854ace72aac027ea89,True,utf-8,5,32,sample6.out
+472,虚拟机/Desktop/sample.zip!/sample7.in,1,1000022,7cbdd5ce25789defb14953f1070eafff39611f82882ceff2e0fbdc70f8f52d2e,True,utf-8,10,1000022,sample7.in
+473,虚拟机/Desktop/sample.zip!/sample7.out,1,35,9ad2c29f3642ace53d3ede70c7d449a2d4f88bbd7bae394e507345a49c09fb46,True,utf-8,5,35,sample7.out
+474,虚拟机/Desktop/sample.zip!/sample8.in,1,1000011,2b4a48b069759b3298b5eadd79a07bd82e34cb3662b3c8152d8be6e2322419bc,True,utf-8,4,1000011,sample8.in
+475,虚拟机/Desktop/sample.zip!/sample8.out,1,18,b17cbfd17b42fed09ff64e4ac8287fc59d55dc75cb498253ca2a3b4f2c036ca7,True,utf-8,2,18,sample8.out
+476,虚拟机/Desktop/sample.zip!/sample1.in,1,27,fad7af39274125ac9408e2fd803b3904395b9dfcc0d3d52c669bdb593ed5ad72,True,utf-8,8,27,sample1.in
+477,虚拟机/Desktop/sample.zip!/sample1.out,1,19,ba762560ddc6fc3fd91b68088ffab5f680b7a993115ad5ddf96ea9628776bfdd,True,utf-8,4,19,sample1.out
+478,虚拟机/Desktop/sample.zip!/sample2.in,1,24,2e1dff44792c0297a4319d69063e4e2b08d20636a44ea1d65418deb2fb8eae24,True,utf-8,6,24,sample2.in
+479,虚拟机/Desktop/sample.zip!/sample2.out,1,11,f7956de32ea228b7421143eb8ce5993d12410ddd2861011ff7b42147f6979288,True,utf-8,3,11,sample2.out
+480,虚拟机/Desktop/sample.zip!/sample3.in,1,11,c4a66166cc8806e89aac99a82e317a39ba1701c945f072928e5bbfd13cc63e37,True,utf-8,4,11,sample3.in
+481,虚拟机/Desktop/sample.zip!/sample3.out,1,8,76bb39d3496ba29f18fc365746b1217e50c45c65579561fa396ffa39fe46ffb0,True,utf-8,2,8,sample3.out
+482,虚拟机/Desktop/sample.zip!/sample4.in,1,2103,257e50dc5a677e6988575da7d51325da57957ac0e6c9e5c03eb695125896aa74,True,utf-8,42,2103,sample4.in
+483,虚拟机/Desktop/sample.zip!/sample4.out,1,127,8fdb78cd8da96f9b2a15194e68808da9feb058a18fd512f62fb67919007f6f10,True,utf-8,21,127,sample4.out
+484,虚拟机/Desktop/sample.zip!/sample5.in,1,1000083,7dd8ab07bb4d15a06066a7a0513ea87b644d585c6a78cf4d318c63d186e9cce9,True,utf-8,22,1000083,sample5.in
+485,虚拟机/Desktop/sample.zip!/sample5.out,1,108,fabc2289df1b24a68a293fe48dd2caf0e9f35b0b746b008a6ed8d0ae7c120de2,True,utf-8,11,108,sample5.out
+486,虚拟机/Desktop/sample.zip!/sample6.in,1,1000034,6ae50176b56441fb0e2ccda7b1703d2302b9d468fc4b32cfae33f6014e5f5e80,True,utf-8,10,1000034,sample6.in
+487,虚拟机/Desktop/T1/Ac,0,18496,4a6f1f9671596383c26ce90057520b00ad17c5930fbbf1c1bfeeb225121553b3,False,,0,0,虚拟机/Desktop/T1/Ac
+488,虚拟机/Desktop/T1/AC.cpp,0,1264,132a61d875601796266298fd5c5f0be33644a8843399c09857be110c3ef6f12b,True,utf-8,55,1264,虚拟机/Desktop/T1/AC.cpp
+489,虚拟机/Desktop/T1/AC.o,0,91912,d61ae5c66aeba1add915ee5a862069aab8265983b4bcb96ab15c2b3c26083fb7,False,,0,0,虚拟机/Desktop/T1/AC.o
+490,虚拟机/Desktop/T1/ans.out,0,4,994fecfc7c11f6a13916d0677c228e5829c12832fd126848163169611d1effd5,True,utf-8,2,4,虚拟机/Desktop/T1/ans.out
+491,虚拟机/Desktop/T1/debug.cpp,0,736,c914e043facba7926fb29ceb22e4c2b161ae6a8faea48a6c44464ae9cce25db1,True,utf-8,35,736,虚拟机/Desktop/T1/debug.cpp
+492,虚拟机/Desktop/T1/duipai.sh,0,252,f8f82381d6b102ee6181044776ae3359262be6268b3d9c8f84411a40af5b20e4,True,utf-8,11,252,虚拟机/Desktop/T1/duipai.sh
+493,虚拟机/Desktop/T1/ex_A1.in,0,12,f19d1b4e07b0194c5b455266bbc842aaacdaa70714a5c9f520f4223134662ecd,True,utf-8,3,12,虚拟机/Desktop/T1/ex_A1.in
+494,虚拟机/Desktop/T1/ex_A1.out,0,2,53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3,True,utf-8,2,2,虚拟机/Desktop/T1/ex_A1.out
+495,虚拟机/Desktop/T1/ex_A2.in,0,19203,95333cc5f15c0b531eb5fb860b09d8ea8e7428e9cbcdb47cc7d1aa0104f4c796,True,utf-8,3,19203,虚拟机/Desktop/T1/ex_A2.in
+496,虚拟机/Desktop/T1/ex_A2.out,0,4,994fecfc7c11f6a13916d0677c228e5829c12832fd126848163169611d1effd5,True,utf-8,2,4,虚拟机/Desktop/T1/ex_A2.out
+497,虚拟机/Desktop/T1/gen.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/T1/gen.cpp
+498,虚拟机/Desktop/T1/map.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/T1/map.txt
+499,虚拟机/Desktop/T1/notes.txt,0,139,59537807104907e07f7c4cfb333ba728e5e9b1e06f81ed1b265f709d1dc917f9,True,utf-8,25,139,虚拟机/Desktop/T1/notes.txt
+500,虚拟机/Desktop/T1/WA.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/T1/WA.cpp
+501,虚拟机/Desktop/T2/AC,0,23376,5bdc3dd8b7b9b3a274acdd16b1e77a6d8020c3995dac4335ddba1a279d4f866f,False,,0,0,虚拟机/Desktop/T2/AC
+502,虚拟机/Desktop/T2/AC.cpp,0,1764,3b8d3e5cdc0b4703b94fe06dba344a8eb654e325ffaab1d15970eca1a555a4ed,True,utf-8,78,1764,虚拟机/Desktop/T2/AC.cpp
+503,虚拟机/Desktop/T2/AC.o,0,124712,1498a936d84cf9097b34f72a70825f6372e46c42088c2f8bd462452639c4cc2f,False,,0,0,虚拟机/Desktop/T2/AC.o
+504,虚拟机/Desktop/T2/ans.out,0,18,cab6243db578c67912d6e1432feba728bcc736f4490df6a95339b42859fd093a,True,utf-8,2,18,虚拟机/Desktop/T2/ans.out
+505,虚拟机/Desktop/T2/checker,0,2469952,84448107bbcfea95640dca7cbe5c9963eb3e0a7f0cd4daf58fcec7450df993df,False,,0,0,虚拟机/Desktop/T2/checker
+506,虚拟机/Desktop/T2/checker.cpp,0,3461,14281b5f2127adce25edc1a980b52d5ff09c8f7520af914b8a0449c871311278,True,utf-8,107,3461,虚拟机/Desktop/T2/checker.cpp
+507,虚拟机/Desktop/T2/debug.cpp,0,736,c914e043facba7926fb29ceb22e4c2b161ae6a8faea48a6c44464ae9cce25db1,True,utf-8,35,736,虚拟机/Desktop/T2/debug.cpp
+508,虚拟机/Desktop/T2/duipai.sh,0,252,f8f82381d6b102ee6181044776ae3359262be6268b3d9c8f84411a40af5b20e4,True,utf-8,11,252,虚拟机/Desktop/T2/duipai.sh
+509,虚拟机/Desktop/T2/gen.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/T2/gen.cpp
+510,虚拟机/Desktop/T2/map.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/T2/map.txt
+511,虚拟机/Desktop/T2/notes.txt,0,5528,e60f13c3cb60b8538c557423540b36d70fffd6b8e4bb18910a1ea4ca2d9c0790,True,utf-8,442,5528,虚拟机/Desktop/T2/notes.txt
+512,虚拟机/Desktop/T2/sample1.in,0,27,fad7af39274125ac9408e2fd803b3904395b9dfcc0d3d52c669bdb593ed5ad72,True,utf-8,8,27,虚拟机/Desktop/T2/sample1.in
+513,虚拟机/Desktop/T2/sample1.out,0,19,ba762560ddc6fc3fd91b68088ffab5f680b7a993115ad5ddf96ea9628776bfdd,True,utf-8,4,19,虚拟机/Desktop/T2/sample1.out
+514,虚拟机/Desktop/T2/sample2.in,0,24,2e1dff44792c0297a4319d69063e4e2b08d20636a44ea1d65418deb2fb8eae24,True,utf-8,6,24,虚拟机/Desktop/T2/sample2.in
+515,虚拟机/Desktop/T2/sample2.out,0,11,f7956de32ea228b7421143eb8ce5993d12410ddd2861011ff7b42147f6979288,True,utf-8,3,11,虚拟机/Desktop/T2/sample2.out
+516,虚拟机/Desktop/T2/sample3.in,0,11,c4a66166cc8806e89aac99a82e317a39ba1701c945f072928e5bbfd13cc63e37,True,utf-8,4,11,虚拟机/Desktop/T2/sample3.in
+517,虚拟机/Desktop/T2/sample3.out,0,8,76bb39d3496ba29f18fc365746b1217e50c45c65579561fa396ffa39fe46ffb0,True,utf-8,2,8,虚拟机/Desktop/T2/sample3.out
+518,虚拟机/Desktop/T2/sample4.in,0,2103,257e50dc5a677e6988575da7d51325da57957ac0e6c9e5c03eb695125896aa74,True,utf-8,42,2103,虚拟机/Desktop/T2/sample4.in
+519,虚拟机/Desktop/T2/sample4.out,0,127,8fdb78cd8da96f9b2a15194e68808da9feb058a18fd512f62fb67919007f6f10,True,utf-8,21,127,虚拟机/Desktop/T2/sample4.out
+520,虚拟机/Desktop/T2/sample5.in,0,1000083,7dd8ab07bb4d15a06066a7a0513ea87b644d585c6a78cf4d318c63d186e9cce9,True,utf-8,22,1000083,虚拟机/Desktop/T2/sample5.in
+521,虚拟机/Desktop/T2/sample5.out,0,108,fabc2289df1b24a68a293fe48dd2caf0e9f35b0b746b008a6ed8d0ae7c120de2,True,utf-8,11,108,虚拟机/Desktop/T2/sample5.out
+522,虚拟机/Desktop/T2/sample6.in,0,1000034,6ae50176b56441fb0e2ccda7b1703d2302b9d468fc4b32cfae33f6014e5f5e80,True,utf-8,10,1000034,虚拟机/Desktop/T2/sample6.in
+523,虚拟机/Desktop/T2/sample6.out,0,32,edc2a688a1aaf8eee91c7739b367b8a95b9a0a916f6e59854ace72aac027ea89,True,utf-8,5,32,虚拟机/Desktop/T2/sample6.out
+524,虚拟机/Desktop/T2/sample7.in,0,1000022,7cbdd5ce25789defb14953f1070eafff39611f82882ceff2e0fbdc70f8f52d2e,True,utf-8,10,1000022,虚拟机/Desktop/T2/sample7.in
+525,虚拟机/Desktop/T2/sample7.out,0,35,9ad2c29f3642ace53d3ede70c7d449a2d4f88bbd7bae394e507345a49c09fb46,True,utf-8,5,35,虚拟机/Desktop/T2/sample7.out
+526,虚拟机/Desktop/T2/sample8.in,0,1000011,2b4a48b069759b3298b5eadd79a07bd82e34cb3662b3c8152d8be6e2322419bc,True,utf-8,4,1000011,虚拟机/Desktop/T2/sample8.in
+527,虚拟机/Desktop/T2/sample8.out,0,18,b17cbfd17b42fed09ff64e4ac8287fc59d55dc75cb498253ca2a3b4f2c036ca7,True,utf-8,2,18,虚拟机/Desktop/T2/sample8.out
+528,虚拟机/Desktop/T2/WA.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/T2/WA.cpp
+529,虚拟机/Desktop/T3/AC,0,21816,a7abafec624b1c0a49da60bb8f33bd22abf993c792afa53c851627bd23fa3631,False,,0,0,虚拟机/Desktop/T3/AC
+530,虚拟机/Desktop/T3/AC.cpp,0,2087,e267dd174187675a0547272781486816ff7015128c0126f9258c176b4f094c21,True,utf-8,83,2087,虚拟机/Desktop/T3/AC.cpp
+531,虚拟机/Desktop/T3/AC.o,0,14448,9fa316c139e4b7835745fa89209015f0753e621f13fab616911bf9ff3be02344,False,,0,0,虚拟机/Desktop/T3/AC.o
+532,虚拟机/Desktop/T3/debug.cpp,0,736,c914e043facba7926fb29ceb22e4c2b161ae6a8faea48a6c44464ae9cce25db1,True,utf-8,35,736,虚拟机/Desktop/T3/debug.cpp
+533,虚拟机/Desktop/T3/duipai.sh,0,252,f8f82381d6b102ee6181044776ae3359262be6268b3d9c8f84411a40af5b20e4,True,utf-8,11,252,虚拟机/Desktop/T3/duipai.sh
+534,虚拟机/Desktop/T3/gen.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/T3/gen.cpp
+535,虚拟机/Desktop/T3/map.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/T3/map.txt
+536,虚拟机/Desktop/T3/notes.txt,0,22,bfeb8d7e41f75d7347da843bc4973a577447f91515cb55aa9d05b0c354f6f7d1,True,utf-8,6,22,虚拟机/Desktop/T3/notes.txt
+537,虚拟机/Desktop/T3/WA.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/T3/WA.cpp
+538,虚拟机/Desktop/T4/AC,0,55824,c9791ef65b35c053e2bd30559ad4e0cf6876364cfa1265d86626f361044c3c9d,False,,0,0,虚拟机/Desktop/T4/AC
+539,虚拟机/Desktop/T4/AC.cpp,0,2287,59a5775ec8f34b56386ab828ce020fd7be0c4dfa1b8e883550ff6028e004790c,True,utf-8,85,2287,虚拟机/Desktop/T4/AC.cpp
+540,虚拟机/Desktop/T4/AC.o,0,113280,8d7bbee0ff794e3d37d72842083883c3115a6344dad1e208a1d943e4295a4cbd,False,,0,0,虚拟机/Desktop/T4/AC.o
+541,虚拟机/Desktop/T4/debug.cpp,0,736,c914e043facba7926fb29ceb22e4c2b161ae6a8faea48a6c44464ae9cce25db1,True,utf-8,35,736,虚拟机/Desktop/T4/debug.cpp
+542,虚拟机/Desktop/T4/duipai.sh,0,252,f8f82381d6b102ee6181044776ae3359262be6268b3d9c8f84411a40af5b20e4,True,utf-8,11,252,虚拟机/Desktop/T4/duipai.sh
+543,虚拟机/Desktop/T4/gen.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/T4/gen.cpp
+544,虚拟机/Desktop/T4/map.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/T4/map.txt
+545,虚拟机/Desktop/T4/notes.txt,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,True,utf-8,0,0,虚拟机/Desktop/T4/notes.txt
+546,虚拟机/Desktop/T4/WA.cpp,0,493,a15d7be3ad094896c16f5adb0e61f08259c4e6f243cb9eb1249eb9f9de33321a,True,utf-8,22,493,虚拟机/Desktop/T4/WA.cpp
