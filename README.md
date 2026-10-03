@@ -45,3 +45,8 @@
 ## Day4 后新增工具方向
 
 - [赛场录播采集方案 v3](tools/vm/赛场录播采集方案_v3.md)：低帧率屏幕 + 语义键盘 + 文件快照，磁盘水位保护；目标是让 AI 看“录播”，不是只做按键统计。
+
+
+## 当前比赛包
+
+- **BAG V4 Flat Integrated**：`tools/vm/bag_v4_flat/`。核心原则：一题一个平铺目录；官方样例、手工 Debug、对拍反例全部使用同一套 `.in/.out` testcase，不再拆 `samples/` / `debug/` / `duipai_T1/`。
