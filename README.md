@@ -33,6 +33,8 @@
 
 ## 工具
 
+- **当前推荐：BAG V3.2 FLAT** — 一题一目录、样例平铺、main.cpp 同时用于 Code::Blocks / 样例 / Debug / 对拍，见 `tools/vm/bag_v3_2_flat/README.md`。
+
 | 内容 | 位置 |
 |---|---|
 | **当前正式候选 BAG V3.1** | `tools/vm/bag_v3_1/`：真实大样例、5000 样例、10000 组对拍、故障注入、快速恢复均已实测；先看 `README.txt` 和 `TEST_REPORT.md` |
