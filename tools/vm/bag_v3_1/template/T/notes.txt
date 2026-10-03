@@ -1,0 +1,14 @@
+Target score:
+Subtasks:
+
+[P] proved:
+
+[E] brute-tested:
+
+[H] hypothesis:
+
+[X] counterexample:
+
+Current smallest counterexample:
+
+Next action:
