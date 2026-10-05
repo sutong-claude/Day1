@@ -1,0 +1,98 @@
+{
+  "updated_at": "2026-10-05",
+  "stage": "after_day6",
+  "scores": [
+    {
+      "day": 1,
+      "date": "2026-09-25",
+      "score": 45,
+      "max_score": 400
+    },
+    {
+      "day": 2,
+      "date": "2026-09-27",
+      "score": 130,
+      "max_score": 400
+    },
+    {
+      "day": 3,
+      "date": "2026-10-01",
+      "score": 204,
+      "max_score": 400
+    },
+    {
+      "day": 4,
+      "date": "2026-10-02",
+      "score": 0,
+      "max_score": 400
+    },
+    {
+      "day": 5,
+      "date": "2026-10-04",
+      "score": 15,
+      "max_score": 400
+    },
+    {
+      "day": 6,
+      "date": "2026-10-05",
+      "score": 115,
+      "max_score": 400
+    }
+  ],
+  "current_focus": [
+    "mechanical brute as oracle before clever simplification",
+    "write object / necessity+sufficiency / implementation contract before coding",
+    "convert pairwise constraints into per-item keys when possible",
+    "upgrade correct brute by removing repeated computation",
+    "freeze partial-score versions before pursuing full solutions"
+  ],
+  "priority_queue": [
+    {
+      "id": "day6-b",
+      "priority": "P0",
+      "status": "understood-not-rewritten",
+      "goal": "derive and implement slack-key LNDS"
+    },
+    {
+      "id": "day6-c-oracle",
+      "priority": "P0",
+      "status": "not-verified",
+      "goal": "literal n<=5 oracle and cross-check four-class predicate"
+    },
+    {
+      "id": "day6-d-subtask2",
+      "priority": "P0",
+      "status": "not-implemented",
+      "goal": "second 15 points via precomputation"
+    },
+    {
+      "id": "day5-a",
+      "priority": "P0",
+      "status": "postcontest-near-complete",
+      "goal": "strict NGE + sentinel full retest"
+    },
+    {
+      "id": "day5-b",
+      "priority": "P1",
+      "status": "explained",
+      "goal": "independent re-derivation and implementation"
+    }
+  ],
+  "canonical_docs": [
+    "项目总控台.md",
+    "AI_HANDOFF.md",
+    "阶段总结_Day1-Day6.md",
+    "错因档案.md",
+    "赛前执行卡.md",
+    "赛中研究协议.md",
+    "赛中推理手册.md",
+    "部分分与暴力手册.md",
+    "补题队列.md"
+  ],
+  "known_corrections": [
+    "Day6 C had the four k-1/k cases during contest; failure was semantic interpretation, not failure to classify.",
+    "Day6 D subtask2 is 15 points; the visible 1 is dependency on subtask1.",
+    "Day5 A late versions were close in geometry/DP; main bug was first-by-position vs value search; postcontest strict-NGE code also had an n+1 sentinel bug.",
+    "Raw scores across days are not directly comparable because partial-score granularity differs."
+  ]
+}
