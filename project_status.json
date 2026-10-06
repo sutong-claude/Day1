@@ -1,0 +1,156 @@
+{
+  "updated_at": "2026-10-06",
+  "stage": "after_day7",
+  "scores": [
+    {
+      "day": 1,
+      "date": "2026-09-25",
+      "score": 45,
+      "max_score": 400
+    },
+    {
+      "day": 2,
+      "date": "2026-09-27",
+      "score": 130,
+      "max_score": 400
+    },
+    {
+      "day": 3,
+      "date": "2026-10-01",
+      "score": 204,
+      "max_score": 400
+    },
+    {
+      "day": 4,
+      "date": "2026-10-02",
+      "score": 0,
+      "max_score": 400
+    },
+    {
+      "day": 5,
+      "date": "2026-10-04",
+      "score": 15,
+      "max_score": 400
+    },
+    {
+      "day": 6,
+      "date": "2026-10-05",
+      "score": 115,
+      "max_score": 400
+    },
+    {
+      "day": 7,
+      "date": "2026-10-06",
+      "score": 145,
+      "max_score": 400
+    }
+  ],
+  "current_focus": [
+    "semantic contract: mathematical object, necessity+sufficiency, implementation equivalence",
+    "assetization: verbal partial scores count as zero until saved+compiled+tested",
+    "reverse-time/offline transformation when deletion creates hard splits",
+    "mechanical brute as oracle before clever simplification",
+    "freeze low-risk partials before high-risk full-solution research"
+  ],
+  "day7": {
+    "score_breakdown": {
+      "A": 100,
+      "B": 45,
+      "C": 0,
+      "D": 0
+    },
+    "positives": [
+      "A accepted around 36 minutes",
+      "B O(n^2) literal simulation was correct and frozen to WA.cpp around 113.35 minutes",
+      "user explicitly considered offline processing around 2:44"
+    ],
+    "missed_low_risk": [
+      "C v=50 subtask 10 points was recognized but not coded",
+      "D N<=100 subtask 19 points was recognized but not coded"
+    ],
+    "full_insight": {
+      "B": "reverse priority order; activate vertices; merge active components with DSU; component leaders report to new vertex"
+    }
+  },
+  "priority_queue": [
+    {
+      "id": "day7-b-dsu",
+      "priority": "P0",
+      "status": "verified-postcontest",
+      "goal": "independently rederive and implement reverse-add DSU"
+    },
+    {
+      "id": "day7-c-partial",
+      "priority": "P0",
+      "status": "code-added-postcontest",
+      "goal": "independently write v=50 and endpoint specials"
+    },
+    {
+      "id": "day7-d-brute",
+      "priority": "P0",
+      "status": "code-added-postcontest",
+      "goal": "independently write N<=100 oracle and use it to falsify D hypotheses"
+    },
+    {
+      "id": "day6-b",
+      "priority": "P1",
+      "status": "understood-not-rewritten",
+      "goal": "derive and implement slack-key LNDS"
+    },
+    {
+      "id": "day6-c-oracle",
+      "priority": "P1",
+      "status": "not-verified",
+      "goal": "literal n<=5 oracle and cross-check four-class predicate"
+    },
+    {
+      "id": "day5-a",
+      "priority": "P1",
+      "status": "postcontest-near-complete",
+      "goal": "strict NGE + sentinel full retest"
+    }
+  ],
+  "canonical_docs": [
+    "项目总控台.md",
+    "AI_HANDOFF.md",
+    "总复盘_Day1-Day7_完整版.md",
+    "阶段总结_Day1-Day7.md",
+    "能力画像与训练路线.md",
+    "对话证据索引.md",
+    "项目维护规范.md",
+    "错因档案.md",
+    "赛前执行卡.md",
+    "赛中研究协议.md",
+    "赛中推理手册.md",
+    "部分分与暴力手册.md",
+    "补题队列.md"
+  ],
+  "known_corrections": [
+    "Day6 C had the four k-1/k cases during contest; failure was semantic interpretation, not failure to classify.",
+    "Day6 D subtask2 is 15 points; the visible 1 is dependency on subtask1.",
+    "Day5 A late versions were close; main contest bug was first-by-position vs value search; postcontest NGE code also had an n+1 sentinel bug.",
+    "Day7 B score is 45, not 0; subtasks 1 and 2 were fully accepted.",
+    "Day7 B subtask3 shares the 25-point rowspan with subtask2 and failed hidden structural tests at about 227 MiB.",
+    "Day7 C10 and D19 were verbally recognized but never became code assets."
+  ],
+  "ingestion": {
+    "main_conversation_pages": 565,
+    "canonical_conversation_source": "important.pdf",
+    "day7_sources": [
+      "Day7.zip",
+      "Day7_原文.docx",
+      "2026-10-05 19_58 记录_原文.docx",
+      "day7 OJ complete archive zip",
+      "day7 AI prompt text",
+      "smart meeting summary"
+    ],
+    "day7_replay": {
+      "start": "2026-10-06T08:00:43",
+      "end": "2026-10-06T12:00:52",
+      "stop_reason": "Ctrl+Alt+Q",
+      "file_changes": 59,
+      "screen_segments": "screen_000..screen_024"
+    },
+    "public_repo_raw_capture": false
+  }
+}
