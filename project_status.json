@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05",
+  "updated_at": "2026-10-06",
   "stage": "after_day6",
   "scores": [
     {
@@ -81,7 +81,11 @@
   "canonical_docs": [
     "项目总控台.md",
     "AI_HANDOFF.md",
+    "总复盘_Day1-Day6_完整版.md",
     "阶段总结_Day1-Day6.md",
+    "能力画像与训练路线.md",
+    "对话证据索引.md",
+    "项目维护规范.md",
     "错因档案.md",
     "赛前执行卡.md",
     "赛中研究协议.md",
@@ -94,5 +98,17 @@
     "Day6 D subtask2 is 15 points; the visible 1 is dependency on subtask1.",
     "Day5 A late versions were close in geometry/DP; main bug was first-by-position vs value search; postcontest strict-NGE code also had an n+1 sentinel bug.",
     "Raw scores across days are not directly comparable because partial-score granularity differs."
-  ]
+  ],
+  "ingestion": {
+    "main_conversation_pages": 565,
+    "canonical_conversation_source": "important.pdf",
+    "duplicate_backup_not_reingested": true,
+    "method": [
+      "full-page render",
+      "OCR for retrieval/recovery",
+      "visual/original-source cross-check for critical facts"
+    ],
+    "public_repo_raw_pdf": false,
+    "evidence_index": "对话证据索引.md"
+  }
 }
