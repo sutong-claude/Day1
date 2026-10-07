@@ -302,3 +302,62 @@ Replay recorder 源码审计已新增：
 - `tools/vm/replay_recorder/contest_replay_capture_v3.0.1.patch`
 
 其中 v3.0.0 已证明存在 pause/raw 语义缺口；以后解释 raw_keys 与 timeline 冲突时必须先查 recorder 版本与 pause status。
+
+
+# 13. 2026-10-07 三包深挖第二轮
+
+## Day7 主 capture 已做 file_changes 全量版本考古
+
+入口：
+- `2026-10-06_CSP-S模拟赛day7/回放数据/file_changes_完整版本时间线_20261006_080043.md`
+- `2026-10-06_CSP-S模拟赛day7/逐段考古纪要.md` E-D7-011/012
+
+关键事实：
+- 59 条 file_changes；
+- B stable→失败重写→exact rollback→WA.cpp freeze→最终只补 IO；
+- C 没有 T3/main.cpp 保存事件，最终仍 starter template；
+- D 有 20 个 main 保存状态，1663B 候选后主动推倒到 583B；
+- capture 早期出现的 `CSP-S/Day6/foo*.cc` 属历史目录事件，不应计入 Day7 T1~T4 研究量。
+
+## Day6 已完成“正式提交源码 ↔ Replay snapshot”精确映射
+
+入口：
+- `2026-10-05_CSP-S模拟赛day6/回放数据/file_changes_语义版本时间线_20261005_101100.md`
+- `tools/archive/replay_submission_matcher.py`
+
+四份 OJ source 均得到唯一 exact normalized-content match：
+- A → T1 save #9；
+- B → T2 save #6；
+- C → T3 save #30；
+- D → T4 save #10。
+
+新硬规则：
+> VM 最终工作区不能默认当正式提交源码；先用 OJ source 与 file_changes 内容精确匹配。
+
+Day6 额外新证据：
+- B 12 分钟内把实现/类型错误修干净，但错误数学 predicate 不变；
+- D 主动用 `phi(1), phi(2), phi(6)` 做最小微型探针，随后修边界与 leftover prime 条件；
+- C 四分类真实进入代码的窗口约 13:30～13:32，后来发生语义退化。
+
+## 旧 VM 血缘已闭合到 Day3→Day4
+
+入口：
+`tools/archive/旧VM快照_血缘与Day3Day4迁移.md`
+
+03包：
+- `虚拟机.zip` 410 文件；
+- `虚拟机(1).zip` 595 文件；
+- 338 个同路径共同文件中 310 个同 SHA，只有 28 个同路径内容变化；
+- 旧快照根 T1～T4 有 60 个文件在新快照 `Desktop/Day3/T1~T4` 中原 SHA 迁移保存。
+
+因此旧快照要做 path-move/content-hash 去重，不能重复读 310 个纯副本。
+
+## Day4 新钉死事实
+
+- A OJ CE 的具体原因已定位：正式提交的 `freopen ("Thermokinesis.out, "w", stdout);` 字符串引号错误；赛后 VM 版本已把两行 freopen 注释，所以只看最终本地文件会漏掉事故。
+- B OJ source 与 `虚拟机(1).zip!Desktop/T2/main.cpp` 完全一致。
+- D OJ submitted source 与 VM 后续版发生结构性分叉，不能互相替代。
+
+## Recorder baseline 措辞修正
+
+v3.0.0 的 FileTracker **有** `_seed_state()` fingerprint 基线；缺的是“启动时把全部现有文件内容写入 file_changes 的 initial snapshot”。以后禁止简写成“没有 baseline”。
