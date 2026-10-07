@@ -48,6 +48,7 @@
 - `研究过程深挖.md`：四题完整思路世代；
 - `game_Bug修复考古.md`：100 分背后的 7 代真实修复；
 - `net_版本考古.md`：10代推倒/重建 + Bug 产生点；
+- `net_叶层剥离证明.md` + `正解代码/net_叶层剥离_On.cpp`：赛后独立闭合的 O(n) full solution；
 - `tree_Bug修复考古.md`：12代 partial / Bug 生命周期；
 - `键盘与Replay分析.md`：28,209 raw key 事件与研究模式；
 - `赛时代码逐段解剖.md`：Replay 保存版本与最终交付；
