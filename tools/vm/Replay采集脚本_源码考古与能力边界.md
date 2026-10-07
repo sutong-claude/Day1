@@ -350,7 +350,7 @@ v3.0.0 构造 ffmpeg：
 - `python -m py_compile`：PASS；
 - v3 self-test：PASS；
 - patched SHA-256：
-  `921ed0ae29b9506f7388533aedfbe9ff98a99124b20e6800a1112c0f1b1bad30`。
+  `c51406265925fed1cf9169f240c71ea025c8906687ed2ac652c6ac0821d53754`。
 
 仓库补丁：
 `tools/vm/replay_recorder/contest_replay_capture_v3.0.1.patch`
