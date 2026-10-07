@@ -547,3 +547,44 @@ RE 不应再笼统写“运行时错误”：
 删 set 后可过附件1~3且 n=1e4 最坏链很轻，但 full仍 Θ(n²)。
 
 这些结论的详细原件入口均已写进对应 `逐段考古纪要.md`。
+
+
+# 20. 2026-10-07 Day3 旧键流证据边界 + Day7 ID 修订
+
+## Day3 v1 keystream
+
+新增源码审计：
+`tools/vm/Day3旧Keystream采集器_源码考古与证据边界.md`
+
+Day3 当场使用的是旧 `keystream_linux.py`，不是后来的 Replay v3。
+
+必须记住：
+- raw JSONL 记录全部 EV_KEY up/down/repeat；
+- `keys.txt` 省略 key-up 与 standalone modifier；
+- v1 没有 pause；
+- v1 没有 mouse/window/screen/clipboard/file-change；
+- 所以 readable text 空窗不能写成“用户没操作”。
+
+Day3 B checker provenance 新闭合：
+- checker.cpp 出现在 B 刚开始后的赛中窗口；
+- 双 ASR 同期明确说“既然提供了校验器……先把这些东西全下载下来”；
+- 当前可标 [E]“赛中取得的随题/赛场提供资产”；
+- 不能继续写“可能赛前已有”；
+- 但具体 URL/按钮仍未恢复，不得冒充 [P]。
+- checker.cpp 取得后未见源码改写，所以 false-NO coverage hole 不是后来改坏。
+
+Day3 对应事件：
+- E-D3-015
+- E-D3-016
+
+## Day7 事件 ID
+
+历史上两个不同事件都叫 `E-D7-013`。
+
+从现在开始 canonical：
+- E-D7-013a：B45 官方子任务/资源边界；
+- E-D7-013b：retained unordered_set → Θ(n²) 峰值内存 → bad_alloc/RE 根因。
+
+裸 `E-D7-013` 视为 legacy ambiguous ID。
+修订规则已经写入：
+`Replay逐段考古协议.md`
