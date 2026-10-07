@@ -350,3 +350,50 @@ Coderlands net 是校准案例：
 
 若派生视图与 canonical 冲突：
 > 以 canonical + 最新原始证据为准，并修订派生视图。
+
+
+# 14. 三包证据池施工入口（2026-10-07）
+
+用户已经把后续需要长期挖掘的模拟赛原件固定成三包，并保存到 Library：
+
+```text
+/CSP-S模拟赛资料/原始三包/模拟赛资料_01_共03包.zip
+/CSP-S模拟赛资料/原始三包/模拟赛资料_02_共03包.zip
+/CSP-S模拟赛资料/原始三包/模拟赛资料_03_共03包.zip
+```
+
+后续不要再问“原始文件在哪”，也不要另找别的比赛包。
+
+## 当前机器盘点
+
+- depth≤3 inventory：9,073 rows；
+- nested ZIP opened：195；
+- open errors：0；
+- duplicate nested-ZIP hash groups：34；
+- duplicate ZIP appearances：169。
+
+详细入口：
+
+- `tools/archive/三包原始资料_处理台账.md`
+- `tools/archive/三包递归扫描_统计摘要.md`
+- `tools/archive/recursive_zip_inventory.py`
+- `证据阅读台账.md`
+
+## 固定推进方式
+
+```text
+inventory
+→ content-hash 去重
+→ 找唯一/版本分叉的高信息量对象
+→ 读原件
+→ 形成 P/E/C/H/X
+→ 立即写比赛证据日志/题解
+→ 更新处理台账
+→ commit
+```
+
+进度可以极小，但禁止“读完只留上下文”。
+
+2026-10-07 第一轮已经用 recorder 源码证明：
+Replay v3.0.0 的 pause 不会停止 raw EV_KEY 持久化，且 FileTracker 存在 baseline / polling / skip 边界。后续所有 Replay 解释都应读取：
+`tools/vm/Replay采集脚本_源码考古与能力边界.md`。
