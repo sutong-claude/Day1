@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+<rect width="1200" height="520" fill="white"/>
+<text x="50" y="42" font-size="24" font-family="sans-serif">代码部落 NOI金牌命题模拟赛1：四小时回放</text>
+<text x="50" y="70" font-size="14" font-family="sans-serif">457MB VM + Replay + 两套录音 + 正式提交目录；横轴为相对分钟。</text>
+<line x1="80" y1="155" x2="1120" y2="155" stroke="#222" stroke-width="2"/>
+<g font-family="sans-serif" font-size="12"><text x="75" y="180">0</text><text x="330" y="180">60</text><text x="590" y="180">120</text><text x="850" y="180">180</text><text x="1100" y="180">240</text></g>
+<g stroke="#ccc"><line x1="340" y1="125" x2="340" y2="185"/><line x1="600" y1="125" x2="600" y2="185"/><line x1="860" y1="125" x2="860" y2="185"/></g>
+<rect x="80" y="105" width="295" height="36" fill="#c8c8c8" stroke="#333"/><text x="95" y="129" font-size="14" font-family="sans-serif">net：猜想→推倒→直径重建→100</text>
+<rect x="397" y="105" width="310" height="36" fill="#b8b8b8" stroke="#333"/><text x="410" y="129" font-size="14" font-family="sans-serif">game：分类→第28组反例→7代修复→100</text>
+<rect x="725" y="105" width="35" height="36" fill="#eeeeee" stroke="#333"/><text x="727" y="99" font-size="12" font-family="sans-serif">core</text>
+<rect x="770" y="105" width="270" height="36" fill="#d8d8d8" stroke="#333"/><text x="786" y="129" font-size="14" font-family="sans-serif">tree：多个partial→12代代码→错误oracle</text>
+<rect x="1040" y="105" width="80" height="36" fill="#ededed" stroke="#333"/><text x="1047" y="129" font-size="12" font-family="sans-serif">fallback/交付</text>
+<g font-family="sans-serif" font-size="13">
+<text x="70" y="235">关键事件</text>
+<text x="90" y="265">net：T1源码从 ~1.4KB 砍到703B，再重建到2308B；最终OJ100但有 N=3,M=1 最小反例</text>
+<text x="90" y="295">game：第一版样例过后主动跑大样例；第28组 mismatch 迫使 k=2 从猜法升级为精确前后缀AND</text>
+<text x="90" y="325">game：后续清“僵尸代码”、补 k≥4/5、修 prefix off-by-one；赛后145,636实例0 mismatch</text>
+<text x="90" y="355">core：Trie / EMPTY 入口已出现，但未进入实现</text>
+<text x="90" y="385">tree：T4从521B增长到4875B；小数据、星形、链都实际编码，不是“最后随便写点”</text>
+<text x="90" y="415">tree：最后复制进T4的下载数据第一行是“1 0 0”，与本题格式冲突；验证链失去可信oracle</text>
+</g>
+<text x="70" y="470" font-size="15" font-family="sans-serif">核心评价：前两题的200分来自真实研究闭合；后两题0分要拆成数学/实现、subtask捆绑、验证环境三层，不能一句“不会做”概括。</text>
+</svg>
