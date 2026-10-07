@@ -1,0 +1,9 @@
+version,t_seconds,t_hhmmss,bytes,sha256_prefix,main_change
+v0,6419.231,01:46:59,3405,ec4ca3829f2e,first large classification version
+v1,7099.618,01:58:20,3709,abc4c2683a9e,add exact k=2 suffix AND + prefix scan
+v2,7118.194,01:58:38,3754,cd0a4d7fef37,add cout/return to k=2 branch
+v3,7572.204,02:06:12,4141,f04a201f8b6c,remove flawed k=2 heuristics; add k>=4/k>=5 cases
+v4,7742.109,02:09:02,3951,e4df2684f1a4,remove leftover k=2 answer-2/1 shortcuts
+v5,8337.516,02:18:58,3988,42acc0e392fe,fix k=2 prefix update order/off-by-one
+v6,8589.473,02:23:09,3992,17650159210c,enable game.in/game.out freopen
+final,8607.998,02:23:28,3992,17650159210c,copy exact v6 to ZJ-029658/game/game.cpp
