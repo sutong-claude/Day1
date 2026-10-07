@@ -29,6 +29,8 @@ signed main () {
     ios::sync_with_stdio (false);
     cin.tie (0);
     cout.tie (0);
+    //freopen (".in", "r", stdin);
+    //freopen (".out", "w", stdout);
     cin >> n;
     for (int i = 1; i <= n; i++)
         cin >> l[i] >> r[i];
@@ -39,6 +41,7 @@ signed main () {
         e[y].push_back (x);
     }
     if (n <= 5000) {
+        //tast 1 and task 2
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n; j++) {
                 vis[j] = false;
@@ -55,10 +58,16 @@ signed main () {
     }
     bool A = true;
     for (int i = 1; i <= n; i++) {
-        if (l[i] != r[i]) { A = false; break; }
+        if (l[i] != r[i]) {
+            A = false;
+            break;
+        }
     }
-    if (A) return 0;
+    if (A) {
+        // task 3
 
+        return 0;
+    }
     bool B = false;
     int root;
     for (int i = 1; i <= n; i++) {
@@ -69,6 +78,8 @@ signed main () {
         }
     }
     if (B) {
+        // task 4
+        // 3 places
         for (int i = 1; i <= n; i++) {
             int reach = l[root], l[i] + 1;
             if (reach <= r[root])
@@ -79,15 +90,27 @@ signed main () {
             if (reach <= r[i])
                 d2[i] = true;
         }
-        int cnt1 = 0, cnt2 = 0;
-        for (int i = 1; i <= n; i++) if (d1[i]) cnt1++;
-        for (int i = 1; i <= n; i++) if (d2[i]) cnt2++;
+        int cnt1 = 0;
+        for (int i = 1; i <= n; i++)
+            if (d1[i] == true)
+                cnt1++;
+        int cnt2 = 0;
+        for (int i = 1; i <= n; i++)
+            if (d2[i] == true)
+                cnt2++;
         if (cnt1 != 0 && cnt2 != 0) {
             if (cnt1 == 1 && cnt2 == 1) {
                 bool ok = true;
-                for (int i = 1; i <= n; i++)
-                    if (d1[i] == d2[i] && d1[i]) ok = false;
-                cout << (ok ? 3 : 2) << '\n';
+                for (int i = 1; i <= n; i++) {
+                    if (d1[i] == d2[i] && d1[i] == true) {
+                        ok = false;
+                        break;
+                    }
+                }
+                if (ok)
+                    cout << 3 << '\n';
+                else
+                    cout << 2 << '\n';
                 return 0;
             }
             cout << 3 << '\n';
@@ -100,60 +123,67 @@ signed main () {
         cout << 2 << '\n';
         return 0;
     }
-
     int cnt1 = 0, cnt2 = 0;
     for (int i = 1; i <= n; i++) {
-        if (e[i].size() == 1) cnt1++;
-        if (e[i].size() == 2) cnt2++;
+        if (e[i].size() == 1)
+            cnt1++;
+        if (e[i].size() == 2)
+            cnt2++;
     }
-    bool C = (cnt1 == 2 && cnt2 == n - 2);
+    bool C = false;
+    if (cnt1 == 2 && cnt2 == n - 2)
+        C = true;
     if (C) {
+        // task 5
         int root1 = -1, root2 = -1;
         for (int i = 1; i <= n; i++) {
             if (e[i].size() == 1) {
-                if (root1 == -1) root1 = i;
-                else root2 = i;
+                if (root1 == -1)
+                    root1 = i;
+                else
+                    root2 = i;
             }
         }
-        vector<int> line;
+        vector <int> line;
         int point = root1;
         while (point != root2) {
             line.push_back(point);
             vst[point] = true;
             if (point == root1)
                 point = e[point][0];
-            else if (!vst[e[point][0]])
-                point = e[point][0];
-            else
-                point = e[point][1];
+            else {
+                if (vst[e[point][0]] == false)
+                    point = e[point][0];
+                else
+                    point = e[point][1];
+            }
         }
         line.push_back(root2);
-
         int L = l[root1], R = r[root1];
         int pos = 0;
         for (int i = 1; i <= n - 1; i++) {
-            L--, R--;
-            L = max (L, l[line[i]]);
-            R = min (R, r[line[i]]);
+            L = L - 1, R = R - 1;
+            L = max (L, l[line[i]]), R = min (R, r[line[i]]);
             if (L > R) {
                 pos = i;
                 break;
             }
         }
         pos--;
-
         int pos2 = n;
         L = l[n - 1], R = r[n - 1];
         for (int i = n - 2; i >= 0; i--) {
-            L--, R--;
-            L = max (L, l[line[i]]);
-            R = min (R, r[line[i]]);
+            L = L - 1, R = R - 1;
+            L = max (L, l[line[i]]), R = min (R, r[line[i]]);
             if (L > R) {
                 pos2 = i;
                 break;
             }
         }
-        cout << max(pos + 1, n - pos2) << '\n';
+        int res1 = pos - 0 + 1;
+        int res2 = n - 1 - pos2 + 1;
+        int res = max (res1, res2);
+        cout << res << '\n';
         return 0;
     }
     cout << 1 << '\n';
