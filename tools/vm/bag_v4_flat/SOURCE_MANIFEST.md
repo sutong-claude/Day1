@@ -8,7 +8,7 @@
 
 `326bc566a3a1ba039354af86d6e91ba57b2feb8d10bb1e5cc2d2d06c0e5bca55`
 
-仓库现在不再只有 README / TEST_REPORT，而保存 canonical source：
+仓库现在不再只有 README / TEST_REPORT，而保存**可维护的 source mirror**：
 
 ```text
 source/
@@ -28,7 +28,7 @@ source/
 build_release.sh
 ```
 
-`build_release.sh` 会从模板生成 T1～T4 并打出 ZIP。
+`build_release.sh` 会从模板生成 T1～T4 并打出 ZIP。正式 Library ZIP 仍是字节级权威版本；Git 中的 source mirror 面向维护和重建，不承诺重打 ZIP 后字节哈希与历史 ZIP 完全相同（ZIP 时间戳等也会影响哈希）。
 
 ## 本轮重新冒烟
 
