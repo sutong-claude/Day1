@@ -177,7 +177,6 @@ Day7 B 的核心迁移：
 Day7 C10 / D19 已经赛时发现，但没有变成提交。
 以后：
 `PROVED → 10 分钟内 CODED → VERIFIED → FROZEN`。
-
 ## 5.7 捆绑评分的单位不是“测试点”
 Coderlands tree raw tests 过不少，但每个 subtask 包都有错误，最终仍 0。
 一次只闭合一个包。
@@ -498,7 +497,6 @@ tools/archive/replay_submission_matcher.py 现在必须区分：
 ## 新的交付硬规则
 
 OJ 提交页不是编辑器。
-
     本地正式 IO
     → 保存
     → 编译
@@ -511,3 +509,120 @@ OJ 提交页不是编辑器。
 该规则已同步：
 - 赛前执行卡 第20条；
 - 得分资产状态机 提交一致性补丁。
+
+# 17. 三包全量处理已闭合到“逐路径覆盖”，后续欠账改成语义深挖
+
+此前 #14 里的 depth≤3 inventory 只是首轮历史记录，**不再代表当前最高覆盖度**。
+
+当前最新事实：
+
+- 按 ZIP magic 递归处理 235 个容器实例；
+- 其中 198 .zip / 23 .skill / 13 .docx / 1 .xlsx；
+- 97 个唯一容器内容哈希；
+- 0 解压错误；
+- 展开树 7,324 个文件，约 5.08GB；
+- 逐路径处理审计 missing=0。
+
+具体：
+- 3,701 直接文本类文件全文读取；
+- 内容去重后 1,470 份唯一全文，约 38.47M chars；
+- 82 PDF 全文文本提取；
+- 2,370 份 .in/.out 全字节扫描：约 1.236GB / 54,249,308 行 / 189,585,973 tokens / 392 个唯一内容；
+- 239 媒体全字节哈希 + 元数据；
+- 13 gzip 全量解压；
+- 659 ELF/.o 全字节哈希 + ELF 元信息；
+- DOCX/XLSX clean-text 另提取。
+
+入口：
+- `tools/archive/三包全量递归展开与读取审计_2026-10-07.md`
+- Library 派生索引：`/CSP-S模拟赛资料/派生索引/三包全量派生上下文_2026-10-07.zip`
+
+**注意**：
+“文件覆盖=100%”不等于“7,324 个文件都已经做完语义级推理”。
+
+以后不要再写“哪些文件还没看到”，而要写：
+- 已全文读取，尚待深推理；
+- 已统计，待专项解析；
+- 已形成结论，待同步题解/纪要；
+- 低价值重复/编译产物，已完成去重归档。
+
+## OJ 快照不能 latest-wins
+
+三包共有 93 个 record JSON 外观文件，实际 27 个唯一提交 ID；9/27 存在快照字段质量差异。
+
+实测：
+- Day1～Day4 较早归档反而保留排行榜；
+- Day5～Day7 较晚快照补强 record metadata；
+- 所以必须 snapshot union + field-level strongest evidence。
+
+入口：
+`tools/archive/OJ多版本归档_字段级证据合并规则.md`
+
+## 双 ASR 不得重复加权
+
+Day3 / Day5 / Day6 / Day7 / Coderlands 均已确认存在同一音频的平行 ASR 转写。
+
+用途：
+- 互相纠错；
+- 补漏；
+- 恢复算法名/变量名/错词。
+
+禁止：
+> 把两份 ASR 当成两份独立录音证据。
+
+入口：
+`tools/archive/录音双转写_配对与证据规则.md`
+
+# 18. 验证器不是“看文件名定权威”
+
+三包原始 checker / stress / gen / brute 已开始源码级分类，入口：
+
+`tools/archive/Checker_Stress_Oracle源码审计_2026-10-07.md`
+
+当前已钉死：
+
+1. **Day1 B checker**
+   - NO 不会跳过；
+   - feasible theorem 是 `forall i, a_i<=i`；
+   - 48 个官方附件 case 全部重放；
+   - 38 YES 构造逐步模拟合法；
+   - n<=6 共1274个非降初态真实 BFS，criterion vs reachability 0 mismatch；
+   - 题解已有必要性+归纳充分性证明。
+   - 所以它不像 Day3 B 那样存在已知 verdict coverage hole。
+
+2. **Day2 A duipai_T1/ac.cpp**
+   - generator 只覆盖长度1..10二进制，即 ans=0..1023；
+   - 人工 `i<=10000` 截断经整个 generator 数值域扩到65535复核，1024个 ans 0 mismatch；
+   - generator 域内 [E] 可靠，但不能外推成任意长度证明。
+
+3. **Day2 D chk.cpp**
+   - isValid 本身完整检查 assignment；
+   - 赛时漏枚举仍来自 candidate mask 没补满 n 位，而不是 checker 漏验。
+
+4. **Day4 T1/checker.cpp**
+   - 实际只是“忽略 b[i]==-1 后数数组 mismatch”的 local utility；
+   - 不是 official checker / truth oracle。
+
+5. **Day4 T2/gen.cpp**
+   - 只生成 t=1,n<=10,value<=13；
+   - 对拍次数再多也只是窄域覆盖。
+
+6. **Day3 stress_A/B/C/D**
+   - 本轮重新编译实跑：1,021,844 / 1,160,593 / 1,015,405 / 1,088,572；
+   - 合计 4,286,414，全部 PASS；
+   - 与已有验证报告一致；
+   - 它们是赛后 [E]，不能回写成赛时能力。
+
+新增统一规则：
+
+```
+checker / chk / ac / brute / stress / gen
+→ 先读源码
+→ 写清验证命题
+→ 写清未验证命题
+→ 写清 generator domain
+→ 标赛时/赛后
+→ 再决定证据等级
+```
+
+**文件名不是证据等级。**
