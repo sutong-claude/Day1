@@ -445,3 +445,69 @@ A 的 OJ Compile Error 已由源码 diff 定位到坏掉的 traditional IO 行�
 3. Day5 Replay/VM 原件继续定位并做 exact submission mapping；
 4. 给递归 inventory 增加 content-sha 的 path-move 识别，减少快照重复劳动；
 5. 继续挖 checker/stress/archive 脚本与同名不同 SHA 对象。
+
+
+# 16. Day3 / Day5 新闭合（2026-10-07）
+
+## Day3 checker 因果链已由官方样例直接证明
+
+不再只写“checker 不验证 NO”。
+
+已实测原版：
+- T2/AC.cpp
+- T2/checker.cpp
+- sample1～8
+
+sample7 case4：
+candidate NO / official YES；checker 跳过并整份 green。
+
+而 OJ B65 submitted algorithm body 与 T2/AC.cpp 完全一致（仅 freopen comment state 不同）。
+
+所以 canonical 结论：
+> Day3 B 的官方样例本来就包含最终算法主体的反例；验证器覆盖缺口让反例没有转化成赛时反馈。
+
+工具：
+tools/archive/checker_coverage_probe.py
+
+## Day5 主 capture 已进入提交级考古
+
+canonical：
+03包 → Day6.zip → Desktop/CSP-S/Day5/contest_capture/20261004_090304
+
+关键：
+- 99 条 file_changes；
+- A 第一交实际是 T2/WA.cpp 417B special；
+- B15 是 T2/main.cpp 简单正确 partial；
+- C RE→RE→WA 把输入/IO/算法层分开；
+- T4(now T1) 是真实赛场路径；
+- A 第二代共19次保存；
+- final traditional IO 多次在 OJ 网页链中最后修改。
+
+入口：
+2026-10-04_CSP-S模拟赛day5/回放数据/Replay与六次OJ提交映射_20261004_090304.md
+
+## submission matcher 证据等级
+
+tools/archive/replay_submission_matcher.py 现在必须区分：
+
+1. exact：正式 source 与 snapshot 内容一致；
+2. body_without_freopen：仅移除 traditional IO 行后主体一致。
+
+第二类可以证明“算法主体对应”，但不能证明“最后本地验证的字节就是上传字节”。
+
+## 新的交付硬规则
+
+OJ 提交页不是编辑器。
+
+    本地正式 IO
+    → 保存
+    → 编译
+    → 文件 IO 样例
+    → VERIFIED/FROZEN
+    → 原样提交
+
+网页中再改一个字符，状态立即回退为 MODIFIED_UNVERIFIED。
+
+该规则已同步：
+- 赛前执行卡 第20条；
+- 得分资产状态机 提交一致性补丁。
