@@ -361,3 +361,56 @@ Day6 额外新证据：
 ## Recorder baseline 措辞修正
 
 v3.0.0 的 FileTracker **有** `_seed_state()` fingerprint 基线；缺的是“启动时把全部现有文件内容写入 file_changes 的 initial snapshot”。以后禁止简写成“没有 baseline”。
+
+
+# 14. Day3 checker 真反例 + Day5 提交链
+
+## Day3 B：不是“样例没卡到”，是 checker 把官方反例吞了
+
+原版 T2/AC.cpp + checker + sample1～8 已重新编译重放。
+
+sample7 第4 case：
+- candidate：NO
+- official：YES 62528 125010
+- checker：Skipped (NO is not verified)
+- 整份仍 exit 0
+
+并且 OJ B65 正式提交源码去掉 freopen 后，与该 T2/AC.cpp 完全一致。
+
+所以以后准确写：
+> 官方 sample7 已经卡掉最终 B 算法主体；本地 checker 由于不验证 NO，没把错误暴露出来。
+
+入口：
+- 2026-10-01_CSP-S模拟赛day3/原始材料/keystream_20261001_184442_checker假安全链.md
+- 2026-10-01_CSP-S模拟赛day3/原始材料/OJ提交源码与VM_AC对齐.md
+- tools/archive/checker_coverage_probe.py
+
+## Day5 Replay 已找到，不要再重复“定位原件”
+
+主 capture：
+03包 → Day6.zip → Desktop/CSP-S/Day5/contest_capture/20261004_090304
+
+99 条 file_changes，25 段 screen，约4小时完整覆盖。
+
+六次 OJ 提交已与 Replay 对齐，见：
+2026-10-04_CSP-S模拟赛day5/回放数据/Replay与六次OJ提交映射_20261004_090304.md
+
+必须记住：
+- A 第一交是 T2/WA.cpp 的 417B 临时 special，不是前两小时 T1 full 主体；
+- B15 来自 T2/main.cpp 输出 a[n] 的正确 partial；
+- C 两次 RE exact 命中本地保存版，第三交主体相同但补 Hina IO 后变 WA；
+- T4 在赛场真实改名为 T4(now T1)，用于 A 第二代；
+- 多次 traditional IO 在 OJ 网页提交链最后修改；
+- A 两次临时/新增 special 在写完到复制提交之间没有新的 F9 验证。
+
+## 新提交一致性规则
+
+FROZEN/VERIFIED 只对具体字节内容成立。
+
+任何网页提交框里的二次修改都产生新版本：
+VERIFIED/FROZEN → MODIFIED_UNVERIFIED。
+
+理想证据必须是：
+OJ source exact match 本地最后 VERIFIED/FROZEN source。
+
+仅 body_without_freopen 一致表示算法主体对应，但交付链仍有 divergence。
