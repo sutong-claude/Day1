@@ -297,8 +297,7 @@ BAG V4 最有价值的不是脚本多，而是：
 → brute 重复做了什么
 → 性质/等价改写
 → partial 梯度
-→ full 为什么会被想到
-→ 证明
+→ full 为什么会被想到→ 证明
 → 实现积木
 → 原代码最小修复
 → Hack/对拍
@@ -626,3 +625,47 @@ checker / chk / ac / brute / stress / gen
 ```
 
 **文件名不是证据等级。**
+
+# 19. Day4 B 已从“oracle 有 bug”升级成完整 stress 污染因果链
+
+canonical 原件报告：
+`2026-10-02_CSP-S模拟赛day4/原始材料/T2_对拍污染链_非法generator_错oracle.md`
+
+必须记住的数字：
+
+- gen：`n in [1,10]`，但 `a_i in [1,13]`；
+- 题面要求 `a_i<=n`；
+- 按 gen 分布完整 case 合法概率约 **2.83%**；
+- 实际残留停止 case：`n=7, 1 3 10 7 4 8 10`，确定非法；
+- AC oracle 漏 `v!=a_l,a_r`；
+- 合法 n<=6 全空间 50,069：
+  - oracle wrong 34,418；
+  - candidate wrong 34,789；
+  - false green 22,075；
+  - false red 6,187。
+
+原始录音 + recovered keystream 又证明：
+- 02:14 本人已说“为什么这个 AC 它不对呢？”；
+- 之后仍多次继续运行 duipai.sh。
+
+因此 Day4 B 的准确根因不是“有对拍但还没调好”，而是：
+
+```
+generator domain 失真
++
+oracle contract 失真
++
+本人已经察觉 oracle 不可信
++
+却没有重建真值链
+↓
+继续把无语义保障的 diff 当 Debug 指令
+```
+
+这条经验已经进入《赛前执行卡》第21条：
+
+> **ORACLE_TRUST=0 规则**：一旦 AC/oracle 本身可疑，立刻停 candidate patch，先修 generator + oracle。
+
+同时：
+`tools/archive/验证资产全量哈希矩阵_2026-10-07.md`
+已经对 764 个验证相关外观文件按内容哈希去重为 43 组，避免“目录存在/文件名像 AC”被误判成真实验证资产。
