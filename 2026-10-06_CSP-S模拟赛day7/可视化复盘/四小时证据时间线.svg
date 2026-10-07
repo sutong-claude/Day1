@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+<rect width="1200" height="520" fill="white"/>
+<text x="50" y="42" font-size="24" font-family="sans-serif">Day7 四小时证据时间线（二次取证）</text>
+<text x="50" y="70" font-size="14" font-family="sans-serif">录音 + file_changes + raw_keys + screen + OJ；横轴为比赛相对分钟。</text>
+<line x1="80" y1="155" x2="1120" y2="155" stroke="#222" stroke-width="2"/>
+<g font-family="sans-serif" font-size="12" fill="#111">
+<text x="75" y="180">0</text><text x="330" y="180">60</text><text x="590" y="180">120</text><text x="850" y="180">180</text><text x="1100" y="180">240</text>
+</g>
+<g stroke="#ccc"><line x1="340" y1="125" x2="340" y2="185"/><line x1="600" y1="125" x2="600" y2="185"/><line x1="860" y1="125" x2="860" y2="185"/></g>
+<rect x="80" y="105" width="160" height="36" fill="#d9d9d9" stroke="#333"/><text x="100" y="129" font-size="14" font-family="sans-serif">A 建模+编码 → 100</text>
+<rect x="244" y="105" width="235" height="36" fill="#c7c7c7" stroke="#333"/><text x="258" y="129" font-size="14" font-family="sans-serif">B brute / Debug / 冻结</text>
+<rect x="479" y="105" width="155" height="36" fill="#e3e3e3" stroke="#333"/><text x="490" y="129" font-size="13" font-family="sans-serif">B 复杂度/蓝图</text>
+<rect x="634" y="105" width="28" height="36" fill="#f0f0f0" stroke="#333"/><text x="638" y="99" font-size="12" font-family="sans-serif">C</text>
+<rect x="662" y="105" width="65" height="36" fill="#bdbdbd" stroke="#333"/><text x="670" y="129" font-size="12" font-family="sans-serif">D19</text>
+<rect x="727" y="105" width="250" height="36" fill="#e8e8e8" stroke="#333"/><text x="746" y="129" font-size="13" font-family="sans-serif">B离线 / D5000 / 非编码研究</text>
+<rect x="977" y="105" width="100" height="36" fill="#a9a9a9" stroke="#333"/><text x="985" y="129" font-size="13" font-family="sans-serif">D编码/Debug</text>
+<rect x="1077" y="105" width="43" height="36" fill="#d0d0d0" stroke="#333"/><text x="1080" y="129" font-size="11" font-family="sans-serif">交付</text>
+<g font-family="sans-serif" font-size="13">
+<text x="70" y="235">关键事件</text>
+<text x="90" y="265">~37m：A 一交100</text>
+<text x="90" y="290">~92m：B 正确朴素递归已稳定；明确 calc 是复杂度瓶颈</text>
+<text x="90" y="315">~113m：B 稳定版已冻结；优化失败时可回滚</text>
+<text x="90" y="340">~128m：切 C；发现 v=50 的10分性质（PROVED，未编码）</text>
+<text x="90" y="365">~134–148m：切 D；N≤100 的19分暴力已经推完整（PROVED，未编码）</text>
+<text x="90" y="390">~195m 后：D 大规模编码；210–225m 是全场 F9 最密集窗口</text>
+<text x="90" y="415">~231m：D 候选模型被自己判不可行并推倒；~234m：B 正式提交，最终45 RE</text>
+</g>
+<text x="70" y="470" font-size="15" font-family="sans-serif">核心纠正：不是“B机械写三小时”，而是研究模式多次切换；真正损失是 C10/D19 已想明白却未进入 CODED→VERIFIED→FROZEN。</text>
+</svg>
