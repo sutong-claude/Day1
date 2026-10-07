@@ -479,3 +479,71 @@ Day3 / Day5 / Day6 / Day7 / Coderlands 各存在两份**同一音频的平行 AS
 
 入口：
 `2026-10-04_CSP-S模拟赛day5/回放数据/OJ正式提交与file_changes逐提交对齐.md`
+
+
+# 16. 2026-10-07 新增硬证据：不要再用单层错因解释 Day4/Day6/Day7
+
+## Day4 B
+
+准确故障树：
+
+```
+small partial:
+正确 brute 思路
+→ solve2 重复读取 testcase
+→ subtask1 TLE
+
+full:
+solve1 允许把右端点当删除值
+→ n=21: 2..21,1 输出21，truth20
+
+stress:
+AC oracle 同样没检查 v != endpoints
+→ [2,1] truth1, AC2, WA2
+→ common-mode fake green
+```
+
+所以 Day4 B 是仓库里“oracle 与 candidate 共模错误”的标准教材。
+
+## Day4 D
+
+RE 不应再笼统写“运行时错误”：
+- Fusion freopen 注释；
+- 本地主体 exit0；
+- 不生成 Fusion.out；
+- OJ 1ms RE。
+
+修 IO 后仍会因无条件 n! 直接 WA sample1。
+
+## Day6 B
+
+最终源码同时有：
+- average-speed 数学 predicate 双向错误；
+- n/m 数学对象身份混淆；
+- 全局日志数组跨 testcase 残留；
+- same testcase 可因 prefix 不同产生不同答案。
+
+以后讲 Day6 B 时，不要只说“差一个势函数”。
+
+## Day6 C
+
+官方 sample1 是一个危险教材：
+- local predicate 已错；
+- 但 d=(1,1) 的 expectation 恰好抵消成8/9；
+- 所以 submitted source sample1 完全通过。
+
+必须强调：
+> 概率题不能只验证 aggregate expectation；要先验证 local predicate / state set。
+
+## Day7 B
+
+45 RE 的直接原因已经不是猜测：
+- 256MiB limit；
+- 无用 unordered_set 在递归中 retained；
+- path case RSS 近 Θ(n²)；
+- 256MiB 下 bad_alloc 可复现；
+- OJ 107MiB / 227MiB 曲线与本地 n=2000/3000 对齐。
+
+删 set 后可过附件1~3且 n=1e4 最坏链很轻，但 full仍 Θ(n²)。
+
+这些结论的详细原件入口均已写进对应 `逐段考古纪要.md`。
