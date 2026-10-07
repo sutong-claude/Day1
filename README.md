@@ -12,6 +12,7 @@
 - [错因档案](错因档案.md)：跨比赛累积的病因表和待补专项
 - [阶段总结 Day1-Day7](阶段总结_Day1-Day7.md)：代码源七场能力迁移，最新瓶颈为复杂度转换
 - [跨体系阶段总结](阶段总结_截至2026-10-06.md)：加入代码部落 NOI 金牌命题模拟赛，不同评分体系不直接比裸分
+- [10/7 阶段总结](阶段总结_截至2026-10-07_七场代码源与Coderlands.md)：七场原始归档重新核分 + Coderlands + BAG/VM/采集系统
 - [AI 接管指南](AI_HANDOFF.md)：最新状态、证据等级、Replay 协议与隐私边界
 - [阶段数据 CSV](阶段数据_2026-10-06.csv) / [阶段趋势图](阶段趋势_2026-10-06.svg)：分数趋势与跨体系分离展示
 - [本轮资料清单](资料清单_2026-10-06.md)：原始证据来源、隐私边界、哪些材料已提炼入库
@@ -47,11 +48,12 @@
 
 ## 工具
 
-- **当前推荐：BAG V3.2 FLAT** — 一题一目录、样例平铺、main.cpp 同时用于 Code::Blocks / 样例 / Debug / 对拍，见 `tools/vm/bag_v3_2_flat/README.md`。
+- **当前推荐：BAG V4 Flat Integrated** — 一题一目录、一份 `main.cpp`、官方样例/手工 Hack/对拍反例统一为平铺 testcase；见 `tools/vm/bag_v4_flat/README.md`、`SOURCE_MANIFEST.md` 和 `tools/vm/BAG_演化史与赛场工作流.md`。
 
 | 内容 | 位置 |
 |---|---|
-| **当前正式候选 BAG V3.1** | `tools/vm/bag_v3_1/`：真实大样例、5000 样例、10000 组对拍、故障注入、快速恢复均已实测；先看 `README.txt` 和 `TEST_REPORT.md` |
+| **当前 BAG V4** | `tools/vm/bag_v4_flat/`：正式 ZIP 已重新冒烟；仓库已加入 source mirror + `build_release.sh` |
+| BAG V3.1（历史硬化版） | `tools/vm/bag_v3_1/`：用于回看 runner 可靠性演化；真实大样例、5000 样例、10000 组对拍、故障注入均有测试记录 |
 | bag v2（历史版本） | `tools/vm/bag_v2/`，保留用于对照，不再作为推荐版本 |
 | 旧版初始桌面原样快照 | `tools/vm/初始机子/` |
 | Code::Blocks 四个问题（源码核实版） | `tools/vm/CodeBlocks四个问题_源码核实版.md` |
@@ -66,3 +68,13 @@
 ## 当前比赛包
 
 - **BAG V4 Flat Integrated**：`tools/vm/bag_v4_flat/`。核心原则：一题一个平铺目录；官方样例、手工 Debug、对拍反例全部使用同一套 `.in/.out` testcase，不再拆 `samples/` / `debug/` / `duipai_T1/`。
+
+
+## 2026-10-07 新增：原始归档、Coderlands 与赛场系统
+
+- `tools/archive/代码源Day1-Day7_归档证据清单.csv`
+- `tools/archive/代码源Day1-Day7_来源与交叉验证.md`
+- `tools/archive/Coderlands_平台与采集路径初步勘查.md`
+- `tools/archive/归档采集与证据链_经验总结.md`
+- `tools/vm/BAG_演化史与赛场工作流.md`
+- `tools/vm/虚拟机赛场工程经验.md`
