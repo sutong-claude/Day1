@@ -1,18 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
-<rect width="1000" height="520" fill="white"/>
-<text x="50" y="42" font-size="24" font-family="sans-serif">NOI金牌命题模拟赛1：实时榜单快照（口径校正版）</text>
-<text x="50" y="70" font-size="14" font-family="sans-serif">54 = 当时榜单行数，不等于54个已完赛样本；大量0分账号尚未开始。</text>
-<rect x="70" y="120" width="660" height="28" fill="#222"/><text x="745" y="140" font-size="14" font-family="sans-serif">220</text>
-<rect x="70" y="165" width="630" height="28" fill="#444"/><text x="715" y="185" font-size="14" font-family="sans-serif">210</text>
-<rect x="70" y="210" width="600" height="28" fill="#666"/><text x="685" y="230" font-size="14" font-family="sans-serif">200（本人，实时第3）</text>
-<text x="70" y="285" font-size="18" font-family="sans-serif">可以确认：</text>
-<text x="90" y="318" font-size="15" font-family="sans-serif">• 当时页面显示本人 200 分、3 / 54</text>
-<text x="90" y="348" font-size="15" font-family="sans-serif">• 当时前两名 220 / 210</text>
-<text x="90" y="378" font-size="15" font-family="sans-serif">• 榜单中存在尚未开始的0分账号</text>
-<text x="540" y="285" font-size="18" font-family="sans-serif">不能从该快照推断：</text>
-<text x="560" y="318" font-size="15" font-family="sans-serif">• 最终参赛人数 / 完赛人数</text>
-<text x="560" y="348" font-size="15" font-family="sans-serif">• 全体平均分 / 中位数 / 0分率</text>
-<text x="560" y="378" font-size="15" font-family="sans-serif">• 最终各题 AC 率 / 最终难度分布</text>
-<line x1="50" y1="430" x2="950" y2="430" stroke="#333"/>
-<text x="50" y="470" font-size="14" font-family="sans-serif">以后只有最终榜单或“已开始/已完赛”状态可确认时，才做全体分布统计。</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+<rect width="1000" height="620" fill="white"/>
+<text x="50" y="42" font-size="24" font-family="sans-serif">NOI金牌命题模拟赛1：实时榜单快照</text>
+<text x="50" y="68" font-size="14" font-family="sans-serif">注意：54 是快照行数，不是 54 名已完赛选手；大量 0 分行当时尚未开始/尚无成绩。</text>
+<text x="50" y="105" font-size="18" font-family="sans-serif">当时已出分的前 15 行</text>
+<g font-family="sans-serif" font-size="11" fill="#111">
+<rect x="70" y="135" width="660" height="18" fill="#222"/><text x="740" y="149">220</text>
+<rect x="70" y="160" width="630" height="18" fill="#333"/><text x="710" y="174">210</text>
+<rect x="70" y="185" width="600" height="18" fill="#555"/><text x="680" y="199">200（本人，当时第3）</text>
+<rect x="70" y="210" width="525" height="18" fill="#777"/><text x="605" y="224">175</text>
+<rect x="70" y="235" width="525" height="18" fill="#777"/><text x="605" y="249">175</text>
+<rect x="70" y="260" width="450" height="18" fill="#888"/><text x="530" y="274">150</text>
+<rect x="70" y="285" width="420" height="18" fill="#888"/><text x="500" y="299">140</text>
+<rect x="70" y="310" width="405" height="18" fill="#999"/><text x="485" y="324">135</text>
+<rect x="70" y="335" width="405" height="18" fill="#999"/><text x="485" y="349">135</text>
+<rect x="70" y="360" width="375" height="18" fill="#aaa"/><text x="455" y="374">125</text>
+<rect x="70" y="385" width="360" height="18" fill="#aaa"/><text x="440" y="399">120</text>
+<rect x="70" y="410" width="345" height="18" fill="#bbb"/><text x="425" y="424">115</text>
+<rect x="70" y="435" width="330" height="18" fill="#bbb"/><text x="410" y="449">110</text>
+<rect x="70" y="460" width="300" height="18" fill="#ccc"/><text x="380" y="474">100</text>
+<rect x="70" y="485" width="240" height="18" fill="#ddd"/><text x="320" y="499">80</text>
+</g>
+<g font-family="sans-serif">
+<text x="790" y="130" font-size="18">快照口径</text>
+<text x="790" y="165" font-size="15">榜单行数：54</text>
+<text x="790" y="195" font-size="15">本人页面名次：3/54</text>
+<text x="790" y="225" font-size="15">本人分数：200</text>
+<text x="790" y="270" font-size="15">39 个 0 分行：</text>
+<text x="790" y="295" font-size="15">多数尚未开始/无成绩</text>
+<text x="790" y="340" font-size="15">因此禁止计算：</text>
+<text x="790" y="365" font-size="15">最终均分 / 中位数</text>
+<text x="790" y="390" font-size="15">最终非零率 / AC率</text>
+</g>
+<text x="50" y="555" font-size="13" font-family="sans-serif">这张图只保存“当时横截面”。最终参赛人数与最终难度分布：当前材料不足，不外推。</text>
 </svg>
