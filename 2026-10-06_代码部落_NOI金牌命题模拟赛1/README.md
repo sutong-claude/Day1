@@ -47,6 +47,7 @@
 
 - `研究过程深挖.md`：四题完整思路世代；
 - `game_Bug修复考古.md`：100 分背后的 7 代真实修复；
+- `game_分类证明.md` + `正解代码/game_最小分段代价_On.cpp`：把赛时 casework 统一成“最少 witness 分段数”的证明版；
 - `net_版本考古.md`：10代推倒/重建 + Bug 产生点；
 - `net_叶层剥离证明.md` + `正解代码/net_叶层剥离_On.cpp`：赛后独立闭合的 O(n) full solution；
 - `tree_Bug修复考古.md`：12代 partial / Bug 生命周期；
