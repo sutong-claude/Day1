@@ -414,3 +414,68 @@ VERIFIED/FROZEN → MODIFIED_UNVERIFIED。
 OJ source exact match 本地最后 VERIFIED/FROZEN source。
 
 仅 body_without_freopen 一致表示算法主体对应，但交付链仍有 divergence。
+
+
+# 15. 三包全量处理状态已升级（2026-10-07）
+
+不要再沿用“depth≤3 inventory = 当前最高完成度”的说法。
+
+本轮已经做到：
+- ZIP magic 递归展开全部容器；
+- 235 个容器实例 / 97 个唯一容器 / 0 解压错误；
+- 展开树 7,324 文件；
+- 逐路径处理审计 missing=0；
+- 3,701 个文本类文件全文读取；
+- 82 PDF 全文文本提取；
+- 2,370 个 .in/.out 全字节扫描；
+- 239 媒体全字节哈希 + 元数据；
+- raw-key gzip 全量解压；
+- ELF/.o 全字节哈希；
+- DOCX/XLSX clean text 提取。
+
+详细：
+`tools/archive/三包全量递归展开与读取审计_2026-10-07.md`
+
+**新的欠账定义**：
+文件“索引/读取覆盖”已经不是瓶颈；后续重点是把已读原始内容继续转化成：
+- 逐段考古；
+- 题解；
+- 提交链；
+- 反例；
+- 机会成本；
+- 跨场经验。
+
+## OJ 快照新硬规则
+
+同一场多个 OJ archive **不能 latest-wins**。
+
+实测：
+- Day1～Day4 较早快照有榜单 CSV，较晚快照反而缺；
+- Day5～Day7 较晚快照补全 record metadata；
+- 27 个唯一提交 ID 中 9 个存在快照字段质量差异。
+
+以后：
+> 所有 snapshot 做并集，按字段选 strongest evidence，保留 provenance。
+
+入口：
+`tools/archive/OJ多版本归档_字段级证据合并规则.md`
+
+## 录音新硬规则
+
+Day3 / Day5 / Day6 / Day7 / Coderlands 各存在两份**同一音频的平行 ASR 转写**。
+
+它们用于互相纠错，不是两份独立录音证据，禁止重复加权。
+
+入口：
+`tools/archive/录音双转写_配对与证据规则.md`
+
+## Day5 提交链补强
+
+六次 OJ source：
+- 2 次 exact Replay snapshot；
+- 4 次只差最后 freopen 两行。
+
+所以 FileTracker 的 2 秒 polling 缺口已有真实比赛证据。
+
+入口：
+`2026-10-04_CSP-S模拟赛day5/回放数据/OJ正式提交与file_changes逐提交对齐.md`
