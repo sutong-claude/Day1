@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>Day7 赛场回放（证据校正版）</title>
+<style>
+body{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;margin:0;background:#f5f5f5;color:#222}
+header{padding:28px 5vw;background:#111;color:white}
+main{max-width:1100px;margin:auto;padding:24px}
+.card{background:white;border-radius:12px;padding:20px;margin:16px 0;box-shadow:0 1px 5px #0002}
+.timeline{position:relative;margin:30px 0 10px;padding-left:130px}
+.item{position:relative;border-left:4px solid #444;padding:0 0 28px 28px}
+.t{position:absolute;left:-130px;width:105px;text-align:right;font-weight:700}
+.dot{position:absolute;left:-10px;top:1px;width:16px;height:16px;border-radius:50%;background:#111}
+.tag{display:inline-block;padding:2px 7px;border-radius:999px;background:#eee;font-size:12px;margin-right:4px}
+.good{border-left-color:#2f855a}.warn{border-left-color:#b7791f}.bad{border-left-color:#c53030}
+code{background:#eee;padding:2px 4px;border-radius:4px}
+table{border-collapse:collapse;width:100%}td,th{border:1px solid #ddd;padding:8px;text-align:left}
+h2{margin-top:0}
+</style>
+</head>
+<body>
+<header>
+<h1>Day7 赛场回放 · 录音 × Replay 校正版</h1>
+<p>145 = A100 + B45；重点是恢复“为什么不是174+”，而不是只看最终文件。</p>
+</header>
+<main>
+<div class="card">
+<h2>证据</h2>
+<p><span class="tag">两份录音</span><span class="tag">timeline</span><span class="tag">59 file_changes</span><span class="tag">25 screen段</span><span class="tag">OJ归档</span></p>
+<p>旧版“B吞场、D最后25分钟才碰”的叙述已被推翻。</p>
+</div>
+
+<div class="card">
+<h2>四小时主时间线</h2>
+<div class="timeline">
+<div class="item good"><span class="t">00:05–00:37</span><span class="dot"></span><b>A：分组容量 → 负数修正 → 一交100</b><p>模型不断简化；发现负数后先修数学规则再改代码。</p></div>
+<div class="item good"><span class="t">00:38–01:32</span><span class="dot"></span><b>B：手算题意 → N² brute → 修父方向</b><p>先精确模拟题意，不是直接上数据结构。</p></div>
+<div class="item good"><span class="t">01:32–01:53</span><span class="dot"></span><b>B：明确 calc 是瓶颈；失败重构后回滚并冻结</b><p><code>be603849...</code> 同 SHA 同时出现在 main 和 WA.cpp。</p></div>
+<div class="item warn"><span class="t">02:08–02:14</span><span class="dot"></span><b>C：发现 v=50 的10分性质</b><p>数学资产出现，但没有物化成提交文件。</p></div>
+<div class="item warn"><span class="t">02:14–02:29</span><span class="dot"></span><b>D：发现 N≤100 的19分 brute</b><p>本人甚至判断“19分一定能拿”；仍未立即写。</p></div>
+<div class="item good"><span class="t">02:29–02:51</span><span class="dot"></span><b>B：开始否定正向模拟框架，并想到“离线”</b><p>距离正解只差：删除分裂 → 倒序加入 → DSU。</p></div>
+<div class="item warn"><span class="t">03:15–03:48</span><span class="dot"></span><b>D：5000候选完整编码</b><p>20个保存状态；最完整版本1663B。</p></div>
+<div class="item bad"><span class="t">03:48–03:52</span><span class="dot"></span><b>D：Debugger黑洞 → 模型判死 → 推倒</b><p>03:51明确“算法不可行”，03:52文件缩到583B。</p></div>
+<div class="item good"><span class="t">03:53–03:54</span><span class="dot"></span><b>B：从冻结稳定版补IO提交</b><p>最终45 RE，227.2 MiB。</p></div>
+</div>
+</div>
+
+<div class="card">
+<h2>关键“已经会了” vs “还没会”</h2>
+<table>
+<tr><th>能力</th><th>证据</th><th>结论</th></tr>
+<tr><td>先写brute</td><td>B明确“N²先做出来再说”</td><td>已形成</td></tr>
+<tr><td>性能定位</td><td>“速度都集中在calc”“calc复杂度过高”</td><td>已形成</td></tr>
+<tr><td>稳定版冻结</td><td>WA.cpp 与 stable main 同 SHA</td><td>已形成</td></tr>
+<tr><td>扫特殊性质</td><td>C10 / D19赛时发现</td><td>已形成</td></tr>
+<tr><td>得分资产立即物化</td><td>C10/D19都没写成交付版</td><td>仍缺</td></tr>
+<tr><td>结构变换</td><td>B想到“离线”，没想到倒放DSU</td><td>下一训练点</td></tr>
+</table>
+</div>
+
+<div class="card">
+<h2>真实 score map</h2>
+<p><b>赛时已识别：</b>A100 + B45 + C10 + D19 = <b>174</b>。</p>
+<p><b>赛后 hindsight：</b>C还可补另15，因此189只能写成赛后低风险路线，不能倒灌成赛时资产。</p>
+</div>
+
+<div class="card">
+<h2>下一场硬规则</h2>
+<p><b>自己一旦说出“这X分一定能拿”，10分钟内必须 code → compile → mini-test → save partial。</b></p>
+<p>正解研究必须在稳定资产的副本上进行。</p>
+</div>
+</main>
+</body>
+</html>

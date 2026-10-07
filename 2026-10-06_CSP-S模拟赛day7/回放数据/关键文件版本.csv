@@ -1,0 +1,12 @@
+t_seconds,t_hhmmss,path,bytes,sha256_prefix,meaning
+3859.017,01:04:19,T2/main.cpp,636,033916086a8b,B first saved source
+5703.040,01:35:03,T2/main.cpp,1433,be603849347f,B stable brute
+6417.256,01:46:57,T2/main.cpp,1178,6a0d8ccd7545,B aggressive rewrite broken
+6484.363,01:48:04,T2/main.cpp,1156,576f42d62a6d,B rewrite attempt 2
+6602.189,01:50:02,T2/main.cpp,1433,be603849347f,B rollback to exact stable SHA
+6800.838,01:53:20,T2/WA.cpp,1433,be603849347f,B stable copy frozen
+12426.713,03:27:06,T4/main.cpp,1432,a235c4e86e39,D first saved substantial candidate
+13155.428,03:39:15,T4/main.cpp,1573,ae17b338bb44,D growing candidate
+13691.276,03:48:11,T4/main.cpp,1663,19f1a9824725,D most complete pre-discard candidate
+13944.309,03:52:24,T4/main.cpp,583,0bb5a3fe7b44,D candidate discarded to brute skeleton
+14006.987,03:53:27,T2/main.cpp,1447,12fdeaab27e6,B delivery version with file IO

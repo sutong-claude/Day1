@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+<rect width="1200" height="560" fill="white"/>
+<text x="50" y="42" font-size="25" font-family="sans-serif">game：100分代码的 7 代修复链</text>
+<text x="50" y="70" font-size="14" font-family="sans-serif">最终145636组0 mismatch ≠ 一遍写对；真正价值在反例驱动的闭合过程。</text>
+<line x1="100" y1="280" x2="1100" y2="280" stroke="#333" stroke-width="3"/>
+<g font-family="sans-serif" text-anchor="middle">
+<circle cx="120" cy="280" r="18" fill="#ddd"/><text x="120" y="325" font-size="13">v0</text><text x="120" y="350" font-size="11">分类第一版</text>
+<circle cx="275" cy="280" r="18" fill="#ccc"/><text x="275" y="325" font-size="13">v1</text><text x="275" y="350" font-size="11">k=2精确AND</text>
+<circle cx="410" cy="280" r="18" fill="#bbb"/><text x="410" y="325" font-size="13">v2</text><text x="410" y="350" font-size="11">补输出/return</text>
+<circle cx="560" cy="280" r="18" fill="#aaa"/><text x="560" y="325" font-size="13">v3</text><text x="560" y="350" font-size="11">删旧猜法</text><text x="560" y="368" font-size="11">+ k≥4/5</text>
+<circle cx="700" cy="280" r="18" fill="#999"/><text x="700" y="325" font-size="13">v4</text><text x="700" y="350" font-size="11">清僵尸shortcut</text>
+<circle cx="850" cy="280" r="18" fill="#888"/><text x="850" y="325" font-size="13">v5</text><text x="850" y="350" font-size="11">修prefix错位</text>
+<circle cx="1000" cy="280" r="18" fill="#666"/><text x="1000" y="325" font-size="13">v6</text><text x="1000" y="350" font-size="11">freopen + final</text>
+</g>
+<text x="225" y="170" font-size="14" font-family="sans-serif">大样例第28组：正确3、程序2</text>
+<path d="M260 180 L275 255" stroke="#222"/>
+<text x="50" y="445" font-size="14" font-family="sans-serif">赛时模式：</text>
+<text x="140" y="445" font-size="14" font-family="sans-serif">有限状态洞察 → 结构猜想 → 官方反例 → 精确化 → 删除冲突逻辑 → 边界修复 → 交付</text>
+<text x="50" y="485" font-size="14" font-family="sans-serif">赛后：</text>
+<text x="110" y="485" font-size="14" font-family="sans-serif">n≤7 全数组 / 全k / 全切分，共145,636实例，0 mismatch。</text>
+</svg>
