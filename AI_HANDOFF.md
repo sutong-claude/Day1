@@ -265,3 +265,40 @@ Day7 后续以 2026-10-06 15:10 新归档为主；它包含 105 行榜单。旧 
 - 读取原始证据后必须 append-as-you-read；
 - 不得只把智能纪要当作已读原始材料；
 - OJ-AC、[P]、[E]、[H]、[X] 必须区分。
+
+
+# 12. 三包长期原始资料池（2026-10-07 固定）
+
+后续模拟赛仓库持续经营只从以下三包继续做原始证据考古：
+
+- `/CSP-S模拟赛资料/原始三包/模拟赛资料_01_共03包.zip`
+- `/CSP-S模拟赛资料/原始三包/模拟赛资料_02_共03包.zip`
+- `/CSP-S模拟赛资料/原始三包/模拟赛资料_03_共03包.zip`
+
+它们已经保存到 ChatGPT Library，不再依赖本次聊天附件生命周期。
+
+接手先读：
+
+1. `tools/archive/三包原始资料_处理台账.md`
+2. `tools/archive/三包递归扫描_统计摘要.md`
+3. `tools/archive/recursive_zip_inventory.py`
+4. `证据阅读台账.md`
+
+2026-10-07 depth≤3 首轮 inventory：
+
+- 9,073 rows；
+- 195 个 nested ZIP 成功打开；
+- 0 个 ZIP open error；
+- 34 组重复 nested-ZIP 内容哈希；
+- 169 个 ZIP 路径落在重复哈希组里。
+
+所以后续工作单位优先改成：
+`content hash + provenance + contest mapping + extraction status`，
+不要把重复 VM 快照里的相同 ZIP 当成全新材料重复分析。
+
+Replay recorder 源码审计已新增：
+
+- `tools/vm/Replay采集脚本_源码考古与能力边界.md`
+- `tools/vm/replay_recorder/contest_replay_capture_v3.0.1.patch`
+
+其中 v3.0.0 已证明存在 pause/raw 语义缺口；以后解释 raw_keys 与 timeline 冲突时必须先查 recorder 版本与 pause status。
