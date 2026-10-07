@@ -397,3 +397,51 @@ inventory
 2026-10-07 第一轮已经用 recorder 源码证明：
 Replay v3.0.0 的 pause 不会停止 raw EV_KEY 持久化，且 FileTracker 存在 baseline / polling / skip 边界。后续所有 Replay 解释都应读取：
 `tools/vm/Replay采集脚本_源码考古与能力边界.md`。
+
+
+# 15. 三包深挖当前增量（Day4–Day7）
+
+当前已从“目录级 inventory”推进到“正式提交版本级对齐”。
+
+## 新增 canonical 工具/证据
+
+- `tools/archive/replay_submission_matcher.py`：用严格 normalized source content 将 OJ source 映射到 file_changes snapshot；无 exact match 时返回非零，不允许猜。
+- `tools/archive/旧VM快照_血缘与Day3Day4迁移.md`：识别 VM 快照重复、路径迁移和真正分叉。
+- Day6：`回放数据/file_changes_语义版本时间线_20261005_101100.md`
+- Day7：`回放数据/file_changes_完整版本时间线_20261006_080043.md`
+
+## 新的 Source-of-Truth 强化规则
+
+对于“正式提交了什么”，优先级改成：
+
+```
+OJ record source
+→ exact match 到 Replay file_changes snapshot
+→ submission附近 screen/timeline
+→ VM final workspace 只作赛后状态
+```
+
+Day6 C/D 和 Day4 A/D 已证明 final VM workspace 会在提交后漂移。
+
+## Day4 事故已具体化
+
+A 的 OJ Compile Error 已由源码 diff 定位到坏掉的 traditional IO 行：
+`freopen ("Thermokinesis.out, "w", stdout);`
+
+赛后 VM 又把该行注释，因此“打开最后文件能编译”不能推翻提交 CE。
+
+## Day6 Debug 对照
+
+- B：实现层快速修净，但数学 predicate 没变真；
+- D：`phi(1)→phi(2)→phi(6)` 最小探针直接推动边界契约修复并得到稳定15分 brute；
+- C：正确四分类真实进入代码，随后因为语义压缩发生退化。
+
+所以以后 Debug 价值的判断标准不是“运行/修改次数”，而是是否得到新不变量、区分假设、修正契约或产出可冻结分数。
+
+## 当前下一优先级
+
+1. Day3 `keystream/events_20261001_184442.jsonl` 做高信息量片段考古；
+2. Day4 recovered keyboard 与 Day4 A/B/D submitted/post-submit 分叉继续对齐；
+3. Day5 Replay/VM 原件继续定位并做 exact submission mapping；
+4. 给递归 inventory 增加 content-sha 的 path-move 识别，减少快照重复劳动；
+5. 继续挖 checker/stress/archive 脚本与同名不同 SHA 对象。
