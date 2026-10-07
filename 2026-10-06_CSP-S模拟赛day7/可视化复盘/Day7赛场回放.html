@@ -22,7 +22,7 @@ h2{margin-top:0}
 <body>
 <header>
 <h1>Day7 赛场回放 · 录音 × Replay 校正版</h1>
-<p>145 = A100 + B45；重点是恢复“为什么不是174+”，而不是只看最终文件。</p>
+<p>145 = A100 + B45；重点是区分 IDEA / PROVED / FROZEN / SCORED，而不是把不同状态硬加成一个“理论分”。</p>
 </header>
 <main>
 <div class="card">
@@ -60,9 +60,15 @@ h2{margin-top:0}
 </div>
 
 <div class="card">
-<h2>真实 score map</h2>
-<p><b>赛时已识别：</b>A100 + B45 + C10 + D19 = <b>174</b>。</p>
-<p><b>赛后 hindsight：</b>C还可补另15，因此189只能写成赛后低风险路线，不能倒灌成赛时资产。</p>
+<h2>真实资产状态</h2>
+<table>
+<tr><th>题</th><th>赛时状态</th><th>含义</th></tr>
+<tr><td>A</td><td>SCORED 100</td><td>已经正式锁分</td></tr>
+<tr><td>B</td><td>FROZEN</td><td>稳定 brute 已冻结；45 是赛后正式评测才知道</td></tr>
+<tr><td>C</td><td>PROVED 10</td><td>性质已想明白，但没有代码</td></tr>
+<tr><td>D</td><td>PROVED 19</td><td>暴力已想完整，但没有代码</td></tr>
+</table>
+<p><b>174 只是赛后反事实，不是赛时 score floor。</b></p>
 </div>
 
 <div class="card">

@@ -39,10 +39,11 @@
 - **BRUTE-VERIFIED**：独立暴力/穷举一致；
 - **PROVED**：数学证明完成。
 
-因此：
-- net = OJ-AC；修正中点后小树 BRUTE-VERIFIED，尚不标 PROVED；
-- game = OJ-AC + BRUTE-VERIFIED；
-- core/tree = OJ 0，但不能简单说“完全没写出任何东西”。
+因此现在要分“赛时提交”和“赛后闭合”：
+- net 赛时提交 = OJ-AC + KNOWN-COUNTEREXAMPLE；赛后叶层剥离 full = PROVED + BRUTE-VERIFIED；
+- game 赛时提交 = OJ-AC + BRUTE-VERIFIED；赛后16状态DP full = PROVED + BRUTE-VERIFIED；
+- core 赛时0分，但赛后 Trie 容量 full 已独立证明 + 262,550组穷举；
+- tree 赛时0分；赛后只闭合 N≤5000 的 O(N²) 精确 partial，满分解仍不冒充已完成。
 
 详见 `验证报告.md`。
 
@@ -66,3 +67,12 @@
 1. “第3/54”是**实时榜单快照**；大量0分账号当时尚未开始，不能据此算最终均分/中位数。
 2. game 的100不是“一版分类讨论神过”，而是7代代码、多个反例和Bug修复后闭合。
 3. tree 最后确实遇到下载测试包格式与题面不匹配的验证事故；但最终代码本身也有真实漏洞。
+
+
+## 本轮赛后算法闭合
+
+- `题解.md`：统一入口；
+- `net_叶层剥离证明.md` + `正解代码/net_叶层剥离_On.cpp`；
+- `game_16状态DP证明.md` + `正解代码/game_16状态DP_On.cpp`；
+- `core_Trie容量证明.md` + `正解代码/core_Trie容量字典序.cpp`；
+- `tree_N5000精确部分分.md` + `部分分代码/tree_N5000_On2.cpp`。
