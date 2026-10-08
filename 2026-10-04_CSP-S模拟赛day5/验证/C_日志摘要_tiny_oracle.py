@@ -23,6 +23,11 @@ def brute(words: tuple[str, ...]) -> str:
     return min(map("".join, itertools.product(*choices)))
 
 
+def feasible(words: tuple[str, ...], result: str) -> bool:
+    choices = [tuple(s[k:] for k in range(len(s))) for s in words]
+    return result in {"".join(t) for t in itertools.product(*choices)}
+
+
 def domains():
     small = ["".join(t) for length in (1, 2, 3)
              for t in itertools.product("ab", repeat=length)]
@@ -59,7 +64,8 @@ def main():
         got = run_source(source, cases)
         assert len(got) == len(cases), (label, len(got), len(cases))
         bad = [(c, brute(c), s) for c, s in zip(cases, got) if brute(c) != s]
-        print(f"{label}: cases={len(cases)} mismatches={len(bad)}")
+        illegal = sum(not feasible(c, actual) for c, _, actual in bad)
+        print(f"{label}: cases={len(cases)} mismatches={len(bad)} infeasible_outputs={illegal}")
         for c, expected, actual in bad[:8]:
             print(f"  {c!r}: expected={expected!r} submitted={actual!r}")
         if label == "ab/len2/n2..5":
