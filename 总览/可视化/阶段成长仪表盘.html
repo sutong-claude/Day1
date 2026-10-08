@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>模拟赛阶段成长仪表盘</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--text:#1f2937;--muted:#6b7280;--line:#d1d5db;--accent:#2563eb}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text)}
+main{max-width:1180px;margin:auto;padding:28px}.hero{display:flex;justify-content:space-between;gap:24px;align-items:flex-end;margin-bottom:20px}.hero h1{margin:0;font-size:30px}.hero p{margin:8px 0 0;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}.card{background:var(--card);border:1px solid #e5e7eb;border-radius:16px;padding:18px;box-shadow:0 1px 2px rgba(0,0,0,.04)}.span6{grid-column:span 6}.span12{grid-column:span 12}.span4{grid-column:span 4}
+.kpi{font-size:28px;font-weight:700}.label{font-size:12px;color:var(--muted);margin-top:4px}.bar{height:16px;background:#e5e7eb;border-radius:999px;overflow:hidden;margin:8px 0}.bar>i{display:block;height:100%;background:var(--accent)}
+table{width:100%;border-collapse:collapse;font-size:13px}th,td{border-bottom:1px solid #e5e7eb;padding:8px 7px;text-align:left;vertical-align:top}th{background:#f9fafb;position:sticky;top:0}
+.pill{display:inline-block;padding:2px 7px;border:1px solid #d1d5db;border-radius:999px;font-size:11px;background:#fff}.steps{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.step{padding:9px 12px;border:1px solid #d1d5db;border-radius:10px;background:#fafafa}.arrow{color:#9ca3af}
+.taskgrid{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:6px}.task{padding:8px 5px;text-align:center;border-radius:8px;border:1px solid #d1d5db;font-size:11px;background:#fafafa}.task.full{background:#eaf7ee}.task.partial{background:#fff7df}.task.zero{background:#f7eeee}
+.note{font-size:12px;color:var(--muted);line-height:1.6}.legend{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--muted)}.dot{width:10px;height:10px;display:inline-block;border-radius:2px;margin-right:4px;border:1px solid #ccc}
+@media(max-width:850px){.span6,.span4{grid-column:span 12}.taskgrid{grid-template-columns:repeat(4,1fr)}.hero{display:block}}
+</style>
+</head>
+<body><main>
+<div class="hero"><div><h1>模拟赛阶段成长仪表盘</h1><p>代码源 Day1-Day7 + Coderlands · 2026-10-07 仓库阶段维护版</p></div><div class="pill">数据源：OJ record / 32题总表 / Replay考古</div></div>
+
+<div class="grid">
+<section class="card span4"><div class="kpi">654 / 2800</div><div class="label">代码源七场总分</div></section>
+<section class="card span4"><div class="kpi">4 + 9</div><div class="label">28题中：4题满分 + 9题部分分</div></section>
+<section class="card span4"><div class="kpi">32</div><div class="label">当前全题资产数量（含 Coderlands 4题）</div></section>
+
+<section class="card span6"><h2>七场得分轨迹</h2>
+<svg viewBox="0 0 620 260" width="100%" role="img" aria-label="Day1到Day7得分折线图">
+<line x1="50" y1="220" x2="590" y2="220" stroke="#ccc"/><line x1="50" y1="30" x2="50" y2="220" stroke="#ccc"/>
+<polyline fill="none" stroke="#2563eb" stroke-width="3" points="65,177 150,97 235,26 320,220 405,206 490,111 575,82"/>
+<g fill="#2563eb">
+<circle cx="65" cy="177" r="5"/><circle cx="150" cy="97" r="5"/><circle cx="235" cy="26" r="5"/><circle cx="320" cy="220" r="5"/><circle cx="405" cy="206" r="5"/><circle cx="490" cy="111" r="5"/><circle cx="575" cy="82" r="5"/>
+</g>
+<g font-size="12" text-anchor="middle" fill="#374151">
+<text x="65" y="247">D1</text><text x="150" y="247">D2</text><text x="235" y="247">D3</text><text x="320" y="247">D4</text><text x="405" y="247">D5</text><text x="490" y="247">D6</text><text x="575" y="247">D7</text>
+<text x="65" y="165">45</text><text x="150" y="85">130</text><text x="235" y="16">204</text><text x="320" y="210">0</text><text x="405" y="194">15</text><text x="490" y="99">115</text><text x="575" y="70">145</text>
+</g></svg>
+<p class="note">分数不是单调成长曲线。真正稳定的变化是：错误发生位置从“范围/复杂度”逐渐后移到“结构变换、语义充要性、资产物化”。</p>
+</section>
+
+<section class="card span6"><h2>28题得分转化</h2>
+<div>满分题 <b>4</b><div class="bar"><i style="width:14.3%"></i></div></div>
+<div>部分分题 <b>9</b><div class="bar"><i style="width:32.1%"></i></div></div>
+<div>0 / 未提交 <b>15</b><div class="bar"><i style="width:53.6%"></i></div></div>
+<p class="note">“0分”不等于“没有数学资产”。Day6 C、Day7 C/D、Coderlands tree 都必须回到 Replay/录音判断做到哪一层。</p>
+</section>
+
+<section class="card span12"><h2>瓶颈迁移</h2><div class="steps">
+<span class="step">Day1<br>范围/复杂度</span><span class="arrow">→</span>
+<span class="step">Day2<br>版本/交付</span><span class="arrow">→</span>
+<span class="step">Day3<br>P/H与checker</span><span class="arrow">→</span>
+<span class="step">Day4<br>oracle/冻结/环境</span><span class="arrow">→</span>
+<span class="step">Day5<br>query→数据结构</span><span class="arrow">→</span>
+<span class="step">Day6<br>必要/充分</span><span class="arrow">→</span>
+<span class="step">Day7<br>结构变换/物化</span><span class="arrow">→</span>
+<span class="step">Coderlands<br>证明审计/捆绑闭合</span>
+</div></section>
+
+<section class="card span12"><h2>32题状态矩阵</h2>
+<div class="legend"><span><i class="dot" style="background:#eaf7ee"></i>100</span><span><i class="dot" style="background:#fff7df"></i>正分但非满分</span><span><i class="dot" style="background:#f7eeee"></i>0/未交</span></div>
+<div class="taskgrid" style="margin-top:10px">
+<div class="task partial">D1A<br>20</div><div class="task partial">D1B<br>25</div><div class="task zero">D1C<br>0</div><div class="task zero">D1D<br>0</div>
+<div class="task full">D2A<br>100</div><div class="task zero">D2B<br>0</div><div class="task partial">D2C<br>30</div><div class="task zero">D2D<br>0</div>
+<div class="task full">D3A<br>100</div><div class="task partial">D3B<br>65</div><div class="task partial">D3C<br>24</div><div class="task partial">D3D<br>15</div>
+<div class="task zero">D4A<br>0</div><div class="task zero">D4B<br>0</div><div class="task zero">D4C<br>0</div><div class="task zero">D4D<br>0</div>
+<div class="task zero">D5A<br>0</div><div class="task partial">D5B<br>15</div><div class="task zero">D5C<br>0</div><div class="task zero">D5D<br>0</div>
+<div class="task full">D6A<br>100</div><div class="task zero">D6B<br>0</div><div class="task zero">D6C<br>0</div><div class="task partial">D6D<br>15</div>
+<div class="task full">D7A<br>100</div><div class="task partial">D7B<br>45</div><div class="task zero">D7C<br>0</div><div class="task zero">D7D<br>0</div>
+<div class="task full">CL-A<br>100</div><div class="task full">CL-B<br>100</div><div class="task zero">CL-C<br>0</div><div class="task zero">CL-D<br>0</div>
+</div></section>
+
+<section class="card span6"><h2>仓库文件密度</h2>
+<table><tr><th>场次</th><th>blob 文件数</th><th>当前判断</th></tr>
+<tr><td>Day1</td><td>17</td><td>早期材料较完整</td></tr><tr><td>Day2</td><td>52</td><td>原材料/动画很密</td></tr><tr><td>Day3</td><td>53</td><td><b>当前黄金样例</b></td></tr>
+<tr><td>Day4</td><td>4</td><td>明显贫瘠，优先补</td></tr><tr><td>Day5</td><td>6</td><td>T1考古强，其余薄</td></tr><tr><td>Day6</td><td>5</td><td>明显贫瘠，优先补</td></tr>
+<tr><td>Day7</td><td>26</td><td>逐段考古已启动</td></tr><tr><td>Coderlands</td><td>43</td><td>题解/验证较强</td></tr></table>
+</section>
+
+<section class="card span6"><h2>下一阶段情景预测</h2>
+<table><tr><th>情景</th><th>启发式区间</th></tr><tr><td>旧问题明显复发</td><td>100-150</td></tr><tr><td>当前流程真实执行</td><td>150-210</td></tr><tr><td>流程执行 + 一题结构跃迁</td><td><b>200-250</b></td></tr></table>
+<p class="note">不是概率预测。它表达的是：现在 200-250 更依赖“减少已证明资产漏损 + 再闭合一题结构跃迁”，不完全依赖突然学会大量新模板。</p>
+</section>
+
+<section class="card span12"><h2>当前八个强触发器</h2>
+<table><tr><th>看到什么</th><th>默认动作</th></tr>
+<tr><td>固定顺序删除导致 split</td><td>时间倒放 → add/merge → DSU</td></tr>
+<tr><td>“这 X 分一定能拿”</td><td>10分钟内 CODED → VERIFIED → FROZEN</td></tr>
+<tr><td>最小位置满足条件</td><td>先写 query，再认 Next Greater / monotonic structure</td></tr>
+<tr><td>自由度极低</td><td>停止猜结构，exact enumerate</td></tr>
+<tr><td>同样的大样例操作手工做≥3次</td><td>脚本化批量处理</td></tr>
+<tr><td>[H] 被反例杀掉</td><td>只删依赖它的上层，保留底层 [P]</td></tr>
+<tr><td>捆绑子任务</td><td>一次闭合一个包，专项测试后再开下一个</td></tr>
+<tr><td>要写复杂优化代码</td><td>对象 / 必要性 / 充分性 / 实现同义性先写清</td></tr>
+</table></section>
+</div>
+
+<p class="note" style="margin-top:18px">完整逐题状态见：总览/全题总表_32题.md；完整接管路径见：总览/AI直接接手入口.md；每段证据写入规范见：模拟赛考古纪要协议.md。</p>
+</main></body></html>
