@@ -1,3 +1,14 @@
+![CSP-S EVIDENCE ATLAS · 赛场星图](assets/evidence-atlas-cover.svg)
+
+# CSP-S 赛场星图 · 真实证据驱动的复盘系统
+
+[![Evidence Atlas CI](https://github.com/sutong-claude/Day1/actions/workflows/atlas-smoke.yml/badge.svg)](https://github.com/sutong-claude/Day1/actions/workflows/atlas-smoke.yml)
+**[下载即可离线打开的完整网页](赛场星图.html)** · **[今天的真实施工状态](CURRENT_STATE.md)** · [36题证据数据](总览/可视化/赛场星图_2026-10-12.json) · [完整接班报告](交接/2026-10-11_主力模拟赛分析_万字接班报告.md)
+
+> **不是一张原型截图。** 已在真实 Chromium 和移动视口自动测试搜索、筛选、弹窗、时间线、CSV 导出；默认分支 CI **#38203544956 通过**。入口包含八场669/3200、36题、113条Replay保存核验及11处重要赛时思路转折。站点可单文件离线运行；GitHub Pages尚未确认开启，不能把预期URL冒充已上线。
+
+---
+
 > **NEW · 2026-10-12 / 赛场星图实装** — [打开交互式仪表盘源文件](赛场星图.html)（请下载HTML后用浏览器打开，单文件、无需联网） · [使用与验证说明](总览/可视化/赛场星图_使用说明.md)。它包含8场成绩曲线、32题热图、36题检索、赛时证据与交互式考古事件，**不是静态图片或讲义**。首次部署后可查看 `.github/workflows/atlas-smoke.yml` 的真实CI验证结果；仅有测试文件不等于已通过测试。
 
 > 2026-10-11：先读 [接班报告](交接/2026-10-11_主力模拟赛分析_万字接班报告.md)，再按 [下一阶段任务](交接/2026-10-11_下一阶段任务与验收.md) 继续。旧七场统计为历史截面，新八场669/3200。
