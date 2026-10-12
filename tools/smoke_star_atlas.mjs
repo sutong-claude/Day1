@@ -56,7 +56,9 @@ try{
   await mobile.goto(local,{waitUntil:"load"});
   await mobile.waitForSelector(".problem");
   assert.equal(await mobile.locator(".problem").count(),36);
-  assert.ok(await mobile.locator("body").evaluate(e=>e.scrollWidth<=window.innerWidth+3),"mobile horizontal overflow");
+  const geometry=await mobile.evaluate(()=>({width:innerWidth,document:document.documentElement.scrollWidth,body:document.body.scrollWidth,offenders:Array.from(document.querySelectorAll("body *")).map(e=>({tag:e.tagName,cls:e.className?.baseVal||e.className,id:e.id,right:e.getBoundingClientRect().right})).filter(o=>o.right>innerWidth+4).slice(0,12)}));
+  console.log("ATLAS_MOBILE_GEOMETRY",JSON.stringify(geometry));
+  assert.ok(geometry.document<=geometry.width+3&&geometry.body<=geometry.width+3,"mobile horizontal overflow");
   assert.deepEqual(errors,[],"unexpected browser errors");
   console.log("ATLAS_BROWSER_PASS",JSON.stringify({desktop:1440,mobile:390,questions:36,heatmap:32,scoreDots:8,stories:11,download:true,screenshot:shot}));
 }finally{await browser.close()}
