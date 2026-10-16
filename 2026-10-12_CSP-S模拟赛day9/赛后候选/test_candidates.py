@@ -69,7 +69,7 @@ for z in range(550):
             yes=True;break
     data='1\n'+f'{n} {m} {k}\n'+' '.join(map(str,b))+'\n'+''.join(' '.join(map(str,row))+'\n' for row in a)
     actual=run('color',data)
-    assert actual==('Yes' if yes else 'No'),('C',z,n,m,k,answer,actual)
+    assert actual==('Yes' if yes else 'No'),('C',z,n,m,k,'Yes' if yes else 'No',actual)
 print('C: 550 randomized cases vs complete subset exhaustive oracle passed')
 
 # targeted structural checks
