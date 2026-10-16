@@ -120,7 +120,7 @@ ll directedEnergy(int rowN,int colN, const Orbit& ox, const Orbit& oy,
         for(auto [p,r]:v){
             ll q=min((ll)h,base+(r<extra));
             int wantRight=p+(int)q;
-            // q_r is base or base+1, and p strictly increases: right endpoints never retreat.
+            // Start positions may repeat when A>B; q may then decrease by one. Roll back R if needed.
             assert(L<=p);
             while(R<wantRight){gaps.insert(permutation[R%h]);++R;}
             while(R>wantRight){--R;gaps.erase(permutation[R%h]);}
