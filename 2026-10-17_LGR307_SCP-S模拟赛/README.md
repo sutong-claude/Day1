@@ -24,6 +24,8 @@
 - [A 已验证候选](赛后算法/file_proved.cpp)
 - [B 已验证候选](赛后算法/func_proved.cpp)
 - [C 已验证候选](赛后算法/path_gap_multiset.cpp)
+- [D 最新候选：贪心构造证书 + 有界窗口 DP，794/794 附件（**不保证满分**）](部分分/rain_hybrid_window_794of794_NOT_FULL.cpp)
+- [D 前一代候选：783/794](部分分/rain_hybrid_certificate_783of794_NOT_FULL.cpp)
 - [D 最新候选：新增构造性证书，783/794（不保证满分）](部分分/rain_hybrid_certificate_783of794_NOT_FULL.cpp)
 - [D 第一代混合候选：738/794](部分分/rain_hybrid_738of794_NOT_FULL.cpp) · [验证脚本](验证/verify_rain_hybrid.py)
 - [D 新混合候选：小n、小末项、k≤2与末项为0，738/794（不保证满分）](部分分/rain_hybrid_738of794_NOT_FULL.cpp) · [独立验证脚本](验证/verify_rain_hybrid.py)
@@ -34,7 +36,7 @@
 
 ## 下一步未完成
 
-1. D：虽然新部分分已让 rain1~7 各包全部答对、rain8~11 分别 100/100、99/100、95/100、95/100，但大数据 k-1/k 分界仍未知；必须找到 O(n polylog V) 或更优的**满分**判定。
+1. D：虽然新部分分已让 rain1~7 各包全部答对、rain8~11 各 100/100（当前 794/794 附件），但 n>120000 或窗口/状态不足时仍可误判 k，但大数据 k-1/k 分界仍未知；必须找到 O(n polylog V) 或更优的**满分**判定。
 2. C：构造并评估对抗性仙人掌，审计事件间隔模型在相邻块交错调度时的全局不变量，给出紧的最坏复杂度。
 3. Replay 全量 file_changes 49 个快照、timeline 180 KB、26 个屏幕段与原始录音的逐段精确对齐，逐步完成比赛全过程复现、代码考古及九章报告。
 4. 复核 GitHub 分支合并策略并跨场更新总览；本分支未覆盖维护分支既有内容。
