@@ -14,6 +14,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Compile C++14 hybrid
-        run: g++ -O2 -std=c++14 -Wall -Wextra "2026-10-17_LGR307_SCP-S模拟赛/部分分/rain_hybrid_738of794_NOT_FULL.cpp" -o /tmp/lgr307-rain
+        run: g++ -O2 -std=c++14 -Wall -Wextra "2026-10-17_LGR307_SCP-S模拟赛/部分分/rain_hybrid_certificate_783of794_NOT_FULL.cpp" -o /tmp/lgr307-rain
       - name: Check 6519 cases against independent oracle
         run: python3 "2026-10-17_LGR307_SCP-S模拟赛/验证/verify_rain_hybrid.py" /tmp/lgr307-rain
