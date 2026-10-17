@@ -5,6 +5,7 @@ using namespace std;
 const int INF=100000000;
 int solve(const vector<int>&a){
  int n=a.size(),mx=a.back(),V=mx+1;
+ if(is_sorted(a.begin(),a.end()))return 0; // Zero ops for already nondecreasing data.
  int blocks=1,req[30];fill(req,req+30,-1);
  for(int i=1;i<n;i++){
   unsigned v=a[i-1]^a[i];
